@@ -2,7 +2,7 @@
 # dependencies = ["numpy", "scipy", "matplotlib"]
 # ///
 
-### odf.py by Grover Lab, University of California, Riverside
+### df-analyze.py by Grover Lab, University of California, Riverside
 
 import os
 import gzip
