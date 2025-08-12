@@ -1,4 +1,6 @@
-# Disintegration Fingerprinting:  A low-cost and easy-to-use tool for identifying substandard and falsified medicines
+# Disintegration Fingerprinting
+
+## A low-cost and easy-to-use tool for identifying substandard and falsified medicines
 
 
 If it's not already installed, install *uv* 
