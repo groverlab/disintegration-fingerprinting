@@ -15,7 +15,7 @@ Windows:
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-Program Arduino using the Arduino IDE and the file in df-arduino/df-arduino.ino 
+Program Arduino using the [Arduino IDE](https://www.arduino.cc/en/software/#ide) and the file in df-arduino/df-arduino.ino 
 
 Run acquisition code using
 
@@ -28,10 +28,10 @@ Results will be safed in comments.json.gz.
 Analyze results using
 
 ```base
-uv run df-analyze path_to_directory
+uv run df-analyze.py path_to_directory
 ```
 
-where path_to_directory is the path to the directory containing the data files to be analyzed.
+where `path_to_directory` is the path to the directory containing the data files to be analyzed.
 
 To recreate all data analysis in the paper, run
 
