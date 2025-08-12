@@ -1,0 +1,314 @@
+
+  long/B-100 complex/20241126T093349_b-100_complex_long.json.gz
+  💊 B-100 complex
+  Start time: 1732642429.7447
+  Stop time: 1732678729.748236
+  Duration: 36300.00353598595 s
+  Measurements: 82778761
+  Measurements per second: 2280.406416983883
+  Byte count: 425819935
+  Seconds per byte: 8.52473089029661e-05
+  Baseline mean: 20.440603990611663
+  ⚠️  Noise peak removed at index 50451053
+
+  long/B-100 complex/20241126T222347_b-100_complex_long.json.gz
+  💊 B-100 complex
+  Start time: 1732688627.576774
+  Stop time: 1732724927.580426
+  Duration: 36300.003652095795 s
+  Measurements: 83252486
+  Measurements per second: 2293.4566838588566
+  Byte count: 425820091
+  Seconds per byte: 8.524727794512588e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 80503212
+  ⚠️  Out-of-dynamic-range measurement removed at index 80553641
+  ⚠️  Out-of-dynamic-range measurement removed at index 80561929
+  ⚠️  Out-of-dynamic-range measurement removed at index 80566031
+  ⚠️  Out-of-dynamic-range measurement removed at index 81367112
+  ⚠️  Out-of-dynamic-range measurement removed at index 81451368
+  Baseline mean: 10.896436101591847
+  ⚠️  Noise peak removed at index 79707354
+  ⚠️  Noise peak removed at index 79707361
+  ⚠️  Noise peak removed at index 79968887
+  ⚠️  Noise peak removed at index 79986741
+  ⚠️  Noise peak removed at index 79987375
+  ⚠️  Noise peak removed at index 79993263
+  ⚠️  Noise peak removed at index 79994831
+  ⚠️  Noise peak removed at index 79995689
+  ⚠️  Noise peak removed at index 80081827
+  ⚠️  Noise peak removed at index 80825827
+  ⚠️  Noise peak removed at index 80950171
+  ⚠️  Noise peak removed at index 80978350
+
+  long/B-100 complex/20241127T083420_b-100_complex_long.json.gz
+  💊 B-100 complex
+  Start time: 1732725260.727712
+  Stop time: 1732761560.734774
+  Duration: 36300.00706219673 s
+  Measurements: 83579397
+  Measurements per second: 2302.462279326678
+  Byte count: 425819384
+  Seconds per byte: 8.524742749192632e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 59627489
+  ⚠️  Out-of-dynamic-range measurement removed at index 60522516
+  ⚠️  Out-of-dynamic-range measurement removed at index 61475162
+  ⚠️  Out-of-dynamic-range measurement removed at index 63882311
+  ⚠️  Out-of-dynamic-range measurement removed at index 68633056
+  ⚠️  Out-of-dynamic-range measurement removed at index 72673631
+  Baseline mean: 12.906478213674777
+  ⚠️  Noise peak removed at index 5023084
+  ⚠️  Noise peak removed at index 5023123
+  ⚠️  Noise peak removed at index 61556376
+  ⚠️  Noise peak removed at index 68070215
+  ⚠️  Noise peak removed at index 68070251
+  ⚠️  Noise peak removed at index 68196400
+
+  long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz
+  💊 Guaifenesin
+  Start time: 1731907173.375704
+  Stop time: 1731946357.54585
+  Duration: 39184.170145988464 s
+  Measurements: 76636656
+  Measurements per second: 1955.8065339772363
+  Byte count: 459653482
+  Seconds per byte: 8.524719529044808e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 44989802
+  ⚠️  Out-of-dynamic-range measurement removed at index 75237788
+  ⚠️  Out-of-dynamic-range measurement removed at index 75414967
+  Baseline mean: 12.98649685438085
+  ⚠️  Noise peak removed at index 74111858
+  ⚠️  Noise peak removed at index 74617836
+  ⚠️  Noise peak removed at index 74737303
+
+  long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz
+  💊 Guaifenesin
+  Start time: 1733807633.171274
+  Stop time: 1733843933.173203
+  Duration: 36300.00192904472 s
+  Measurements: 70990090
+  Measurements per second: 1955.6497583323458
+  Byte count: 425823391
+  Seconds per byte: 8.524661325860495e-05
+  Baseline mean: 11.453927028870197
+
+  long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz
+  💊 Guaifenesin
+  Start time: 1733896771.7953348
+  Stop time: 1733933071.7986162
+  Duration: 36300.003281354904 s
+  Measurements: 70993739
+  Measurements per second: 1955.7502088840072
+  Byte count: 425825372
+  Seconds per byte: 8.524621985501348e-05
+  Baseline mean: 10.068179880769033
+  ⚠️  Noise peak removed at index 64037527
+  ⚠️  Noise peak removed at index 64037558
+  ⚠️  Noise peak removed at index 64040486
+  ⚠️  Noise peak removed at index 64040506
+  ⚠️  Noise peak removed at index 64040578
+  ⚠️  Noise peak removed at index 69581364
+  ⚠️  Noise peak removed at index 69584579
+  ⚠️  Noise peak removed at index 69585107
+  ⚠️  Noise peak removed at index 69585209
+
+  long/Iron complex/20241125T220916_iron_complex_long.json.gz
+  💊 Iron complex
+  Start time: 1732601357.091753
+  Stop time: 1732637657.0965362
+  Duration: 36300.004783153534 s
+  Measurements: 71965807
+  Measurements per second: 1982.528857224796
+  Byte count: 425820896
+  Seconds per byte: 8.524711944421237e-05
+  Baseline mean: 11.91146232929262
+
+  long/Iron complex/20241211T221002_iron_complex_long.json.gz
+  💊 Iron complex
+  Start time: 1733983803.101753
+  Stop time: 1734020103.105552
+  Duration: 36300.00379896164 s
+  Measurements: 71462637
+  Measurements per second: 1968.667479920324
+  Byte count: 425824860
+  Seconds per byte: 8.524632356824268e-05
+  Baseline mean: 10.9511539488864
+
+  long/Iron complex/20241212T193348_iron_complex_long.json.gz
+  💊 Iron complex
+  Start time: 1734060828.5279858
+  Stop time: 1734097128.530116
+  Duration: 36300.002130270004 s
+  Measurements: 71286694
+  Measurements per second: 1963.8206561028035
+  Byte count: 425824987
+  Seconds per byte: 8.524629422526116e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 3282905
+  Baseline mean: 10.084911343487157
+  ⚠️  Noise peak removed at index 2696362
+
+  long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz
+  💊 Pseudoephedrine ext. rel.
+  Start time: 1732428846.856553
+  Stop time: 1732470188.465394
+  Duration: 41341.60884094238 s
+  Measurements: 85432980
+  Measurements per second: 2066.513190831413
+  Byte count: 484963572
+  Seconds per byte: 8.524683342802164e-05
+  Baseline mean: 12.914059525230309
+  ⚠️  Noise peak removed at index 502875
+  ⚠️  Noise peak removed at index 502916
+  ⚠️  Noise peak removed at index 502940
+  ⚠️  Noise peak removed at index 502969
+  ⚠️  Noise peak removed at index 503120
+  ⚠️  Noise peak removed at index 503247
+  ⚠️  Noise peak removed at index 503278
+  ⚠️  Noise peak removed at index 503317
+  ⚠️  Noise peak removed at index 73789012
+  ⚠️  Noise peak removed at index 74212506
+  ⚠️  Noise peak removed at index 82716270
+  ⚠️  Noise peak removed at index 82716414
+
+  long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz
+  💊 Pseudoephedrine ext. rel.
+  Start time: 1732471881.235014
+  Stop time: 1732508181.2367182
+  Duration: 36300.001704216 s
+  Measurements: 83202691
+  Measurements per second: 2292.0850439061155
+  Byte count: 425739966
+  Seconds per byte: 8.526331705540655e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 11402061
+  ⚠️  Out-of-dynamic-range measurement removed at index 40372701
+  ⚠️  Out-of-dynamic-range measurement removed at index 51450581
+  ⚠️  Out-of-dynamic-range measurement removed at index 59326761
+  ⚠️  Out-of-dynamic-range measurement removed at index 60621333
+  ⚠️  Out-of-dynamic-range measurement removed at index 67390762
+  Baseline mean: 30.911032584753993
+  ⚠️  Noise peak removed at index 25444186
+  ⚠️  Noise peak removed at index 41385920
+  ⚠️  Noise peak removed at index 43098546
+  ⚠️  Noise peak removed at index 43098652
+  ⚠️  Noise peak removed at index 44946530
+  ⚠️  Noise peak removed at index 52876172
+  ⚠️  Noise peak removed at index 52876217
+  ⚠️  Noise peak removed at index 52876272
+  ⚠️  Noise peak removed at index 52876310
+  ⚠️  Noise peak removed at index 52876400
+  ⚠️  Noise peak removed at index 58748916
+  ⚠️  Noise peak removed at index 59786345
+  ⚠️  Noise peak removed at index 59786378
+  ⚠️  Noise peak removed at index 59786397
+  ⚠️  Noise peak removed at index 59786443
+  ⚠️  Noise peak removed at index 59786534
+  ⚠️  Noise peak removed at index 59786619
+  ⚠️  Noise peak removed at index 75229044
+  ⚠️  Noise peak removed at index 75801329
+  ⚠️  Noise peak removed at index 75801353
+  ⚠️  Noise peak removed at index 75801436
+  ⚠️  Noise peak removed at index 81165877
+
+  long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz
+  💊 Pseudoephedrine ext. rel.
+  Start time: 1732508413.526331
+  Stop time: 1732544713.52958
+  Duration: 36300.003249168396 s
+  Measurements: 78101232
+  Measurements per second: 2151.5488983265927
+  Byte count: 425820425
+  Seconds per byte: 8.524721013363415e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 16456866
+  ⚠️  Out-of-dynamic-range measurement removed at index 16605532
+  ⚠️  Out-of-dynamic-range measurement removed at index 17428823
+  ⚠️  Out-of-dynamic-range measurement removed at index 17558948
+  ⚠️  Out-of-dynamic-range measurement removed at index 17562566
+  ⚠️  Out-of-dynamic-range measurement removed at index 17597542
+  Baseline mean: 13.430355935189448
+  ⚠️  Noise peak removed at index 584798
+  ⚠️  Noise peak removed at index 10180514
+  ⚠️  Noise peak removed at index 12485401
+  ⚠️  Noise peak removed at index 15889100
+  ⚠️  Noise peak removed at index 15914835
+  ⚠️  Noise peak removed at index 16527683
+  ⚠️  Noise peak removed at index 16691662
+  ⚠️  Noise peak removed at index 16713665
+  ⚠️  Noise peak removed at index 16716570
+  ⚠️  Noise peak removed at index 16878080
+  ⚠️  Noise peak removed at index 16893610
+  ⚠️  Noise peak removed at index 16968964
+  ⚠️  Noise peak removed at index 16971423
+  ⚠️  Noise peak removed at index 17012192
+  ⚠️  Noise peak removed at index 17043430
+  ⚠️  Noise peak removed at index 17044404
+  ⚠️  Noise peak removed at index 17046346
+  ⚠️  Noise peak removed at index 17093549
+  ⚠️  Noise peak removed at index 17253137
+long/B-100 complex/20241126T093349_b-100_complex_long.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ B-100 complex == Iron complex   105308
+    ✅ B-100 complex == B-100 complex   106394
+    ✅ B-100 complex == B-100 complex   109272
+long/B-100 complex/20241126T222347_b-100_complex_long.json.gz
+  PEAK COMPARISONS
+    ✅ B-100 complex == B-100 complex   14600
+    ❌ B-100 complex == Iron complex   103986
+    ✅ B-100 complex == B-100 complex   109272
+long/B-100 complex/20241127T083420_b-100_complex_long.json.gz
+  PEAK COMPARISONS
+    ✅ B-100 complex == B-100 complex   14600
+    ❌ B-100 complex == Iron complex   97668
+    ✅ B-100 complex == B-100 complex   106394
+long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz
+  PEAK COMPARISONS
+    ✅ Guaifenesin == Guaifenesin   2080
+    ✅ Guaifenesin == Guaifenesin   2401
+    ❌ Guaifenesin == Pseudoephedrine ext. rel.   42995
+long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz
+  PEAK COMPARISONS
+    ✅ Guaifenesin == Guaifenesin   1733
+    ✅ Guaifenesin == Guaifenesin   2080
+    ❌ Guaifenesin == Pseudoephedrine ext. rel.   44277
+long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz
+  PEAK COMPARISONS
+    ✅ Guaifenesin == Guaifenesin   1733
+    ✅ Guaifenesin == Guaifenesin   2401
+    ❌ Guaifenesin == Pseudoephedrine ext. rel.   43802
+long/Iron complex/20241125T220916_iron_complex_long.json.gz
+  PEAK COMPARISONS
+    ✅ Iron complex == Iron complex   20944
+    ✅ Iron complex == Iron complex   27601
+    ❌ Iron complex == Pseudoephedrine ext. rel.   61209
+long/Iron complex/20241211T221002_iron_complex_long.json.gz
+  PEAK COMPARISONS
+    ✅ Iron complex == Iron complex   15813
+    ✅ Iron complex == Iron complex   20944
+    ❌ Iron complex == Pseudoephedrine ext. rel.   44103
+long/Iron complex/20241212T193348_iron_complex_long.json.gz
+  PEAK COMPARISONS
+    ✅ Iron complex == Iron complex   15813
+    ✅ Iron complex == Iron complex   27601
+    ❌ Iron complex == Pseudoephedrine ext. rel.   34140
+long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz
+  PEAK COMPARISONS
+    ✅ Pseudoephedrine ext. rel. == Pseudoephedrine ext. rel.   8002
+    ✅ Pseudoephedrine ext. rel. == Pseudoephedrine ext. rel.   8169
+    ❌ Pseudoephedrine ext. rel. == Iron complex   34140
+long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz
+  PEAK COMPARISONS
+    ✅ Pseudoephedrine ext. rel. == Pseudoephedrine ext. rel.   6589
+    ✅ Pseudoephedrine ext. rel. == Pseudoephedrine ext. rel.   8002
+    ❌ Pseudoephedrine ext. rel. == Iron complex   38034
+long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz
+  PEAK COMPARISONS
+    ✅ Pseudoephedrine ext. rel. == Pseudoephedrine ext. rel.   6589
+    ✅ Pseudoephedrine ext. rel. == Pseudoephedrine ext. rel.   8169
+    ❌ Pseudoephedrine ext. rel. == Iron complex   39597
+PEAK MATCH FAILURES
+  long/B-100 complex/20241126T093349_b-100_complex_long.json.gz
+1 peak failures out of 12 samples
+Peak failure rate: 0.08333333333333333
+Total number of measurements:  929683170
+Number of out-of-dynamic-range measurements removed:  28
+Number of noise peaks removed:  85
+Done!  Elapsed time 929.9 seconds

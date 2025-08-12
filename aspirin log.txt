@@ -1,0 +1,578 @@
+
+  aspirin/bayer/20241112T125840_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1731445120.543914
+  Stop time: 1731449020.5553677
+  Duration: 3900.01145362854 s
+  Measurements: 7624962
+  Measurements per second: 1955.112719709014
+  Byte count: 45652507
+  Seconds per byte: 8.542819901716548e-05
+  Baseline mean: 10.058199400863394
+  ⚠️  Noise peak removed at index 2546
+  Minimum slope: -0.08666062565260356
+aspirin/bayer/20241112T125840_Bayer_Aspirin.json.gz,-0.08666062565260356,
+
+  aspirin/bayer/20241112T140739_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1731449259.6232457
+  Stop time: 1731453159.6358855
+  Duration: 3900.012639760971 s
+  Measurements: 7672067
+  Measurements per second: 1967.1902910730605
+  Byte count: 45882027
+  Seconds per byte: 8.500087931513948e-05
+  Baseline mean: 14.811490970085398
+  ⚠️  Noise peak removed at index 112
+  ⚠️  Noise peak removed at index 262532
+  ⚠️  Noise peak removed at index 6106238
+  Minimum slope: -0.04725510609039991
+aspirin/bayer/20241112T140739_Bayer_Aspirin.json.gz,-0.04725510609039991,
+
+  aspirin/bayer/20241112T141148_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1731449513.0443792
+  Stop time: 1731453413.0588474
+  Duration: 3900.014468193054 s
+  Measurements: 7624474
+  Measurements per second: 1954.9860807394784
+  Byte count: 45652415
+  Seconds per byte: 8.54284372073866e-05
+  Baseline mean: 11.550633596263918
+  Minimum slope: -0.07828599942023476
+aspirin/bayer/20241112T141148_Bayer_Aspirin.json.gz,-0.07828599942023476,
+
+  aspirin/bayer/20241112T151442_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1731453297.5808434
+  Stop time: 1731457197.594593
+  Duration: 3900.013749599457 s
+  Measurements: 7674639
+  Measurements per second: 1967.84921611833
+  Byte count: 45882018
+  Seconds per byte: 8.500092017747468e-05
+  Baseline mean: 15.884693628909327
+  Minimum slope: -0.08939448653870703
+aspirin/bayer/20241112T151442_Bayer_Aspirin.json.gz,-0.08939448653870703,
+
+  aspirin/bayer/20241112T151958_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1731453602.0229347
+  Stop time: 1731457502.029734
+  Duration: 3900.006799221039 s
+  Measurements: 7628004
+  Measurements per second: 1955.895051650568
+  Byte count: 45652292
+  Seconds per byte: 8.542849938883767e-05
+  Baseline mean: 12.007278484617224
+  ⚠️  Noise peak removed at index 2039
+  Minimum slope: -0.081227971110959
+aspirin/bayer/20241112T151958_Bayer_Aspirin.json.gz,-0.081227971110959,
+
+  aspirin/bayer/20241119T140627_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1732053992.5605297
+  Stop time: 1732057892.5694878
+  Duration: 3900.0089581012726 s
+  Measurements: 7633454
+  Measurements per second: 1957.2914016372831
+  Byte count: 45652605
+  Seconds per byte: 8.542796096961548e-05
+  Baseline mean: 13.195511031631224
+  Minimum slope: -0.08304920507490811
+aspirin/bayer/20241119T140627_Bayer_Aspirin.json.gz,-0.08304920507490811,
+
+  aspirin/bayer/20241121T124250_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1732221773.2984605
+  Stop time: 1732225673.3009598
+  Duration: 3900.0024993419647 s
+  Measurements: 7648088
+  Measurements per second: 1961.0469483777094
+  Byte count: 45652259
+  Seconds per byte: 8.542846695367177e-05
+  Baseline mean: 13.998251559073953
+  Minimum slope: -0.4234769589340449
+aspirin/bayer/20241121T124250_Bayer_Aspirin.json.gz,-0.4234769589340449,
+
+  aspirin/bayer/20241121T124410_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1732221853.8532426
+  Stop time: 1732225753.8552017
+  Duration: 3900.0019590854645 s
+  Measurements: 8169672
+  Measurements per second: 2094.786640034344
+  Byte count: 45881951
+  Seconds per byte: 8.50007873267086e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 0
+  Baseline mean: 24.03185207248864
+  Minimum slope: -0.06420109101806085
+aspirin/bayer/20241121T124410_Bayer_Aspirin.json.gz,-0.06420109101806085,
+
+  aspirin/bayer/20241121T135122_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1732225885.3623447
+  Stop time: 1732229785.3646748
+  Duration: 3900.0023300647736 s
+  Measurements: 7641485
+  Measurements per second: 1959.353957584196
+  Byte count: 45652030
+  Seconds per byte: 8.542889177249672e-05
+  Baseline mean: 13.444277382905048
+  Minimum slope: -0.10898339035306327
+aspirin/bayer/20241121T135122_Bayer_Aspirin.json.gz,-0.10898339035306327,
+
+  aspirin/bayer/20241121T135144_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1732225906.2943904
+  Stop time: 1732229806.3088772
+  Duration: 3900.0144867897034 s
+  Measurements: 8155082
+  Measurements per second: 2091.038899374155
+  Byte count: 45882709
+  Seconds per byte: 8.499965611859804e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 6
+  Baseline mean: 22.051254589963282
+  Minimum slope: -0.05851374389021503
+aspirin/bayer/20241121T135144_Bayer_Aspirin.json.gz,-0.05851374389021503,
+
+  aspirin/bayer/20241126T114333_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1732650215.6827223
+  Stop time: 1732654115.6956673
+  Duration: 3900.0129449367523 s
+  Measurements: 7628694
+  Measurements per second: 1956.0688920030539
+  Byte count: 45652866
+  Seconds per byte: 8.542755990252074e-05
+  Baseline mean: 12.928064150535063
+  ⚠️  Noise peak removed at index 1914
+  Minimum slope: -0.06302565544133835
+aspirin/bayer/20241126T114333_Bayer_Aspirin.json.gz,-0.06302565544133835,
+
+  aspirin/bayer/20241126T114353_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1732650234.8298638
+  Stop time: 1732654134.830046
+  Duration: 3900.0001821517944 s
+  Measurements: 8076794
+  Measurements per second: 2070.972723786821
+  Byte count: 45881713
+  Seconds per byte: 8.500118951861702e-05
+  Baseline mean: 25.986569764970888
+  Minimum slope: -0.04741027460785554
+aspirin/bayer/20241126T114353_Bayer_Aspirin.json.gz,-0.04741027460785554,
+
+  aspirin/bayer/20241203T131113_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1733260275.6583655
+  Stop time: 1733264175.6666622
+  Duration: 3900.008296728134 s
+  Measurements: 7631121
+  Measurements per second: 1956.6935297040366
+  Byte count: 45652857
+  Seconds per byte: 8.542747492732238e-05
+  Baseline mean: 13.982185672223203
+  ⚠️  Noise peak removed at index 424
+  ⚠️  Noise peak removed at index 4622
+  Minimum slope: -0.03641546403154735
+aspirin/bayer/20241203T131113_Bayer_Aspirin.json.gz,-0.03641546403154735,
+
+  aspirin/bayer/20241203T131130_Bayer_Aspirin.json.gz
+  💊 bayer
+  Start time: 1733260292.0243976
+  Stop time: 1733264192.029138
+  Duration: 3900.0047404766083 s
+  Measurements: 9176530
+  Measurements per second: 2352.9535502253166
+  Byte count: 45882659
+  Seconds per byte: 8.499953632758311e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 12
+  ⚠️  Out-of-dynamic-range measurement removed at index 62
+  Baseline mean: 30.920695484638706
+  Minimum slope: -0.046109998464456105
+aspirin/bayer/20241203T131130_Bayer_Aspirin.json.gz,-0.046109998464456105,
+
+  aspirin/generic/20241113T120447_Generic_Aspirin.json.gz
+  💊 generic
+  Start time: 1731528299.9507895
+  Stop time: 1731532199.962721
+  Duration: 3900.011931657791 s
+  Measurements: 7621733
+  Measurements per second: 1954.2845338835168
+  Byte count: 45652540
+  Seconds per byte: 8.542814773630977e-05
+  Baseline mean: 13.978682810702448
+  ⚠️  Noise peak removed at index 5179729
+  ⚠️  Noise peak removed at index 5179809
+  ⚠️  Noise peak removed at index 5179850
+  Minimum slope: -0.10988276438793378
+aspirin/generic/20241113T120447_Generic_Aspirin.json.gz,-0.10988276438793378,
+
+  aspirin/generic/20241113T120556_Generic_Aspirin.json.gz
+  💊 generic
+  Start time: 1731528362.2986782
+  Stop time: 1731532262.3060086
+  Duration: 3900.007330417633 s
+  Measurements: 7672268
+  Measurements per second: 1967.2445075067112
+  Byte count: 45882073
+  Seconds per byte: 8.500067837862585e-05
+  Baseline mean: 18.76744357365883
+  Minimum slope: -0.05159855064793057
+aspirin/generic/20241113T120556_Generic_Aspirin.json.gz,-0.05159855064793057,
+
+  aspirin/generic/20241114T143102_Generic_Aspirin.json.gz
+  💊 generic
+  Start time: 1731623545.0640671
+  Stop time: 1731627445.076857
+  Duration: 3900.012789964676 s
+  Measurements: 7740156
+  Measurements per second: 1984.6488760028158
+  Byte count: 45882447
+  Seconds per byte: 8.500010450542614e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 2
+  Baseline mean: 20.995880342945867
+  Minimum slope: -0.07134926783239644
+aspirin/generic/20241114T143102_Generic_Aspirin.json.gz,-0.07134926783239644,
+
+  aspirin/generic/20241114T154625_Generic_Aspirin.json.gz
+  💊 generic
+  Start time: 1731627987.4539533
+  Stop time: 1731631887.4579198
+  Duration: 3900.0039665699005 s
+  Measurements: 7662261
+  Measurements per second: 1964.6803094764668
+  Byte count: 45882376
+  Seconds per byte: 8.500004373291175e-05
+  Baseline mean: 16.446189153963847
+  ⚠️  Noise peak removed at index 4227578
+  Minimum slope: -0.1201980020459362
+aspirin/generic/20241114T154625_Generic_Aspirin.json.gz,-0.1201980020459362,
+
+  aspirin/generic/20241114T201703_generic_aspirin.json.gz
+  💊 generic
+  Start time: 1731644224.476162
+  Stop time: 1731648124.48014
+  Duration: 3900.0039780139923 s
+  Measurements: 7670247
+  Measurements per second: 1966.72799393039
+  Byte count: 45891311
+  Seconds per byte: 8.49834945446207e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 4056333
+  ⚠️  Out-of-dynamic-range measurement removed at index 4604717
+  ⚠️  Out-of-dynamic-range measurement removed at index 4609942
+  ⚠️  Out-of-dynamic-range measurement removed at index 5064770
+  ⚠️  Out-of-dynamic-range measurement removed at index 5068626
+  ⚠️  Out-of-dynamic-range measurement removed at index 5284419
+  ⚠️  Out-of-dynamic-range measurement removed at index 5292381
+  Baseline mean: 15.853414917424436
+  ⚠️  Noise peak removed at index 3480434
+  ⚠️  Noise peak removed at index 3693934
+  ⚠️  Noise peak removed at index 4108155
+  ⚠️  Noise peak removed at index 4487900
+  ⚠️  Noise peak removed at index 4488322
+  ⚠️  Noise peak removed at index 4590941
+  Minimum slope: -0.5492949490815137
+aspirin/generic/20241114T201703_generic_aspirin.json.gz,-0.5492949490815137,
+
+  aspirin/generic/20241115T080902_generic_aspirin.json.gz
+  💊 generic
+  Start time: 1731686943.461455
+  Stop time: 1731690843.465418
+  Duration: 3900.003962993622 s
+  Measurements: 8303358
+  Measurements per second: 2129.0639903930733
+  Byte count: 45890685
+  Seconds per byte: 8.498465348672877e-05
+  Baseline mean: 17.643819085228014
+  ⚠️  Noise peak removed at index 6637551
+  Minimum slope: -1.180565397378209
+aspirin/generic/20241115T080902_generic_aspirin.json.gz,-1.180565397378209,
+
+  aspirin/generic/20241115T134832_generic_aspirin.json.gz
+  💊 generic
+  Start time: 1731707313.0041301
+  Stop time: 1731711213.0088432
+  Duration: 3900.0047130584717 s
+  Measurements: 7619504
+  Measurements per second: 1953.7166133382984
+  Byte count: 45652131
+  Seconds per byte: 8.542875497002477e-05
+  Baseline mean: 14.622934760941995
+  Minimum slope: -0.11006789951364687
+aspirin/generic/20241115T134832_generic_aspirin.json.gz,-0.11006789951364687,
+
+  aspirin/generic/20241115T140108_generic_aspirin.json.gz
+  💊 generic
+  Start time: 1731708098.2749093
+  Stop time: 1731711998.2856143
+  Duration: 3900.0107049942017 s
+  Measurements: 7660831
+  Measurements per second: 1964.310249248762
+  Byte count: 45882075
+  Seconds per byte: 8.500074822235485e-05
+  Baseline mean: 17.09581286231576
+  ⚠️  Noise peak removed at index 2189562
+  Minimum slope: -0.04970355015925144
+aspirin/generic/20241115T140108_generic_aspirin.json.gz,-0.04970355015925144,
+
+  aspirin/generic/20241116T102324_generic_aspirin.json.gz
+  💊 generic
+  Start time: 1731781405.1021702
+  Stop time: 1731785305.1052318
+  Duration: 3900.0030615329742 s
+  Measurements: 9146610
+  Measurements per second: 2345.282774317808
+  Byte count: 45738172
+  Seconds per byte: 8.526801336819876e-05
+  Baseline mean: 28.016110924258285
+  Minimum slope: -0.06577267763642788
+aspirin/generic/20241116T102324_generic_aspirin.json.gz,-0.06577267763642788,
+
+  aspirin/generic/20241119T123655_generic_aspirin.json.gz
+  💊 generic
+  Start time: 1732048619.1243012
+  Stop time: 1732052519.1307147
+  Duration: 3900.006413459778 s
+  Measurements: 7623740
+  Measurements per second: 1954.8019135786035
+  Byte count: 45652222
+  Seconds per byte: 8.542862192906575e-05
+  Baseline mean: 13.404425207164621
+  Minimum slope: -0.09682363166036526
+aspirin/generic/20241119T123655_generic_aspirin.json.gz,-0.09682363166036526,
+
+  aspirin/generic/20241119T123836_Generic_Aspirin.json.gz
+  💊 generic
+  Start time: 1732048720.5422435
+  Stop time: 1732052620.547773
+  Duration: 3900.0055294036865 s
+  Measurements: 8223250
+  Measurements per second: 2108.5226515710456
+  Byte count: 45881932
+  Seconds per byte: 8.500090034141733e-05
+  Baseline mean: 30.73343659391203
+  ⚠️  Noise peak removed at index 2682828
+  ⚠️  Noise peak removed at index 5948164
+  Minimum slope: -0.3501627837618819
+aspirin/generic/20241119T123836_Generic_Aspirin.json.gz,-0.3501627837618819,
+
+  aspirin/generic/20241119T153203_Generic_Aspirin.json.gz
+  💊 generic
+  Start time: 1732059126.1878595
+  Stop time: 1732063026.1984522
+  Duration: 3900.010592699051 s
+  Measurements: 9176550
+  Measurements per second: 2352.9551476549336
+  Byte count: 45882757
+  Seconds per byte: 8.499948232620483e-05
+  Baseline mean: 29.290957944145898
+  Minimum slope: -0.09486201796468427
+aspirin/generic/20241119T153203_Generic_Aspirin.json.gz,-0.09486201796468427,
+
+  aspirin/generic/20241119T153214_generic_aspirin.json.gz
+  💊 generic
+  Start time: 1732059137.007945
+  Stop time: 1732063037.0191448
+  Duration: 3900.0111997127533 s
+  Measurements: 7629209
+  Measurements per second: 1956.2018182311663
+  Byte count: 45652846
+  Seconds per byte: 8.542755909922359e-05
+  Baseline mean: 15.431358813579592
+  ⚠️  Noise peak removed at index 974
+  Minimum slope: -0.07557934600958849
+aspirin/generic/20241119T153214_generic_aspirin.json.gz,-0.07557934600958849,
+
+  aspirin/generic/20241121T150322_generic_aspirin.json.gz
+  💊 generic
+  Start time: 1732230209.7916918
+  Stop time: 1732234109.792077
+  Duration: 3900.000385284424 s
+  Measurements: 7863285
+  Measurements per second: 2016.226723892115
+  Byte count: 45652222
+  Seconds per byte: 8.542848988345899e-05
+  Baseline mean: 39.222730573366306
+  ⚠️  Noise peak removed at index 7387
+  Minimum slope: -0.22782928989961843
+aspirin/generic/20241121T150322_generic_aspirin.json.gz,-0.22782928989961843,
+
+  aspirin/generic/20241121T150345_Generic_Aspirin.json.gz
+  💊 generic
+  Start time: 1732230228.2428167
+  Stop time: 1732234128.252202
+  Duration: 3900.0093853473663 s
+  Measurements: 9176497
+  Measurements per second: 2352.9422863639256
+  Byte count: 45882493
+  Seconds per byte: 8.499994508466151e-05
+  Baseline mean: 27.585219464972965
+  Minimum slope: -0.048724082653536394
+aspirin/generic/20241121T150345_Generic_Aspirin.json.gz,-0.048724082653536394,
+
+  aspirin/generic/20241203T115929_generic_aspirin.json.gz
+  💊 generic
+  Start time: 1733255972.6453092
+  Stop time: 1733259872.6608741
+  Duration: 3900.015564918518 s
+  Measurements: 7621346
+  Measurements per second: 1954.1834828957228
+  Byte count: 45653146
+  Seconds per byte: 8.54270933468313e-05
+  Baseline mean: 13.984025104221246
+  ⚠️  Noise peak removed at index 1480
+  Minimum slope: -0.10476654850381903
+aspirin/generic/20241203T115929_generic_aspirin.json.gz,-0.10476654850381903,
+
+  aspirin/generic/20241203T115945_Generic_Aspirin.json.gz
+  💊 generic
+  Start time: 1733255987.766296
+  Stop time: 1733259887.7790494
+  Duration: 3900.0127534866333 s
+  Measurements: 9176492
+  Measurements per second: 2352.938972262633
+  Byte count: 45882465
+  Seconds per byte: 8.500007036428041e-05
+  Baseline mean: 27.584525299270418
+  ⚠️  Noise peak removed at index 7668468
+  Minimum slope: -0.07320305084957889
+aspirin/generic/20241203T115945_Generic_Aspirin.json.gz,-0.07320305084957889,
+aspirin/bayer/20241112T125840_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   485
+    ✅ bayer == bayer   551
+    ✅ bayer == bayer   559
+aspirin/bayer/20241112T140739_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   502
+    ✅ bayer == bayer   504
+    ✅ bayer == bayer   515
+aspirin/bayer/20241112T141148_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   487
+    ✅ bayer == bayer   504
+    ✅ bayer == bayer   510
+aspirin/bayer/20241112T151442_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   487
+    ✅ bayer == bayer   497
+    ✅ bayer == bayer   515
+aspirin/bayer/20241112T151958_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   577
+    ✅ bayer == bayer   623
+    ✅ bayer == bayer   792
+aspirin/bayer/20241119T140627_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   404
+    ✅ bayer == bayer   547
+    ✅ bayer == bayer   635
+aspirin/bayer/20241121T124410_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   497
+    ✅ bayer == bayer   508
+    ✅ bayer == bayer   510
+aspirin/bayer/20241121T135122_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   623
+    ✅ bayer == bayer   792
+    ✅ bayer == bayer   824
+aspirin/bayer/20241121T135144_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   485
+    ✅ bayer == bayer   502
+    ✅ bayer == bayer   508
+aspirin/bayer/20241126T114333_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   530
+    ✅ bayer == bayer   562
+    ✅ bayer == bayer   597
+aspirin/bayer/20241126T114353_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   404
+    ✅ bayer == bayer   629
+    ✅ bayer == bayer   645
+aspirin/bayer/20241203T131113_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   848
+    ✅ bayer == bayer   888
+    ✅ bayer == bayer   1056
+aspirin/bayer/20241203T131130_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ bayer == bayer   547
+    ✅ bayer == bayer   645
+    ✅ bayer == bayer   820
+aspirin/generic/20241113T120447_Generic_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   261
+    ✅ generic == generic   271
+    ✅ generic == generic   289
+aspirin/generic/20241113T120556_Generic_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   202
+    ✅ generic == generic   271
+    ✅ generic == generic   313
+aspirin/generic/20241114T143102_Generic_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   361
+    ✅ generic == generic   412
+    ✅ generic == generic   447
+aspirin/generic/20241114T154625_Generic_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   230
+    ✅ generic == generic   272
+    ✅ generic == generic   289
+aspirin/generic/20241115T134832_generic_aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   361
+    ✅ generic == generic   369
+    ✅ generic == generic   535
+aspirin/generic/20241115T140108_generic_aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   369
+    ✅ generic == generic   408
+    ✅ generic == generic   410
+aspirin/generic/20241116T102324_generic_aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   536
+    ✅ generic == generic   586
+    ✅ generic == generic   589
+aspirin/generic/20241119T123655_generic_aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   202
+    ✅ generic == generic   255
+    ✅ generic == generic   405
+aspirin/generic/20241119T153203_Generic_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   313
+    ✅ generic == generic   345
+    ✅ generic == generic   405
+aspirin/generic/20241119T153214_generic_aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   271
+    ✅ generic == generic   272
+    ✅ generic == generic   336
+aspirin/generic/20241121T150345_Generic_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   480
+    ✅ generic == generic   621
+    ✅ generic == generic   635
+aspirin/generic/20241203T115929_generic_aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   255
+    ✅ generic == generic   271
+    ✅ generic == generic   379
+aspirin/generic/20241203T115945_Generic_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ generic == generic   230
+    ✅ generic == generic   261
+    ✅ generic == generic   336
+PEAK MATCH FAILURES
+0 peak failures out of 26 samples
+Peak failure rate: 0.0
+Total number of measurements:  247572403
+Number of out-of-dynamic-range measurements removed:  12
+Number of noise peaks removed:  26
+Done!  Elapsed time 219.0 seconds

@@ -1,0 +1,5 @@
+aspirin/bayer/20241121T124250_Bayer_Aspirin.json.gz	-0.4234769589340449
+aspirin/generic/20241114T201703_generic_aspirin.json.gz	-0.5492949490815137
+aspirin/generic/20241115T080902_generic_aspirin.json.gz	-1.180565397378209
+aspirin/generic/20241119T123836_Generic_Aspirin.json.gz	-0.3501627837618819
+aspirin/generic/20241121T150322_generic_aspirin.json.gz	-0.22782928989961843

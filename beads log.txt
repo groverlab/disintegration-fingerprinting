@@ -1,0 +1,22 @@
+
+  beads/20250412T082900_425-500_um_red_polyethylene_beads_NaCl_detergent.json.gz
+  💊 beads
+  Start time: 1744471740.961885
+  Stop time: 1744475640.9650419
+  Duration: 3900.003156900406 s
+  Measurements: 7672841
+  Measurements per second: 1967.3935356755253
+  Byte count: 45733694
+  Seconds per byte: 8.527636444369453e-05
+  Baseline mean: 16.010932330401833
+  Minimum slope: -0.026652377666643374
+beads/20250412T082900_425-500_um_red_polyethylene_beads_NaCl_detergent.json.gz,-0.026652377666643374,
+beads/20250412T082900_425-500_um_red_polyethylene_beads_NaCl_detergent.json.gz
+  PEAK COMPARISONS
+PEAK MATCH FAILURES
+0 peak failures out of 1 samples
+Peak failure rate: 0.0
+Total number of measurements:  7672841
+Number of out-of-dynamic-range measurements removed:  0
+Number of noise peaks removed:  0
+Done!  Elapsed time 20.2 seconds
