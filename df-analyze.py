@@ -65,9 +65,11 @@ def window_lin_reg(x, y, w):
 discards = open(f"{args.figure} discards.txt", "w")
 log = open(f"{args.figure} log.txt", "w")
 
+
 def plog(text):
     print(text)
     log.write(f"{text}\n")
+
 
 summary_peak_counts = []
 summary_samples = []
@@ -571,7 +573,9 @@ if args.figure == "variety":
     for sample, style in zip(average_dict, styles):
         lines = average_axs.plot(
             numpy.array(peak_times) / 60.0,
-            60.0 * average_dict[sample] / bin_width + 1, label=str(sample), linewidth=1.5
+            60.0 * average_dict[sample] / bin_width + 1,
+            label=str(sample),
+            linewidth=1.5,
         )
         lines[0].set_color(style[0])
         lines[0].set_linestyle(style[1])

@@ -82,12 +82,16 @@ while True:
         waiting = ser.inWaiting()
         et = time.time() - start_time
         if 0 <= et < t1:  # baseline phase
-            print(f"TimeToPill: {str(datetime.timedelta(seconds=t1-et))[:9]}", end="\t")
+            print(
+                f"TimeToPill: {str(datetime.timedelta(seconds=t1 - et))[:9]}", end="\t"
+            )
         elif t1 <= et < t2:  # dissolution phase
             if not pill_in:
                 ser.write(b"2")
                 pill_in = True
-            print(f"TimeToEnd: {str(datetime.timedelta(seconds=t2-et))[:9]}", end="\t")
+            print(
+                f"TimeToEnd: {str(datetime.timedelta(seconds=t2 - et))[:9]}", end="\t"
+            )
         elif et >= t2:  # experiment over
             ser.write(b"1")
             break
