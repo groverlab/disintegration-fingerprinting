@@ -1,0 +1,1936 @@
+
+  data/variety/Acetaminophen/20241210T113009_tylenol_extra_strength.json.gz
+  💊 Acetaminophen
+  Start time: 1733859010.422795
+  Stop time: 1733862910.424962
+  Duration: 3900.0021669864655 s
+  Measurements: 9147826
+  Measurements per second: 2345.5951069556795
+  Byte count: 45739136
+  Seconds per byte: 8.526619669830373e-05
+  Baseline mean: 40.001686380581994
+  Minimum slope: -0.06551661708740777
+data/variety/Acetaminophen/20241210T113009_tylenol_extra_strength.json.gz,-0.06551661708740777,
+
+  data/variety/Acetaminophen/20241210T124134_tylenol_extra_strength.json.gz
+  💊 Acetaminophen
+  Start time: 1733863295.084918
+  Stop time: 1733867195.0869398
+  Duration: 3900.002021789551 s
+  Measurements: 9147404
+  Measurements per second: 2345.4869892099778
+  Byte count: 45738481
+  Seconds per byte: 8.526741458225407e-05
+  Baseline mean: 36.2321790620559
+  Minimum slope: -0.07434326272724598
+data/variety/Acetaminophen/20241210T124134_tylenol_extra_strength.json.gz,-0.07434326272724598,
+
+  data/variety/Acetaminophen/20241210T135025_tylenol_extra_strength.json.gz
+  💊 Acetaminophen
+  Start time: 1733867425.917422
+  Stop time: 1733871325.9196532
+  Duration: 3900.0022311210632 s
+  Measurements: 7896205
+  Measurements per second: 2024.6667904418662
+  Byte count: 45739740
+  Seconds per byte: 8.526507214778797e-05
+  Baseline mean: 26.26403922218801
+  Minimum slope: -0.08157674706006846
+data/variety/Acetaminophen/20241210T135025_tylenol_extra_strength.json.gz,-0.08157674706006846,
+
+  data/variety/Aspirin generic/20241113T120556_Generic_Aspirin.json.gz
+  💊 Aspirin generic
+  Start time: 1731528362.2986782
+  Stop time: 1731532262.3060086
+  Duration: 3900.007330417633 s
+  Measurements: 7672268
+  Measurements per second: 1967.2445075067112
+  Byte count: 45882073
+  Seconds per byte: 8.500067837862585e-05
+  Baseline mean: 18.76744357365883
+  Minimum slope: -0.05159855064793057
+data/variety/Aspirin generic/20241113T120556_Generic_Aspirin.json.gz,-0.05159855064793057,
+
+  data/variety/Aspirin generic/20241114T154625_Generic_Aspirin.json.gz
+  💊 Aspirin generic
+  Start time: 1731627987.4539533
+  Stop time: 1731631887.4579198
+  Duration: 3900.0039665699005 s
+  Measurements: 7662261
+  Measurements per second: 1964.6803094764668
+  Byte count: 45882376
+  Seconds per byte: 8.500004373291175e-05
+  Baseline mean: 16.446189153963847
+  ⚠️  Noise peak removed at index 4227578
+  Minimum slope: -0.1201980020459362
+data/variety/Aspirin generic/20241114T154625_Generic_Aspirin.json.gz,-0.1201980020459362,
+
+  data/variety/Aspirin generic/20241116T102324_generic_aspirin.json.gz
+  💊 Aspirin generic
+  Start time: 1731781405.1021702
+  Stop time: 1731785305.1052318
+  Duration: 3900.0030615329742 s
+  Measurements: 9146610
+  Measurements per second: 2345.282774317808
+  Byte count: 45738172
+  Seconds per byte: 8.526801336819876e-05
+  Baseline mean: 28.016110924258285
+  Minimum slope: -0.06577267763642788
+data/variety/Aspirin generic/20241116T102324_generic_aspirin.json.gz,-0.06577267763642788,
+
+  data/variety/Aspirin name brand/20241112T151958_Bayers_aspirin.json.gz
+  💊 Aspirin name brand
+  Start time: 1731453602.0229347
+  Stop time: 1731457502.029734
+  Duration: 3900.006799221039 s
+  Measurements: 7628004
+  Measurements per second: 1955.895051650568
+  Byte count: 45652292
+  Seconds per byte: 8.542849938883767e-05
+  Baseline mean: 12.007278484617224
+  ⚠️  Noise peak removed at index 2039
+  Minimum slope: -0.081227971110959
+data/variety/Aspirin name brand/20241112T151958_Bayers_aspirin.json.gz,-0.081227971110959,
+
+  data/variety/Aspirin name brand/20241121T135122_Bayers_Aspirin.json.gz
+  💊 Aspirin name brand
+  Start time: 1732225885.3623447
+  Stop time: 1732229785.3646748
+  Duration: 3900.0023300647736 s
+  Measurements: 7641485
+  Measurements per second: 1959.353957584196
+  Byte count: 45652030
+  Seconds per byte: 8.542889177249672e-05
+  Baseline mean: 13.444277382905048
+  Minimum slope: -0.10898339035306327
+data/variety/Aspirin name brand/20241121T135122_Bayers_Aspirin.json.gz,-0.10898339035306327,
+
+  data/variety/Aspirin name brand/20241121T135144_Bayers_Aspirin.json.gz
+  💊 Aspirin name brand
+  Start time: 1732225906.2943904
+  Stop time: 1732229806.3088772
+  Duration: 3900.0144867897034 s
+  Measurements: 8155082
+  Measurements per second: 2091.038899374155
+  Byte count: 45882709
+  Seconds per byte: 8.499965611859804e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 6
+  Baseline mean: 22.051254589963282
+  Minimum slope: -0.05851374389021503
+data/variety/Aspirin name brand/20241121T135144_Bayers_Aspirin.json.gz,-0.05851374389021503,
+
+  data/variety/B-100 complex/20241126T081726_b-100_complex.json.gz
+  💊 B-100 complex
+  Start time: 1732637847.4846132
+  Stop time: 1732641747.488079
+  Duration: 3900.0034658908844 s
+  Measurements: 7922474
+  Measurements per second: 2031.4017844571981
+  Byte count: 45739126
+  Seconds per byte: 8.52662437382578e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 1560398
+  Baseline mean: 14.018275456317964
+  ⚠️  Noise peak removed at index 749193
+  ⚠️  Noise peak removed at index 946050
+  ⚠️  Noise peak removed at index 949631
+  ⚠️  Noise peak removed at index 3070927
+  Minimum slope: -0.012591110745046128
+data/variety/B-100 complex/20241126T081726_b-100_complex.json.gz,-0.012591110745046128,
+
+  data/variety/B-100 complex/20241209T184815_b-100_complex.json.gz
+  💊 B-100 complex
+  Start time: 1733798895.532692
+  Stop time: 1733802795.5331368
+  Duration: 3900.0004448890686 s
+  Measurements: 7669024
+  Measurements per second: 1966.416185939214
+  Byte count: 45738779
+  Seconds per byte: 8.526682456672201e-05
+  Baseline mean: 11.0473913982651
+  ⚠️  Noise peak removed at index 3775855
+  Minimum slope: -0.014831637873841038
+data/variety/B-100 complex/20241209T184815_b-100_complex.json.gz,-0.014831637873841038,
+
+  data/variety/B-100 complex/20241209T195444_b-100_complex.json.gz
+  💊 B-100 complex
+  Start time: 1733802884.836892
+  Stop time: 1733806784.8393111
+  Duration: 3900.002419233322 s
+  Measurements: 7665280
+  Measurements per second: 1965.4551910526432
+  Byte count: 45738710
+  Seconds per byte: 8.526699636332818e-05
+  Baseline mean: 11.225104878409258
+  ⚠️  Noise peak removed at index 4724604
+  ⚠️  Noise peak removed at index 4724727
+  ⚠️  Noise peak removed at index 4724766
+  Minimum slope: -0.009896290125635254
+data/variety/B-100 complex/20241209T195444_b-100_complex.json.gz,-0.009896290125635254,
+
+  data/variety/Calcium carbonate/20241121T060930_antacid_generic.json.gz
+  💊 Calcium carbonate
+  Start time: 1732198171.0503218
+  Stop time: 1732202071.053257
+  Duration: 3900.0029351711273 s
+  Measurements: 8823925
+  Measurements per second: 2262.5431689868246
+  Byte count: 45738493
+  Seconds per byte: 8.526741218105125e-05
+  Baseline mean: 11.026017803749474
+  ⚠️  Noise peak removed at index 44064
+  ⚠️  Noise peak removed at index 44080
+  ⚠️  Noise peak removed at index 44119
+  ⚠️  Noise peak removed at index 2550049
+  ⚠️  Noise peak removed at index 4535207
+  ⚠️  Noise peak removed at index 4535291
+  Minimum slope: -0.029452018493292407
+data/variety/Calcium carbonate/20241121T060930_antacid_generic.json.gz,-0.029452018493292407,
+
+  data/variety/Calcium carbonate/20241121T074722_antacid_generic.json.gz
+  💊 Calcium carbonate
+  Start time: 1732204043.2794812
+  Stop time: 1732207943.28239
+  Duration: 3900.0029089450836 s
+  Measurements: 8893414
+  Measurements per second: 2280.360863219353
+  Byte count: 45738686
+  Seconds per byte: 8.526705181135032e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 8608019
+  Baseline mean: 13.186819995679805
+  ⚠️  Noise peak removed at index 8023224
+  Minimum slope: -0.051446079527057834
+data/variety/Calcium carbonate/20241121T074722_antacid_generic.json.gz,-0.051446079527057834,
+
+  data/variety/Calcium carbonate/20241121T085719_antacid_generic.json.gz
+  💊 Calcium carbonate
+  Start time: 1732208240.352811
+  Stop time: 1732212140.356192
+  Duration: 3900.0033810138702 s
+  Measurements: 9147493
+  Measurements per second: 2345.5089922568113
+  Byte count: 45738525
+  Seconds per byte: 8.526736227313561e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 2846610
+  Baseline mean: 25.983874940786357
+  Minimum slope: -0.040467659180592586
+data/variety/Calcium carbonate/20241121T085719_antacid_generic.json.gz,-0.040467659180592586,
+
+  data/variety/Cold medicine/20241128T092512_sudafed_pe.json.gz
+  💊 Cold medicine
+  Start time: 1732814713.207484
+  Stop time: 1732818613.210069
+  Duration: 3900.0025849342346 s
+  Measurements: 8558254
+  Measurements per second: 2194.422648092762
+  Byte count: 45738303
+  Seconds per byte: 8.526775873023174e-05
+  Baseline mean: 22.958659362853226
+  Minimum slope: -0.13116570306128214
+data/variety/Cold medicine/20241128T092512_sudafed_pe.json.gz,-0.13116570306128214,
+
+  data/variety/Cold medicine/20241128T103235_sudafed_pe.json.gz
+  💊 Cold medicine
+  Start time: 1732818756.200406
+  Stop time: 1732822656.2046459
+  Duration: 3900.004239797592 s
+  Measurements: 9147445
+  Measurements per second: 2345.496168095127
+  Byte count: 45738749
+  Seconds per byte: 8.526696346237174e-05
+  Baseline mean: 25.163934037926772
+  Minimum slope: -0.04383910966183215
+data/variety/Cold medicine/20241128T103235_sudafed_pe.json.gz,-0.04383910966183215,
+
+  data/variety/Cold medicine/20241128T114702_sudafed_pe.json.gz
+  💊 Cold medicine
+  Start time: 1732823223.273896
+  Stop time: 1732827123.276031
+  Duration: 3900.002135038376 s
+  Measurements: 9050262
+  Measurements per second: 2320.578729609066
+  Byte count: 45737996
+  Seconds per byte: 8.526832122330799e-05
+  Baseline mean: 24.003733277532326
+  Minimum slope: -0.07256426248878019
+data/variety/Cold medicine/20241128T114702_sudafed_pe.json.gz,-0.07256426248878019,
+
+  data/variety/Doxycycline/20241128T125419_doxycycline.json.gz
+  💊 Doxycycline
+  Start time: 1732827259.7828639
+  Stop time: 1732831159.78431
+  Duration: 3900.001446247101 s
+  Measurements: 8467667
+  Measurements per second: 2171.195861516482
+  Byte count: 45738464
+  Seconds per byte: 8.526743369097618e-05
+  Baseline mean: 23.86654649973206
+  ⚠️  Noise peak removed at index 5700250
+  Minimum slope: -0.03168890498036632
+data/variety/Doxycycline/20241128T125419_doxycycline.json.gz,-0.03168890498036632,
+
+  data/variety/Doxycycline/20241128T170703_doxycycline.json.gz
+  💊 Doxycycline
+  Start time: 1732842424.381216
+  Stop time: 1732846324.381393
+  Duration: 3900.0001769065857 s
+  Measurements: 7624450
+  Measurements per second: 1954.987090807669
+  Byte count: 45738986
+  Seconds per byte: 8.526643281743469e-05
+  Baseline mean: 10.441947714573184
+  Minimum slope: -0.028806846165878683
+data/variety/Doxycycline/20241128T170703_doxycycline.json.gz,-0.028806846165878683,
+
+  data/variety/Doxycycline/20250421T161441_doxycycline.json.gz
+  💊 Doxycycline
+  Start time: 1745277281.911167
+  Stop time: 1745281181.913224
+  Duration: 3900.0020570755005 s
+  Measurements: 7637051
+  Measurements per second: 1958.2171722562641
+  Byte count: 45733445
+  Seconds per byte: 8.527680469021086e-05
+  Baseline mean: 16.591536003820394
+  Minimum slope: -0.022683394976488972
+data/variety/Doxycycline/20250421T161441_doxycycline.json.gz,-0.022683394976488972,
+
+  data/variety/Escitalopram/20241122T055616_escitalopram.json.gz
+  💊 Escitalopram
+  Start time: 1732283777.311627
+  Stop time: 1732287677.315474
+  Duration: 3900.0038471221924 s
+  Measurements: 7627585
+  Measurements per second: 1955.789096369324
+  Byte count: 45738910
+  Seconds per byte: 8.526665473930605e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 1497073
+  Baseline mean: 12.079826511064752
+  Minimum slope: -0.04172779497236574
+data/variety/Escitalopram/20241122T055616_escitalopram.json.gz,-0.04172779497236574,
+
+  data/variety/Escitalopram/20241122T070300_escitalopram.json.gz
+  💊 Escitalopram
+  Start time: 1732287781.501087
+  Stop time: 1732291681.503616
+  Duration: 3900.002529144287 s
+  Measurements: 7627064
+  Measurements per second: 1955.656167657276
+  Byte count: 45738572
+  Seconds per byte: 8.526725602942495e-05
+  Baseline mean: 12.609715890358007
+  Minimum slope: -0.005194857665892531
+data/variety/Escitalopram/20241122T070300_escitalopram.json.gz,-0.005194857665892531,
+
+  data/variety/Escitalopram/20241122T080857_escitalopram.json.gz
+  💊 Escitalopram
+  Start time: 1732291738.459549
+  Stop time: 1732295638.462353
+  Duration: 3900.002804040909 s
+  Measurements: 8609546
+  Measurements per second: 2207.5743102234164
+  Byte count: 45738461
+  Seconds per byte: 8.526746896973443e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 2479058
+  ⚠️  Out-of-dynamic-range measurement removed at index 2517087
+  ⚠️  Out-of-dynamic-range measurement removed at index 2958174
+  ⚠️  Out-of-dynamic-range measurement removed at index 5994845
+  Baseline mean: 18.124507580279335
+  ⚠️  Noise peak removed at index 6001072
+  Minimum slope: -0.043217558947381884
+data/variety/Escitalopram/20241122T080857_escitalopram.json.gz,-0.043217558947381884,
+
+  data/variety/Famotidine/20241120T194053_famotidine.json.gz
+  💊 Famotidine
+  Start time: 1732160454.286433
+  Stop time: 1732164354.288372
+  Duration: 3900.001939058304 s
+  Measurements: 7632205
+  Measurements per second: 1956.974668028723
+  Byte count: 45738622
+  Seconds per byte: 8.526714991672255e-05
+  Baseline mean: 12.95784375586214
+  ⚠️  Noise peak removed at index 1914928
+  ⚠️  Noise peak removed at index 2089237
+  ⚠️  Noise peak removed at index 6562441
+  ⚠️  Noise peak removed at index 6563484
+  ⚠️  Noise peak removed at index 6563561
+  Minimum slope: -0.018665575399290136
+data/variety/Famotidine/20241120T194053_famotidine.json.gz,-0.018665575399290136,
+
+  data/variety/Famotidine/20241120T204850_famotidine.json.gz
+  💊 Famotidine
+  Start time: 1732164530.6925938
+  Stop time: 1732168430.695617
+  Duration: 3900.003023147583 s
+  Measurements: 7629410
+  Measurements per second: 1956.257457934614
+  Byte count: 45738503
+  Seconds per byte: 8.52673954621467e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 2847576
+  ⚠️  Out-of-dynamic-range measurement removed at index 4623772
+  Baseline mean: 11.690888316649328
+  ⚠️  Noise peak removed at index 606107
+  ⚠️  Noise peak removed at index 3844244
+  Minimum slope: -0.014735900281338442
+data/variety/Famotidine/20241120T204850_famotidine.json.gz,-0.014735900281338442,
+
+  data/variety/Famotidine/20241120T215602_famotidine.json.gz
+  💊 Famotidine
+  Start time: 1732168562.998194
+  Stop time: 1732172463.0018308
+  Duration: 3900.0036368370056 s
+  Measurements: 7632193
+  Measurements per second: 1956.9707391836914
+  Byte count: 45738688
+  Seconds per byte: 8.526706399704788e-05
+  Baseline mean: 12.039904955718004
+  ⚠️  Noise peak removed at index 5009
+  Minimum slope: -0.015073202146814773
+data/variety/Famotidine/20241120T215602_famotidine.json.gz,-0.015073202146814773,
+
+  data/variety/Ferrous sulfate/20241127T184215_iron_65_mg.json.gz
+  💊 Ferrous sulfate
+  Start time: 1732761736.341076
+  Stop time: 1732765636.343293
+  Duration: 3900.002217054367 s
+  Measurements: 7804490
+  Measurements per second: 2001.1501444464957
+  Byte count: 45736410
+  Seconds per byte: 8.527127986333793e-05
+  Baseline mean: 11.043505201523507
+  Minimum slope: -0.04502056182259041
+data/variety/Ferrous sulfate/20241127T184215_iron_65_mg.json.gz,-0.04502056182259041,
+
+  data/variety/Ferrous sulfate/20241127T194917_iron_65_mg.json.gz
+  💊 Ferrous sulfate
+  Start time: 1732765758.459844
+  Stop time: 1732769658.4629781
+  Duration: 3900.0031340122223 s
+  Measurements: 7798473
+  Measurements per second: 1999.6068546686354
+  Byte count: 45738487
+  Seconds per byte: 8.526742771382495e-05
+  Baseline mean: 11.209682920451574
+  Minimum slope: -0.0448726049113562
+data/variety/Ferrous sulfate/20241127T194917_iron_65_mg.json.gz,-0.0448726049113562,
+
+  data/variety/Ferrous sulfate/20241127T205738_iron_65_mg.json.gz
+  💊 Ferrous sulfate
+  Start time: 1732769859.133733
+  Stop time: 1732773759.13611
+  Duration: 3900.0023770332336 s
+  Measurements: 7726962
+  Measurements per second: 1981.2711001160899
+  Byte count: 45682237
+  Seconds per byte: 8.537240365512823e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 5489242
+  Baseline mean: 9.987131547344637
+  ⚠️  Noise peak removed at index 25109
+  ⚠️  Noise peak removed at index 4944114
+  Minimum slope: -0.03308133588136219
+data/variety/Ferrous sulfate/20241127T205738_iron_65_mg.json.gz,-0.03308133588136219,
+
+  data/variety/Fexofenadine/20241122T091604_fexofenadine.json.gz
+  💊 Fexofenadine
+  Start time: 1732295765.087023
+  Stop time: 1732299665.0898292
+  Duration: 3900.002806186676 s
+  Measurements: 9147752
+  Measurements per second: 2345.575748173484
+  Byte count: 45738847
+  Seconds per byte: 8.526674942607706e-05
+  Baseline mean: 27.90915765838315
+  ⚠️  Noise peak removed at index 171
+  Minimum slope: -0.031036157342307108
+data/variety/Fexofenadine/20241122T091604_fexofenadine.json.gz,-0.031036157342307108,
+
+  data/variety/Fexofenadine/20241122T102749_fexofenadine.json.gz
+  💊 Fexofenadine
+  Start time: 1732300069.805248
+  Stop time: 1732303969.80932
+  Duration: 3900.0040719509125 s
+  Measurements: 9147713
+  Measurements per second: 2345.5649869165413
+  Byte count: 45738589
+  Seconds per byte: 8.526725806847502e-05
+  Baseline mean: 28.908233499604453
+  Minimum slope: -0.072997709445192
+data/variety/Fexofenadine/20241122T102749_fexofenadine.json.gz,-0.072997709445192,
+
+  data/variety/Fexofenadine/20241122T113837_fexofenadine.json.gz
+  💊 Fexofenadine
+  Start time: 1732304318.007786
+  Stop time: 1732308218.009217
+  Duration: 3900.0014309883118 s
+  Measurements: 9147624
+  Measurements per second: 2345.5437547575134
+  Byte count: 45738161
+  Seconds per byte: 8.526799822555856e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 7547924
+  Baseline mean: 27.104879700993372
+  ⚠️  Noise peak removed at index 4927278
+  ⚠️  Noise peak removed at index 4931606
+  ⚠️  Noise peak removed at index 5791730
+  ⚠️  Noise peak removed at index 6103753
+  ⚠️  Noise peak removed at index 6173296
+  ⚠️  Noise peak removed at index 6300316
+  Minimum slope: -0.017065675344585893
+data/variety/Fexofenadine/20241122T113837_fexofenadine.json.gz,-0.017065675344585893,
+
+  data/variety/Guaifenesin ext. rel./20241117T105249_guaifenesin_generic.json.gz
+  💊 Guaifenesin ext. rel.
+  Start time: 1731869570.318491
+  Stop time: 1731873470.3194082
+  Duration: 3900.000917196274 s
+  Measurements: 9147140
+  Measurements per second: 2345.41996122809
+  Byte count: 45738432
+  Seconds per byte: 8.52674817797924e-05
+  Baseline mean: 27.131279014684985
+  Minimum slope: -0.04739361288821317
+data/variety/Guaifenesin ext. rel./20241117T105249_guaifenesin_generic.json.gz,-0.04739361288821317,
+
+  data/variety/Guaifenesin ext. rel./20241117T120048_guaifenesin_generic.json.gz
+  💊 Guaifenesin ext. rel.
+  Start time: 1731873649.4690619
+  Stop time: 1731877549.470838
+  Duration: 3900.0017762184143 s
+  Measurements: 9147778
+  Measurements per second: 2345.583034290313
+  Byte count: 45738976
+  Seconds per byte: 8.526648642545942e-05
+  Baseline mean: 27.383433679293994
+  ⚠️  Noise peak removed at index 7729609
+  ⚠️  Noise peak removed at index 7729694
+  Minimum slope: -0.04549589023019304
+data/variety/Guaifenesin ext. rel./20241117T120048_guaifenesin_generic.json.gz,-0.04549589023019304,
+
+  data/variety/Guaifenesin ext. rel./20241117T130908_guaifenesin_generic.json.gz
+  💊 Guaifenesin ext. rel.
+  Start time: 1731877749.1360278
+  Stop time: 1731881649.1386602
+  Duration: 3900.002632379532 s
+  Measurements: 8766158
+  Measurements per second: 2247.7313033636215
+  Byte count: 45738108
+  Seconds per byte: 8.526812329839992e-05
+  Baseline mean: 27.09050729752391
+  Minimum slope: -0.04807399761868693
+data/variety/Guaifenesin ext. rel./20241117T130908_guaifenesin_generic.json.gz,-0.04807399761868693,
+
+  data/variety/Hydrocodone acetamin./20241119T162222_hydrocodone_acetaminophen.json.gz
+  💊 Hydrocodone acetamin.
+  Start time: 1732062143.108354
+  Stop time: 1732066043.1119611
+  Duration: 3900.0036070346832 s
+  Measurements: 7626534
+  Measurements per second: 1955.5197298391054
+  Byte count: 45738590
+  Seconds per byte: 8.526724603960645e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 3292253
+  Baseline mean: 12.04885230618811
+  Minimum slope: -0.09535920926838626
+data/variety/Hydrocodone acetamin./20241119T162222_hydrocodone_acetaminophen.json.gz,-0.09535920926838626,
+
+  data/variety/Hydrocodone acetamin./20241119T175656_hydrocodone_acetaminophen.json.gz
+  💊 Hydrocodone acetamin.
+  Start time: 1732067817.4723442
+  Stop time: 1732071717.475543
+  Duration: 3900.003198862076 s
+  Measurements: 7626162
+  Measurements per second: 1955.424549965786
+  Byte count: 45737982
+  Seconds per byte: 8.526837058228926e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 2360943
+  Baseline mean: 12.008413154080095
+  Minimum slope: -0.16042749211267518
+data/variety/Hydrocodone acetamin./20241119T175656_hydrocodone_acetaminophen.json.gz,-0.16042749211267518,
+
+  data/variety/Hydrocodone acetamin./20241119T192545_hydrocodone_acetaminophen.json.gz
+  💊 Hydrocodone acetamin.
+  Start time: 1732073145.607244
+  Stop time: 1732077045.610587
+  Duration: 3900.0033428668976 s
+  Measurements: 7626629
+  Measurements per second: 1955.544221250245
+  Byte count: 45737374
+  Seconds per byte: 8.526950722765364e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 6129267
+  Baseline mean: 12.439376282594237
+  ⚠️  Noise peak removed at index 5684568
+  ⚠️  Noise peak removed at index 5684722
+  ⚠️  Noise peak removed at index 5684754
+  Minimum slope: -0.15698778557974075
+data/variety/Hydrocodone acetamin./20241119T192545_hydrocodone_acetaminophen.json.gz,-0.15698778557974075,
+
+  data/variety/Ibuprofen methocarbamol/20241121T194719_ibuprofen_methocarbamol.json.gz
+  💊 Ibuprofen methocarbamol
+  Start time: 1732247239.859359
+  Stop time: 1732251139.862135
+  Duration: 3900.0027759075165 s
+  Measurements: 7788480
+  Measurements per second: 1997.044732407312
+  Byte count: 45738334
+  Seconds per byte: 8.526770511377867e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 7369948
+  Baseline mean: 12.989449569967656
+  ⚠️  Noise peak removed at index 357882
+  ⚠️  Noise peak removed at index 6729958
+  ⚠️  Noise peak removed at index 6882443
+  Minimum slope: -0.12260500194290352
+data/variety/Ibuprofen methocarbamol/20241121T194719_ibuprofen_methocarbamol.json.gz,-0.12260500194290352,
+
+  data/variety/Ibuprofen methocarbamol/20241121T205430_ibuprofen_methocarbamol.json.gz
+  💊 Ibuprofen methocarbamol
+  Start time: 1732251270.5895638
+  Stop time: 1732255170.593569
+  Duration: 3900.0040051937103 s
+  Measurements: 7770031
+  Measurements per second: 1992.3135949738771
+  Byte count: 45738103
+  Seconds per byte: 8.526816263441688e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 616828
+  ⚠️  Out-of-dynamic-range measurement removed at index 5449753
+  Baseline mean: 12.025944348122673
+  ⚠️  Noise peak removed at index 949994
+  ⚠️  Noise peak removed at index 4805515
+  ⚠️  Noise peak removed at index 5227545
+  ⚠️  Noise peak removed at index 6320250
+  ⚠️  Noise peak removed at index 6320303
+  Minimum slope: -0.18162709135977137
+data/variety/Ibuprofen methocarbamol/20241121T205430_ibuprofen_methocarbamol.json.gz,-0.18162709135977137,
+
+  data/variety/Ibuprofen methocarbamol/20241121T220440_ibuprofen_methocarbamol.json.gz
+  💊 Ibuprofen methocarbamol
+  Start time: 1732255480.540332
+  Stop time: 1732259380.540577
+  Duration: 3900.0002448558807 s
+  Measurements: 7779651
+  Measurements per second: 1994.7821824527825
+  Byte count: 45738715
+  Seconds per byte: 8.526693950312947e-05
+  Baseline mean: 12.82163849066042
+  Minimum slope: -0.16010222164728383
+data/variety/Ibuprofen methocarbamol/20241121T220440_ibuprofen_methocarbamol.json.gz,-0.16010222164728383,
+
+  data/variety/Ibuprofen/20241117T195410_ibuprofen_600mg_generic.json.gz
+  💊 Ibuprofen
+  Start time: 1731902051.477673
+  Stop time: 1731905951.4792929
+  Duration: 3900.0016198158264 s
+  Measurements: 8941225
+  Measurements per second: 2292.6208426606345
+  Byte count: 45738112
+  Seconds per byte: 8.526809370303318e-05
+  Baseline mean: 13.626844630391778
+  Minimum slope: -0.035523619818936245
+data/variety/Ibuprofen/20241117T195410_ibuprofen_600mg_generic.json.gz,-0.035523619818936245,
+
+  data/variety/Ibuprofen/20241118T081627_ibuprofen_600mg_generic.json.gz
+  💊 Ibuprofen
+  Start time: 1731946587.545193
+  Stop time: 1731950487.5475042
+  Duration: 3900.002311229706 s
+  Measurements: 8996598
+  Measurements per second: 2306.818632926218
+  Byte count: 45738751
+  Seconds per byte: 8.526691756908066e-05
+  Baseline mean: 20.54087392493136
+  Minimum slope: -0.08302884146543596
+data/variety/Ibuprofen/20241118T081627_ibuprofen_600mg_generic.json.gz,-0.08302884146543596,
+
+  data/variety/Ibuprofen/20241118T092825_ibuprofen_600mg_generic.json.gz
+  💊 Ibuprofen
+  Start time: 1731950906.032505
+  Stop time: 1731954806.0348558
+  Duration: 3900.00235080719 s
+  Measurements: 9147411
+  Measurements per second: 2345.488586207325
+  Byte count: 45738403
+  Seconds per byte: 8.526756718653229e-05
+  Baseline mean: 26.844187588820464
+  Minimum slope: -0.048225585186649905
+data/variety/Ibuprofen/20241118T092825_ibuprofen_600mg_generic.json.gz,-0.048225585186649905,
+
+  data/variety/Iron complex/20241122T201813_iron_complex.json.gz
+  💊 Iron complex
+  Start time: 1732335493.8561149
+  Stop time: 1732339393.8602822
+  Duration: 3900.004167318344 s
+  Measurements: 7624514
+  Measurements per second: 1955.0015007400982
+  Byte count: 45739389
+  Seconds per byte: 8.52657687954324e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 6437693
+  ⚠️  Out-of-dynamic-range measurement removed at index 6871315
+  ⚠️  Out-of-dynamic-range measurement removed at index 6914527
+  ⚠️  Out-of-dynamic-range measurement removed at index 7163320
+  Baseline mean: 11.282331273696716
+  ⚠️  Noise peak removed at index 1786087
+  ⚠️  Noise peak removed at index 6326667
+  ⚠️  Noise peak removed at index 6334864
+  ⚠️  Noise peak removed at index 6350893
+  ⚠️  Noise peak removed at index 6354696
+  ⚠️  Noise peak removed at index 6370835
+  ⚠️  Noise peak removed at index 6461666
+  Minimum slope: -0.0066734014963689275
+data/variety/Iron complex/20241122T201813_iron_complex.json.gz,-0.0066734014963689275,
+
+  data/variety/Iron complex/20250409T115717_iron_complex.json.gz
+  💊 Iron complex
+  Start time: 1744225037.260549
+  Stop time: 1744228937.262629
+  Duration: 3900.002079963684 s
+  Measurements: 7624091
+  Measurements per second: 1954.8940856131528
+  Byte count: 45733015
+  Seconds per byte: 8.527760699712634e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 3279611
+  ⚠️  Out-of-dynamic-range measurement removed at index 7149750
+  ⚠️  Out-of-dynamic-range measurement removed at index 7303931
+  Baseline mean: 14.540353390639924
+  ⚠️  Noise peak removed at index 286740
+  ⚠️  Noise peak removed at index 2693443
+  ⚠️  Noise peak removed at index 3767358
+  ⚠️  Noise peak removed at index 4119880
+  ⚠️  Noise peak removed at index 4309057
+  Minimum slope: -0.006853382621724732
+data/variety/Iron complex/20250409T115717_iron_complex.json.gz,-0.006853382621724732,
+
+  data/variety/Iron complex/20250409T130446_iron_complex.json.gz
+  💊 Iron complex
+  Start time: 1744229086.96902
+  Stop time: 1744232986.971329
+  Duration: 3900.0023090839386 s
+  Measurements: 7623375
+  Measurements per second: 1954.7103811306806
+  Byte count: 45733790
+  Seconds per byte: 8.527616690162654e-05
+  Baseline mean: 12.1653448854172
+  Minimum slope: -0.01076765886545283
+data/variety/Iron complex/20250409T130446_iron_complex.json.gz,-0.01076765886545283,
+
+  data/variety/Lactase/20241120T111552_lactase.json.gz
+  💊 Lactase
+  Start time: 1732130152.7802382
+  Stop time: 1732134052.782613
+  Duration: 3900.0023748874664 s
+  Measurements: 9147584
+  Measurements per second: 2345.5329306726258
+  Byte count: 45738006
+  Seconds per byte: 8.526830782451396e-05
+  Baseline mean: 27.71658187192678
+  ⚠️  Noise peak removed at index 570829
+  ⚠️  Noise peak removed at index 1559744
+  ⚠️  Noise peak removed at index 1559769
+  ⚠️  Noise peak removed at index 4065026
+  Minimum slope: -0.06299172723120482
+data/variety/Lactase/20241120T111552_lactase.json.gz,-0.06299172723120482,
+
+  data/variety/Lactase/20241120T122227_lactase.json.gz
+  💊 Lactase
+  Start time: 1732134148.241538
+  Stop time: 1732138048.245996
+  Duration: 3900.004457950592 s
+  Measurements: 9141482
+  Measurements per second: 2343.967064284779
+  Byte count: 45738366
+  Seconds per byte: 8.526768223312989e-05
+  Baseline mean: 26.02542870677404
+  ⚠️  Noise peak removed at index 3938585
+  ⚠️  Noise peak removed at index 3938606
+  Minimum slope: -0.06713121285848785
+data/variety/Lactase/20241120T122227_lactase.json.gz,-0.06713121285848785,
+
+  data/variety/Lactase/20241120T133459_lactase.json.gz
+  💊 Lactase
+  Start time: 1732138499.7418728
+  Stop time: 1732142399.744195
+  Duration: 3900.0023221969604 s
+  Measurements: 8178053
+  Measurements per second: 2096.9354180776786
+  Byte count: 45738277
+  Seconds per byte: 8.526780145646851e-05
+  Baseline mean: 24.965084162801606
+  ⚠️  Noise peak removed at index 6542919
+  ⚠️  Noise peak removed at index 6948915
+  Minimum slope: -0.05560139106565359
+data/variety/Lactase/20241120T133459_lactase.json.gz,-0.05560139106565359,
+
+  data/variety/Magnesium oxide chelated/20241122T212828_chelated_magnesium.json.gz
+  💊 Magnesium oxide chelated
+  Start time: 1732339709.399041
+  Stop time: 1732343609.4024892
+  Duration: 3900.0034482479095 s
+  Measurements: 7643648
+  Measurements per second: 1959.9080107054613
+  Byte count: 45738590
+  Seconds per byte: 8.526724256799149e-05
+  Baseline mean: 11.109369137893792
+  ⚠️  Noise peak removed at index 1629777
+  ⚠️  Noise peak removed at index 2728131
+  ⚠️  Noise peak removed at index 2728155
+  ⚠️  Noise peak removed at index 2728185
+  Minimum slope: -0.0721104394868704
+data/variety/Magnesium oxide chelated/20241122T212828_chelated_magnesium.json.gz,-0.0721104394868704,
+
+  data/variety/Magnesium oxide chelated/20241123T071513_chelated_magnesium.json.gz
+  💊 Magnesium oxide chelated
+  Start time: 1732374914.0823722
+  Stop time: 1732378814.085081
+  Duration: 3900.0027089118958 s
+  Measurements: 7747501
+  Measurements per second: 1986.5373381141983
+  Byte count: 45738330
+  Seconds per byte: 8.526771110602192e-05
+  Baseline mean: 11.805533291268041
+  ⚠️  Noise peak removed at index 433930
+  ⚠️  Noise peak removed at index 870383
+  ⚠️  Noise peak removed at index 1557510
+  ⚠️  Noise peak removed at index 1557604
+  ⚠️  Noise peak removed at index 1557879
+  ⚠️  Noise peak removed at index 1558254
+  Minimum slope: -0.09203795745091574
+data/variety/Magnesium oxide chelated/20241123T071513_chelated_magnesium.json.gz,-0.09203795745091574,
+
+  data/variety/Magnesium oxide chelated/20241123T082135_chelated_magnesium.json.gz
+  💊 Magnesium oxide chelated
+  Start time: 1732378896.169117
+  Stop time: 1732382796.170995
+  Duration: 3900.0018780231476 s
+  Measurements: 8487812
+  Measurements per second: 2176.3610032676047
+  Byte count: 45738748
+  Seconds per byte: 8.52669136904042e-05
+  Baseline mean: 19.082134858286246
+  Minimum slope: -0.016121825808858486
+data/variety/Magnesium oxide chelated/20241123T082135_chelated_magnesium.json.gz,-0.016121825808858486,
+
+  data/variety/Magnesium oxide/20241118T140948_magnesium_250mg.json.gz
+  💊 Magnesium oxide
+  Start time: 1731967788.538937
+  Stop time: 1731971688.5425
+  Duration: 3900.003562927246 s
+  Measurements: 8942432
+  Measurements per second: 2292.929187297468
+  Byte count: 45738111
+  Seconds per byte: 8.526813805072199e-05
+  Baseline mean: 22.377211622595198
+  ⚠️  Noise peak removed at index 1974462
+  Minimum slope: -0.07952367922249315
+data/variety/Magnesium oxide/20241118T140948_magnesium_250mg.json.gz,-0.07952367922249315,
+
+  data/variety/Magnesium oxide/20241118T161414_magnesium_250mg.json.gz
+  💊 Magnesium oxide
+  Start time: 1731975255.276829
+  Stop time: 1731979155.2788239
+  Duration: 3900.0019948482513 s
+  Measurements: 8181779
+  Measurements per second: 2097.8909782117566
+  Byte count: 45738716
+  Seconds per byte: 8.526697589954758e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 8006374
+  Baseline mean: 15.6896526242191
+  ⚠️  Noise peak removed at index 1816587
+  Minimum slope: -0.07889830288813858
+data/variety/Magnesium oxide/20241118T161414_magnesium_250mg.json.gz,-0.07889830288813858,
+
+  data/variety/Magnesium oxide/20241118T175635_magnesium_250mg.json.gz
+  💊 Magnesium oxide
+  Start time: 1731981395.7389572
+  Stop time: 1731985295.742212
+  Duration: 3900.003254890442 s
+  Measurements: 8286629
+  Measurements per second: 2124.774893356541
+  Byte count: 45738237
+  Seconds per byte: 8.526789641871071e-05
+  Baseline mean: 11.886798244616749
+  Minimum slope: -0.16536807169285966
+data/variety/Magnesium oxide/20241118T175635_magnesium_250mg.json.gz,-0.16536807169285966,
+
+  data/variety/Meclizine/20241122T131011_meclizine.json.gz
+  💊 Meclizine
+  Start time: 1732309811.860683
+  Stop time: 1732313711.864227
+  Duration: 3900.0035440921783 s
+  Measurements: 8747352
+  Measurements per second: 2242.908731006336
+  Byte count: 45737781
+  Seconds per byte: 8.526875285209352e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 160582
+  ⚠️  Out-of-dynamic-range measurement removed at index 163718
+  ⚠️  Out-of-dynamic-range measurement removed at index 771968
+  ⚠️  Out-of-dynamic-range measurement removed at index 3548900
+  ⚠️  Out-of-dynamic-range measurement removed at index 4581221
+  ⚠️  Out-of-dynamic-range measurement removed at index 4597420
+  ⚠️  Out-of-dynamic-range measurement removed at index 4603168
+  Baseline mean: 25.494206427407434
+  ⚠️  Noise peak removed at index 139922
+  ⚠️  Noise peak removed at index 231319
+  ⚠️  Noise peak removed at index 1593526
+  ⚠️  Noise peak removed at index 3701309
+  ⚠️  Noise peak removed at index 3707364
+  ⚠️  Noise peak removed at index 3729545
+  ⚠️  Noise peak removed at index 3818011
+  ⚠️  Noise peak removed at index 3905445
+  Minimum slope: -0.03438685192029029
+data/variety/Meclizine/20241122T131011_meclizine.json.gz,-0.03438685192029029,
+
+  data/variety/Meclizine/20241122T141647_meclizine.json.gz
+  💊 Meclizine
+  Start time: 1732313807.5917451
+  Stop time: 1732317707.594243
+  Duration: 3900.0024979114532 s
+  Measurements: 8593525
+  Measurements per second: 2203.46653741941
+  Byte count: 45739164
+  Seconds per byte: 8.52661517362113e-05
+  Baseline mean: 21.950609354039244
+  Minimum slope: -0.07347798899811625
+data/variety/Meclizine/20241122T141647_meclizine.json.gz,-0.07347798899811625,
+
+  data/variety/Meclizine/20241122T152524_meclizine.json.gz
+  💊 Meclizine
+  Start time: 1732317924.580086
+  Stop time: 1732321824.5836139
+  Duration: 3900.003527879715 s
+  Measurements: 7774870
+  Measurements per second: 1993.5546069177285
+  Byte count: 45738171
+  Seconds per byte: 8.526802542847013e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 2152990
+  Baseline mean: 20.86733516374199
+  ⚠️  Noise peak removed at index 1565931
+  Minimum slope: -0.0780995272712499
+data/variety/Meclizine/20241122T152524_meclizine.json.gz,-0.0780995272712499,
+
+  data/variety/Melatonin/20241122T165417_melatonin.json.gz
+  💊 Melatonin
+  Start time: 1732323258.120526
+  Stop time: 1732327158.125089
+  Duration: 3900.004562854767 s
+  Measurements: 7623399
+  Measurements per second: 1954.7154053634601
+  Byte count: 45739034
+  Seconds per byte: 8.526643922682685e-05
+  Baseline mean: 12.093787481738755
+  ⚠️  Noise peak removed at index 5106667
+  Minimum slope: -0.005926399469374818
+data/variety/Melatonin/20241122T165417_melatonin.json.gz,-0.005926399469374818,
+
+  data/variety/Melatonin/20241122T180504_melatonin.json.gz
+  💊 Melatonin
+  Start time: 1732327505.500938
+  Stop time: 1732331405.505228
+  Duration: 3900.0042901039124 s
+  Measurements: 7623220
+  Measurements per second: 1954.6696446831052
+  Byte count: 45738236
+  Seconds per byte: 8.526792091640597e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 7381530
+  Baseline mean: 11.905813001659883
+  ⚠️  Noise peak removed at index 635120
+  ⚠️  Noise peak removed at index 4747952
+  ⚠️  Noise peak removed at index 6421352
+  ⚠️  Noise peak removed at index 6582942
+  ⚠️  Noise peak removed at index 6584185
+  ⚠️  Noise peak removed at index 6623935
+  Minimum slope: -0.014150645994047823
+data/variety/Melatonin/20241122T180504_melatonin.json.gz,-0.014150645994047823,
+
+  data/variety/Melatonin/20241122T191121_melatonin.json.gz
+  💊 Melatonin
+  Start time: 1732331482.08591
+  Stop time: 1732335382.088943
+  Duration: 3900.0030329227448 s
+  Measurements: 7623127
+  Measurements per second: 1954.6464286431765
+  Byte count: 45737993
+  Seconds per byte: 8.526834644718112e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 3356298
+  ⚠️  Out-of-dynamic-range measurement removed at index 4394687
+  ⚠️  Out-of-dynamic-range measurement removed at index 4557653
+  Baseline mean: 11.124071284427139
+  ⚠️  Noise peak removed at index 1129137
+  ⚠️  Noise peak removed at index 2167211
+  ⚠️  Noise peak removed at index 5707689
+  ⚠️  Noise peak removed at index 5707766
+  Minimum slope: -0.00477287839904167
+data/variety/Melatonin/20241122T191121_melatonin.json.gz,-0.00477287839904167,
+
+  data/variety/Meloxicam/20241119T203422_meloxicam.json.gz
+  💊 Meloxicam
+  Start time: 1732077262.835079
+  Stop time: 1732081162.8369532
+  Duration: 3900.0018742084503 s
+  Measurements: 7623787
+  Measurements per second: 1954.8162400684319
+  Byte count: 45738706
+  Seconds per byte: 8.526699190415336e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 7016513
+  Baseline mean: 11.15202537545902
+  ⚠️  Noise peak removed at index 6223774
+  Minimum slope: -0.005086311506149938
+data/variety/Meloxicam/20241119T203422_meloxicam.json.gz,-0.005086311506149938,
+
+  data/variety/Meloxicam/20241119T214202_meloxicam.json.gz
+  💊 Meloxicam
+  Start time: 1732081322.936051
+  Stop time: 1732085222.938081
+  Duration: 3900.002030134201 s
+  Measurements: 7623880
+  Measurements per second: 1954.8400080544723
+  Byte count: 45738559
+  Seconds per byte: 8.526726935438e-05
+  Baseline mean: 12.344734478563876
+  Minimum slope: -0.00807277100810049
+data/variety/Meloxicam/20241119T214202_meloxicam.json.gz,-0.00807277100810049,
+
+  data/variety/Meloxicam/20241120T055607_meloxicam.json.gz
+  💊 Meloxicam
+  Start time: 1732110968.1849349
+  Stop time: 1732114868.187388
+  Duration: 3900.0024530887604 s
+  Measurements: 7623840
+  Measurements per second: 1954.8295396486226
+  Byte count: 45738716
+  Seconds per byte: 8.526698591820463e-05
+  Baseline mean: 12.913652951943519
+  Minimum slope: -0.007495267143727452
+data/variety/Meloxicam/20241120T055607_meloxicam.json.gz,-0.007495267143727452,
+
+  data/variety/Microgestin Fe brown/20241121T183711_microgestin_fe_1.5_30_brown.json.gz
+  💊 Microgestin Fe brown
+  Start time: 1732243031.64212
+  Stop time: 1732246931.645795
+  Duration: 3900.003675222397 s
+  Measurements: 7625589
+  Measurements per second: 1955.277388184808
+  Byte count: 45737951
+  Seconds per byte: 8.526843878997546e-05
+  Baseline mean: 12.08594491657903
+  Minimum slope: -0.006545075379804991
+data/variety/Microgestin Fe brown/20241121T183711_microgestin_fe_1.5_30_brown.json.gz,-0.006545075379804991,
+
+  data/variety/Microgestin Fe brown/20241125T143300_microgestin_fe_1.5_30_brown.json.gz
+  💊 Microgestin Fe brown
+  Start time: 1732573980.740334
+  Stop time: 1732577880.740603
+  Duration: 3900.000268936157 s
+  Measurements: 7628466
+  Measurements per second: 1956.0167881939387
+  Byte count: 45737924
+  Seconds per byte: 8.526841465161727e-05
+  Baseline mean: 14.470681863399937
+  Minimum slope: -0.14361516655465748
+data/variety/Microgestin Fe brown/20241125T143300_microgestin_fe_1.5_30_brown.json.gz,-0.14361516655465748,
+
+  data/variety/Microgestin Fe brown/20241125T153953_microgestin_fe_1.5_30_brown.json.gz
+  💊 Microgestin Fe brown
+  Start time: 1732577993.548398
+  Stop time: 1732581893.552707
+  Duration: 3900.00430893898 s
+  Measurements: 7625932
+  Measurements per second: 1955.365019090115
+  Byte count: 45738468
+  Seconds per byte: 8.52674888222968e-05
+  Baseline mean: 18.8199093890869
+  Minimum slope: -0.03529381295283785
+data/variety/Microgestin Fe brown/20241125T153953_microgestin_fe_1.5_30_brown.json.gz,-0.03529381295283785,
+
+  data/variety/Microgestin Fe green/20241121T164900_microgestin_fe_1.5_30_green.json.gz
+  💊 Microgestin Fe green
+  Start time: 1732236540.578084
+  Stop time: 1732240440.581604
+  Duration: 3900.003520011902 s
+  Measurements: 7623145
+  Measurements per second: 1954.650799898954
+  Byte count: 45738558
+  Seconds per byte: 8.526730379239114e-05
+  Baseline mean: 11.190965057385016
+  Minimum slope: -0.005768153363001258
+data/variety/Microgestin Fe green/20241121T164900_microgestin_fe_1.5_30_green.json.gz,-0.005768153363001258,
+
+  data/variety/Microgestin Fe green/20241125T132524_microgestin_fe_1.5_30_green.json.gz
+  💊 Microgestin Fe green
+  Start time: 1732569925.096402
+  Stop time: 1732573825.0992892
+  Duration: 3900.002887248993 s
+  Measurements: 7623148
+  Measurements per second: 1954.6518862649511
+  Byte count: 45738432
+  Seconds per byte: 8.526752485194493e-05
+  Baseline mean: 18.57860809358959
+  Minimum slope: -0.04926623124071173
+data/variety/Microgestin Fe green/20241125T132524_microgestin_fe_1.5_30_green.json.gz,-0.04926623124071173,
+
+  data/variety/Microgestin Fe green/20250421T132354_microgestin_fe_1.5_30_green.json.gz
+  💊 Microgestin Fe green
+  Start time: 1745267034.211946
+  Stop time: 1745270934.2156632
+  Duration: 3900.0037171840668 s
+  Measurements: 7622273
+  Measurements per second: 1954.4271115473541
+  Byte count: 45733628
+  Seconds per byte: 8.527649976039659e-05
+  Baseline mean: 17.027027027027028
+  Minimum slope: -0.008362703127824616
+data/variety/Microgestin Fe green/20250421T132354_microgestin_fe_1.5_30_green.json.gz,-0.008362703127824616,
+
+  data/variety/Multivitamin/20241118T103838_multivitamin_one_a_day.json.gz
+  💊 Multivitamin
+  Start time: 1731955119.0082078
+  Stop time: 1731959019.0104032
+  Duration: 3900.0021953582764 s
+  Measurements: 9147813
+  Measurements per second: 2345.5917565604423
+  Byte count: 45739102
+  Seconds per byte: 8.526626070092667e-05
+  Baseline mean: 27.806223472790663
+  ⚠️  Noise peak removed at index 1601615
+  ⚠️  Noise peak removed at index 1601633
+  ⚠️  Noise peak removed at index 1760478
+  ⚠️  Noise peak removed at index 1760512
+  ⚠️  Noise peak removed at index 1760578
+  ⚠️  Noise peak removed at index 6410477
+  ⚠️  Noise peak removed at index 6410497
+  ⚠️  Noise peak removed at index 6410542
+  Minimum slope: -0.049251319343056287
+data/variety/Multivitamin/20241118T103838_multivitamin_one_a_day.json.gz,-0.049251319343056287,
+
+  data/variety/Multivitamin/20241118T115514_multivitamin_one_a_day.json.gz
+  💊 Multivitamin
+  Start time: 1731959714.5908322
+  Stop time: 1731963614.593961
+  Duration: 3900.0031287670135 s
+  Measurements: 9148162
+  Measurements per second: 2345.6806822850403
+  Byte count: 45740863
+  Seconds per byte: 8.526299839963696e-05
+  Baseline mean: 28.08995225283262
+  ⚠️  Noise peak removed at index 937043
+  ⚠️  Noise peak removed at index 937110
+  ⚠️  Noise peak removed at index 938332
+  ⚠️  Noise peak removed at index 1673366
+  ⚠️  Noise peak removed at index 1673475
+  ⚠️  Noise peak removed at index 1673845
+  ⚠️  Noise peak removed at index 7401845
+  Minimum slope: -0.05079917930707117
+data/variety/Multivitamin/20241118T115514_multivitamin_one_a_day.json.gz,-0.05079917930707117,
+
+  data/variety/Multivitamin/20241118T130146_multivitamin_one_a_day.json.gz
+  💊 Multivitamin
+  Start time: 1731963706.8957472
+  Stop time: 1731967606.897582
+  Duration: 3900.0018348693848 s
+  Measurements: 9146713
+  Measurements per second: 2345.3099222211863
+  Byte count: 45735362
+  Seconds per byte: 8.527322545013166e-05
+  Baseline mean: 24.05180870776799
+  ⚠️  Noise peak removed at index 679220
+  ⚠️  Noise peak removed at index 679260
+  ⚠️  Noise peak removed at index 679282
+  ⚠️  Noise peak removed at index 679320
+  ⚠️  Noise peak removed at index 679548
+  ⚠️  Noise peak removed at index 679613
+  ⚠️  Noise peak removed at index 679816
+  ⚠️  Noise peak removed at index 2919091
+  ⚠️  Noise peak removed at index 2919109
+  Minimum slope: -0.05761593750790456
+data/variety/Multivitamin/20241118T130146_multivitamin_one_a_day.json.gz,-0.05761593750790456,
+
+  data/variety/Nabumetone/20241119T061634_nabumetone.json.gz
+  💊 Nabumetone
+  Start time: 1732025794.532958
+  Stop time: 1732029694.53457
+  Duration: 3900.0016119480133 s
+  Measurements: 9000794
+  Measurements per second: 2307.8949435367517
+  Byte count: 45738680
+  Seconds per byte: 8.526703464000302e-05
+  Baseline mean: 11.874714355552019
+  Minimum slope: -0.06476728843320133
+data/variety/Nabumetone/20241119T061634_nabumetone.json.gz,-0.06476728843320133,
+
+  data/variety/Nabumetone/20241119T072652_nabumetone.json.gz
+  💊 Nabumetone
+  Start time: 1732030013.2562869
+  Stop time: 1732033913.26042
+  Duration: 3900.0041332244873 s
+  Measurements: 9006798
+  Measurements per second: 2309.4329370757005
+  Byte count: 45738431
+  Seconds per byte: 8.526755395751305e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 7621768
+  Baseline mean: 13.518670736767907
+  Minimum slope: -0.02033866272670784
+data/variety/Nabumetone/20241119T072652_nabumetone.json.gz,-0.02033866272670784,
+
+  data/variety/Nabumetone/20241119T083335_nabumetone.json.gz
+  💊 Nabumetone
+  Start time: 1732034015.831594
+  Stop time: 1732037915.8358731
+  Duration: 3900.0042791366577 s
+  Measurements: 9021845
+  Measurements per second: 2313.2910515670414
+  Byte count: 45738014
+  Seconds per byte: 8.526833454414216e-05
+  Baseline mean: 22.10720963937594
+  Minimum slope: -0.022740328058432346
+data/variety/Nabumetone/20241119T083335_nabumetone.json.gz,-0.022740328058432346,
+
+  data/variety/Ondansetron/20241130T092823_ondansetron.json.gz
+  💊 Ondansetron
+  Start time: 1732987703.844299
+  Stop time: 1732991603.847575
+  Duration: 3900.003275871277 s
+  Measurements: 8662450
+  Measurements per second: 2221.139159957442
+  Byte count: 45738418
+  Seconds per byte: 8.526755944797384e-05
+  Baseline mean: 20.289306889044266
+  ⚠️  Noise peak removed at index 1720309
+  ⚠️  Noise peak removed at index 1720341
+  ⚠️  Noise peak removed at index 1720972
+  Minimum slope: -0.155038813396453
+data/variety/Ondansetron/20241130T092823_ondansetron.json.gz,-0.155038813396453,
+
+  data/variety/Ondansetron/20241130T110429_ondansetron.json.gz
+  💊 Ondansetron
+  Start time: 1732993469.863863
+  Stop time: 1732997369.8658612
+  Duration: 3900.0019981861115 s
+  Measurements: 9138471
+  Measurements per second: 2343.1964917582854
+  Byte count: 45738560
+  Seconds per byte: 8.526726679165482e-05
+  Baseline mean: 27.6753449770489
+  Minimum slope: -0.0386370588787579
+data/variety/Ondansetron/20241130T110429_ondansetron.json.gz,-0.0386370588787579,
+
+  data/variety/Ondansetron/20250409T094032_ondansetron.json.gz
+  💊 Ondansetron
+  Start time: 1744216832.6866739
+  Stop time: 1744220732.688674
+  Duration: 3900.00200009346 s
+  Measurements: 7622356
+  Measurements per second: 1954.449254081751
+  Byte count: 45733311
+  Seconds per byte: 8.527705330789323e-05
+  Baseline mean: 13.477509693117602
+  Minimum slope: -0.05430941852337511
+data/variety/Ondansetron/20250409T094032_ondansetron.json.gz,-0.05430941852337511,
+
+  data/variety/Powdered milk/20241211T115744_powdered_milk.json.gz
+  💊 Powdered milk
+  Start time: 1733947064.838447
+  Stop time: 1733950964.838636
+  Duration: 3900.0001888275146 s
+  Measurements: 9147861
+  Measurements per second: 2345.6052710474837
+  Byte count: 45739404
+  Seconds per byte: 8.526565385127262e-05
+  Baseline mean: 27.812164562658392
+  Minimum slope: -0.0663346238510934
+data/variety/Powdered milk/20241211T115744_powdered_milk.json.gz,-0.0663346238510934,
+
+  data/variety/Powdered milk/20241211T131559_powdered_milk.json.gz
+  💊 Powdered milk
+  Start time: 1733951759.7849941
+  Stop time: 1733955659.786092
+  Duration: 3900.0010979175568 s
+  Measurements: 8852203
+  Measurements per second: 2269.79500203903
+  Byte count: 45739100
+  Seconds per byte: 8.526624043581e-05
+  Baseline mean: 25.924572365148766
+  Minimum slope: -0.039378417105479575
+data/variety/Powdered milk/20241211T131559_powdered_milk.json.gz,-0.039378417105479575,
+
+  data/variety/Powdered milk/20241212T141429_powdered_milk.json.gz
+  💊 Powdered milk
+  Start time: 1734041669.537577
+  Stop time: 1734045569.540949
+  Duration: 3900.003372192383 s
+  Measurements: 7812924
+  Measurements per second: 2003.312113960551
+  Byte count: 45739839
+  Seconds per byte: 8.526491254576526e-05
+  Baseline mean: 23.993162230822193
+  Minimum slope: -0.1722072853675466
+data/variety/Powdered milk/20241212T141429_powdered_milk.json.gz,-0.1722072853675466,
+
+  data/variety/Pseudoephedrine ext. rel./20241123T120142_sudafed_sinus.json.gz
+  💊 Pseudoephedrine ext. rel.
+  Start time: 1732392103.1064188
+  Stop time: 1732396003.1086788
+  Duration: 3900.0022599697113 s
+  Measurements: 8719030
+  Measurements per second: 2235.647422437062
+  Byte count: 45739028
+  Seconds per byte: 8.5266400063633e-05
+  Baseline mean: 21.75363373332348
+  ⚠️  Noise peak removed at index 7750997
+  Minimum slope: -0.024164212527342084
+data/variety/Pseudoephedrine ext. rel./20241123T120142_sudafed_sinus.json.gz,-0.024164212527342084,
+
+  data/variety/Pseudoephedrine ext. rel./20241210T081932_sudafed_sinus.json.gz
+  💊 Pseudoephedrine ext. rel.
+  Start time: 1733847572.923897
+  Stop time: 1733851472.925715
+  Duration: 3900.0018179416656 s
+  Measurements: 8969709
+  Measurements per second: 2299.924312531222
+  Byte count: 45739100
+  Seconds per byte: 8.526625617779243e-05
+  Baseline mean: 22.19392695984269
+  Minimum slope: -0.0071808991169664835
+data/variety/Pseudoephedrine ext. rel./20241210T081932_sudafed_sinus.json.gz,-0.0071808991169664835,
+
+  data/variety/Pseudoephedrine ext. rel./20241210T095514_sudafed_sinus.json.gz
+  💊 Pseudoephedrine ext. rel.
+  Start time: 1733853315.432439
+  Stop time: 1733857215.4342558
+  Duration: 3900.0018167495728 s
+  Measurements: 9147813
+  Measurements per second: 2345.591984268401
+  Byte count: 45739072
+  Seconds per byte: 8.526630834901007e-05
+  Baseline mean: 38.654614098331145
+  Minimum slope: -0.07392932380854549
+data/variety/Pseudoephedrine ext. rel./20241210T095514_sudafed_sinus.json.gz,-0.07392932380854549,
+
+  data/variety/Pseudoephedrine/20241117T072809_pseudoephedrine_generic.json.gz
+  💊 Pseudoephedrine
+  Start time: 1731857289.596024
+  Stop time: 1731861189.60031
+  Duration: 3900.0042860507965 s
+  Measurements: 7703907
+  Measurements per second: 1975.3585983365913
+  Byte count: 45738302
+  Seconds per byte: 8.52677977868701e-05
+  Baseline mean: 14.974106960140066
+  ⚠️  Noise peak removed at index 230
+  Minimum slope: -0.010391456302477712
+data/variety/Pseudoephedrine/20241117T072809_pseudoephedrine_generic.json.gz,-0.010391456302477712,
+
+  data/variety/Pseudoephedrine/20241117T083614_pseudoephedrine_generic.json.gz
+  💊 Pseudoephedrine
+  Start time: 1731861375.155859
+  Stop time: 1731865275.157961
+  Duration: 3900.0021018981934 s
+  Measurements: 9147673
+  Measurements per second: 2345.5559153539125
+  Byte count: 45738449
+  Seconds per byte: 8.526747598936276e-05
+  Baseline mean: 26.03286578462442
+  Minimum slope: -0.03669058973392564
+data/variety/Pseudoephedrine/20241117T083614_pseudoephedrine_generic.json.gz,-0.03669058973392564,
+
+  data/variety/Pseudoephedrine/20241117T094254_pseudoephedrine_generic.json.gz
+  💊 Pseudoephedrine
+  Start time: 1731865375.042878
+  Stop time: 1731869275.0455391
+  Duration: 3900.00266122818 s
+  Measurements: 9143076
+  Measurements per second: 2344.376861814931
+  Byte count: 45737824
+  Seconds per byte: 8.526865338473863e-05
+  Baseline mean: 25.627485255453706
+  Minimum slope: -0.042461972634820426
+data/variety/Pseudoephedrine/20241117T094254_pseudoephedrine_generic.json.gz,-0.042461972634820426,
+
+  data/variety/Tramadol/20241120T070250_tramadol.json.gz
+  💊 Tramadol
+  Start time: 1732114971.2487738
+  Stop time: 1732118871.2527559
+  Duration: 3900.003982067108 s
+  Measurements: 7623479
+  Measurements per second: 1954.7362092587784
+  Byte count: 45738975
+  Seconds per byte: 8.526653651655089e-05
+  Baseline mean: 11.990666105799292
+  Minimum slope: -0.03667271905298201
+data/variety/Tramadol/20241120T070250_tramadol.json.gz,-0.03667271905298201,
+
+  data/variety/Tramadol/20241120T080911_tramadol.json.gz
+  💊 Tramadol
+  Start time: 1732118951.8639722
+  Stop time: 1732122851.866444
+  Duration: 3900.002471923828 s
+  Measurements: 8434099
+  Measurements per second: 2162.588116473565
+  Byte count: 45738121
+  Seconds per byte: 8.526809555477428e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 63434
+  Baseline mean: 18.089093658336935
+  Minimum slope: -0.09291940299937948
+data/variety/Tramadol/20241120T080911_tramadol.json.gz,-0.09291940299937948,
+
+  data/variety/Tramadol/20241120T094124_tramadol.json.gz
+  💊 Tramadol
+  Start time: 1732124485.022589
+  Stop time: 1732128385.024804
+  Duration: 3900.0022151470184 s
+  Measurements: 9147394
+  Measurements per second: 2345.484308822417
+  Byte count: 45739548
+  Seconds per byte: 8.526542971406317e-05
+  Baseline mean: 27.164287913597498
+  Minimum slope: -0.040977190191253544
+data/variety/Tramadol/20241120T094124_tramadol.json.gz,-0.040977190191253544,
+
+  data/variety/Zinc gluconate/20241118T190508_zinc_50mg.json.gz
+  💊 Zinc gluconate
+  Start time: 1731985509.043176
+  Stop time: 1731989409.0453608
+  Duration: 3900.002184867859 s
+  Measurements: 8843670
+  Measurements per second: 2267.60642194349
+  Byte count: 45738592
+  Seconds per byte: 8.526721121777992e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 1543592
+  Baseline mean: 12.008719971805046
+  ⚠️  Noise peak removed at index 3157622
+  ⚠️  Noise peak removed at index 3157680
+  Minimum slope: -0.08252095311020101
+data/variety/Zinc gluconate/20241118T190508_zinc_50mg.json.gz,-0.08252095311020101,
+
+  data/variety/Zinc gluconate/20241118T201303_zinc_50mg.json.gz
+  💊 Zinc gluconate
+  Start time: 1731989583.9771378
+  Stop time: 1731993483.9783921
+  Duration: 3900.0012543201447 s
+  Measurements: 7636579
+  Measurements per second: 1958.0965497230904
+  Byte count: 45738195
+  Seconds per byte: 8.526793097804023e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 5446596
+  ⚠️  Out-of-dynamic-range measurement removed at index 5452141
+  Baseline mean: 12.188305782305191
+  ⚠️  Noise peak removed at index 2785076
+  ⚠️  Noise peak removed at index 2785168
+  ⚠️  Noise peak removed at index 2785242
+  Minimum slope: -0.09358808128008875
+data/variety/Zinc gluconate/20241118T201303_zinc_50mg.json.gz,-0.09358808128008875,
+
+  data/variety/Zinc gluconate/20241118T211945_zinc_50mg.json.gz
+  💊 Zinc gluconate
+  Start time: 1731993585.6042829
+  Stop time: 1731997485.607751
+  Duration: 3900.0034680366516 s
+  Measurements: 7632510
+  Measurements per second: 1957.0521058645045
+  Byte count: 45738878
+  Seconds per byte: 8.526670610583521e-05
+  Baseline mean: 10.7916415602724
+  Minimum slope: -0.09556905373417916
+data/variety/Zinc gluconate/20241118T211945_zinc_50mg.json.gz,-0.09556905373417916,
+data/variety/Acetaminophen/20241210T113009_tylenol_extra_strength.json.gz
+  PEAK COMPARISONS
+    ✅ Acetaminophen == Acetaminophen   613
+    ✅ Acetaminophen == Acetaminophen   811
+    ❌ Acetaminophen == Aspirin generic   1541
+data/variety/Acetaminophen/20241210T124134_tylenol_extra_strength.json.gz
+  PEAK COMPARISONS
+    ✅ Acetaminophen == Acetaminophen   811
+    ✅ Acetaminophen == Acetaminophen   1266
+    ❌ Acetaminophen == Aspirin generic   1354
+data/variety/Acetaminophen/20241210T135025_tylenol_extra_strength.json.gz
+  PEAK COMPARISONS
+    ✅ Acetaminophen == Acetaminophen   613
+    ✅ Acetaminophen == Acetaminophen   1266
+    ❌ Acetaminophen == Aspirin generic   1898
+data/variety/Aspirin generic/20241113T120556_Generic_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ Aspirin generic == Aspirin generic   522
+    ✅ Aspirin generic == Aspirin generic   721
+    ❌ Aspirin generic == Hydrocodone acetamin.   758
+data/variety/Aspirin generic/20241114T154625_Generic_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ Aspirin generic == Aspirin generic   522
+    ✅ Aspirin generic == Aspirin generic   667
+    ❌ Aspirin generic == Hydrocodone acetamin.   1054
+data/variety/Aspirin generic/20241116T102324_generic_aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ Aspirin generic == Aspirin generic   667
+    ✅ Aspirin generic == Aspirin generic   721
+    ❌ Aspirin generic == Hydrocodone acetamin.   1117
+data/variety/Aspirin name brand/20241112T151958_Bayers_aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ Aspirin name brand == Aspirin name brand   623
+    ✅ Aspirin name brand == Aspirin name brand   813
+    ❌ Aspirin name brand == Zinc gluconate   2402
+data/variety/Aspirin name brand/20241121T135122_Bayers_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ Aspirin name brand == Aspirin name brand   623
+    ✅ Aspirin name brand == Aspirin name brand   824
+    ❌ Aspirin name brand == Zinc gluconate   2615
+data/variety/Aspirin name brand/20241121T135144_Bayers_Aspirin.json.gz
+  PEAK COMPARISONS
+    ✅ Aspirin name brand == Aspirin name brand   813
+    ✅ Aspirin name brand == Aspirin name brand   824
+    ❌ Aspirin name brand == Zinc gluconate   2087
+data/variety/B-100 complex/20241126T081726_b-100_complex.json.gz
+  PEAK COMPARISONS
+    ✅ B-100 complex == B-100 complex   1428
+    ✅ B-100 complex == B-100 complex   2190
+    ❌ B-100 complex == Magnesium oxide chelated   3591
+data/variety/B-100 complex/20241209T184815_b-100_complex.json.gz
+  PEAK COMPARISONS
+    ✅ B-100 complex == B-100 complex   1224
+    ✅ B-100 complex == B-100 complex   1428
+    ❌ B-100 complex == Magnesium oxide chelated   3587
+data/variety/B-100 complex/20241209T195444_b-100_complex.json.gz
+  PEAK COMPARISONS
+    ✅ B-100 complex == B-100 complex   1224
+    ✅ B-100 complex == B-100 complex   2190
+    ❌ B-100 complex == Calcium carbonate   3871
+data/variety/Calcium carbonate/20241121T060930_antacid_generic.json.gz
+  PEAK COMPARISONS
+    ✅ Calcium carbonate == Calcium carbonate   2018
+    ❌ Calcium carbonate == Fexofenadine   2022
+    ❌ Calcium carbonate == Fexofenadine   2199
+data/variety/Calcium carbonate/20241121T074722_antacid_generic.json.gz
+  PEAK COMPARISONS
+    ✅ Calcium carbonate == Calcium carbonate   1828
+    ❌ Calcium carbonate == Fexofenadine   2264
+    ✅ Calcium carbonate == Calcium carbonate   2344
+data/variety/Calcium carbonate/20241121T085719_antacid_generic.json.gz
+  PEAK COMPARISONS
+    ✅ Calcium carbonate == Calcium carbonate   1828
+    ✅ Calcium carbonate == Calcium carbonate   2018
+    ❌ Calcium carbonate == Fexofenadine   2018
+data/variety/Cold medicine/20241128T092512_sudafed_pe.json.gz
+  PEAK COMPARISONS
+    ✅ Cold medicine == Cold medicine   407
+    ✅ Cold medicine == Cold medicine   437
+    ❌ Cold medicine == Escitalopram   466
+data/variety/Cold medicine/20241128T103235_sudafed_pe.json.gz
+  PEAK COMPARISONS
+    ✅ Cold medicine == Cold medicine   346
+    ✅ Cold medicine == Cold medicine   437
+    ❌ Cold medicine == Escitalopram   491
+data/variety/Cold medicine/20241128T114702_sudafed_pe.json.gz
+  PEAK COMPARISONS
+    ✅ Cold medicine == Cold medicine   346
+    ✅ Cold medicine == Cold medicine   407
+    ❌ Cold medicine == Escitalopram   481
+data/variety/Doxycycline/20241128T125419_doxycycline.json.gz
+  PEAK COMPARISONS
+    ✅ Doxycycline == Doxycycline   141
+    ❌ Doxycycline == Melatonin   323
+    ❌ Doxycycline == Melatonin   343
+data/variety/Doxycycline/20241128T170703_doxycycline.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ Doxycycline == Hydrocodone acetamin.   567
+    ❌ Doxycycline == Meloxicam   627
+    ✅ Doxycycline == Doxycycline   675
+data/variety/Doxycycline/20250421T161441_doxycycline.json.gz
+  PEAK COMPARISONS
+    ✅ Doxycycline == Doxycycline   141
+    ❌ Doxycycline == Melatonin   300
+    ❌ Doxycycline == Melatonin   326
+data/variety/Escitalopram/20241122T055616_escitalopram.json.gz
+  PEAK COMPARISONS
+    ✅ Escitalopram == Escitalopram   319
+    ✅ Escitalopram == Escitalopram   363
+    ❌ Escitalopram == Microgestin Fe brown   433
+data/variety/Escitalopram/20241122T070300_escitalopram.json.gz
+  PEAK COMPARISONS
+    ✅ Escitalopram == Escitalopram   288
+    ✅ Escitalopram == Escitalopram   363
+    ❌ Escitalopram == Microgestin Fe brown   428
+data/variety/Escitalopram/20241122T080857_escitalopram.json.gz
+  PEAK COMPARISONS
+    ✅ Escitalopram == Escitalopram   288
+    ✅ Escitalopram == Escitalopram   319
+    ❌ Escitalopram == Microgestin Fe brown   404
+data/variety/Famotidine/20241120T194053_famotidine.json.gz
+  PEAK COMPARISONS
+    ✅ Famotidine == Famotidine   448
+    ❌ Famotidine == Lactase   735
+    ✅ Famotidine == Famotidine   752
+data/variety/Famotidine/20241120T204850_famotidine.json.gz
+  PEAK COMPARISONS
+    ✅ Famotidine == Famotidine   552
+    ✅ Famotidine == Famotidine   752
+    ❌ Famotidine == Lactase   793
+data/variety/Famotidine/20241120T215602_famotidine.json.gz
+  PEAK COMPARISONS
+    ✅ Famotidine == Famotidine   448
+    ✅ Famotidine == Famotidine   552
+    ❌ Famotidine == Lactase   667
+data/variety/Ferrous sulfate/20241127T184215_iron_65_mg.json.gz
+  PEAK COMPARISONS
+    ✅ Ferrous sulfate == Ferrous sulfate   1227
+    ✅ Ferrous sulfate == Ferrous sulfate   1245
+    ❌ Ferrous sulfate == Ibuprofen methocarbamol   5359
+data/variety/Ferrous sulfate/20241127T194917_iron_65_mg.json.gz
+  PEAK COMPARISONS
+    ✅ Ferrous sulfate == Ferrous sulfate   1227
+    ✅ Ferrous sulfate == Ferrous sulfate   1406
+    ❌ Ferrous sulfate == Meclizine   5875
+data/variety/Ferrous sulfate/20241127T205738_iron_65_mg.json.gz
+  PEAK COMPARISONS
+    ✅ Ferrous sulfate == Ferrous sulfate   1245
+    ✅ Ferrous sulfate == Ferrous sulfate   1406
+    ❌ Ferrous sulfate == Ibuprofen methocarbamol   5212
+data/variety/Fexofenadine/20241122T091604_fexofenadine.json.gz
+  PEAK COMPARISONS
+    ✅ Fexofenadine == Fexofenadine   779
+    ✅ Fexofenadine == Fexofenadine   1162
+    ❌ Fexofenadine == Calcium carbonate   2314
+data/variety/Fexofenadine/20241122T102749_fexofenadine.json.gz
+  PEAK COMPARISONS
+    ✅ Fexofenadine == Fexofenadine   909
+    ✅ Fexofenadine == Fexofenadine   1162
+    ❌ Fexofenadine == Calcium carbonate   2018
+data/variety/Fexofenadine/20241122T113837_fexofenadine.json.gz
+  PEAK COMPARISONS
+    ✅ Fexofenadine == Fexofenadine   779
+    ✅ Fexofenadine == Fexofenadine   909
+    ❌ Fexofenadine == Calcium carbonate   2199
+data/variety/Guaifenesin ext. rel./20241117T105249_guaifenesin_generic.json.gz
+  PEAK COMPARISONS
+    ✅ Guaifenesin ext. rel. == Guaifenesin ext. rel.   169
+    ✅ Guaifenesin ext. rel. == Guaifenesin ext. rel.   204
+    ❌ Guaifenesin ext. rel. == Melatonin   231
+data/variety/Guaifenesin ext. rel./20241117T120048_guaifenesin_generic.json.gz
+  PEAK COMPARISONS
+    ✅ Guaifenesin ext. rel. == Guaifenesin ext. rel.   169
+    ✅ Guaifenesin ext. rel. == Guaifenesin ext. rel.   173
+    ❌ Guaifenesin ext. rel. == Melatonin   214
+data/variety/Guaifenesin ext. rel./20241117T130908_guaifenesin_generic.json.gz
+  PEAK COMPARISONS
+    ✅ Guaifenesin ext. rel. == Guaifenesin ext. rel.   173
+    ✅ Guaifenesin ext. rel. == Guaifenesin ext. rel.   204
+    ❌ Guaifenesin ext. rel. == Melatonin   269
+data/variety/Hydrocodone acetamin./20241119T162222_hydrocodone_acetaminophen.json.gz
+  PEAK COMPARISONS
+    ✅ Hydrocodone acetamin. == Hydrocodone acetamin.   539
+    ❌ Hydrocodone acetamin. == Doxycycline   732
+    ❌ Hydrocodone acetamin. == Doxycycline   891
+data/variety/Hydrocodone acetamin./20241119T175656_hydrocodone_acetaminophen.json.gz
+  PEAK COMPARISONS
+    ✅ Hydrocodone acetamin. == Hydrocodone acetamin.   539
+    ❌ Hydrocodone acetamin. == Doxycycline   567
+    ❌ Hydrocodone acetamin. == Doxycycline   748
+data/variety/Hydrocodone acetamin./20241119T192545_hydrocodone_acetaminophen.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ Hydrocodone acetamin. == Aspirin generic   758
+    ❌ Hydrocodone acetamin. == Doxycycline   948
+    ✅ Hydrocodone acetamin. == Hydrocodone acetamin.   977
+data/variety/Ibuprofen methocarbamol/20241121T194719_ibuprofen_methocarbamol.json.gz
+  PEAK COMPARISONS
+    ✅ Ibuprofen methocarbamol == Ibuprofen methocarbamol   1528
+    ✅ Ibuprofen methocarbamol == Ibuprofen methocarbamol   1828
+    ❌ Ibuprofen methocarbamol == Ferrous sulfate   5424
+data/variety/Ibuprofen methocarbamol/20241121T205430_ibuprofen_methocarbamol.json.gz
+  PEAK COMPARISONS
+    ✅ Ibuprofen methocarbamol == Ibuprofen methocarbamol   1528
+    ✅ Ibuprofen methocarbamol == Ibuprofen methocarbamol   1602
+    ❌ Ibuprofen methocarbamol == Ferrous sulfate   5212
+data/variety/Ibuprofen methocarbamol/20241121T220440_ibuprofen_methocarbamol.json.gz
+  PEAK COMPARISONS
+    ✅ Ibuprofen methocarbamol == Ibuprofen methocarbamol   1602
+    ✅ Ibuprofen methocarbamol == Ibuprofen methocarbamol   1828
+    ❌ Ibuprofen methocarbamol == Ferrous sulfate   6350
+data/variety/Ibuprofen/20241117T195410_ibuprofen_600mg_generic.json.gz
+  PEAK COMPARISONS
+    ✅ Ibuprofen == Ibuprofen   1425
+    ❌ Ibuprofen == Nabumetone   9811
+    ❌ Ibuprofen == Nabumetone   10432
+data/variety/Ibuprofen/20241118T081627_ibuprofen_600mg_generic.json.gz
+  PEAK COMPARISONS
+    ✅ Ibuprofen == Ibuprofen   1425
+    ❌ Ibuprofen == Nabumetone   9160
+    ❌ Ibuprofen == Nabumetone   9823
+data/variety/Ibuprofen/20241118T092825_ibuprofen_600mg_generic.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ Ibuprofen == Nabumetone   6889
+    ❌ Ibuprofen == Nabumetone   6957
+    ❌ Ibuprofen == Nabumetone   7096
+data/variety/Iron complex/20241122T201813_iron_complex.json.gz
+  PEAK COMPARISONS
+    ✅ Iron complex == Iron complex   262
+    ❌ Iron complex == Magnesium oxide chelated   349
+    ❌ Iron complex == Pseudoephedrine ext. rel.   437
+data/variety/Iron complex/20250409T115717_iron_complex.json.gz
+  PEAK COMPARISONS
+    ✅ Iron complex == Iron complex   262
+    ❌ Iron complex == Pseudoephedrine ext. rel.   287
+    ✅ Iron complex == Iron complex   302
+data/variety/Iron complex/20250409T130446_iron_complex.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ Iron complex == Pseudoephedrine ext. rel.   249
+    ❌ Iron complex == Pseudoephedrine ext. rel.   290
+    ❌ Iron complex == Pseudoephedrine ext. rel.   291
+data/variety/Lactase/20241120T111552_lactase.json.gz
+  PEAK COMPARISONS
+    ✅ Lactase == Lactase   478
+    ❌ Lactase == Pseudoephedrine   689
+    ❌ Lactase == Pseudoephedrine   689
+data/variety/Lactase/20241120T122227_lactase.json.gz
+  PEAK COMPARISONS
+    ✅ Lactase == Lactase   478
+    ✅ Lactase == Lactase   614
+    ❌ Lactase == Famotidine   667
+data/variety/Lactase/20241120T133459_lactase.json.gz
+  PEAK COMPARISONS
+    ✅ Lactase == Lactase   614
+    ✅ Lactase == Lactase   706
+    ❌ Lactase == Cold medicine   780
+data/variety/Magnesium oxide chelated/20241122T212828_chelated_magnesium.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ Magnesium oxide chelated == Microgestin Fe brown   2387
+    ❌ Magnesium oxide chelated == Iron complex   2584
+    ❌ Magnesium oxide chelated == Microgestin Fe brown   2609
+data/variety/Magnesium oxide chelated/20241123T071513_chelated_magnesium.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ Magnesium oxide chelated == B-100 complex   3587
+    ❌ Magnesium oxide chelated == B-100 complex   3591
+    ❌ Magnesium oxide chelated == B-100 complex   4175
+data/variety/Magnesium oxide chelated/20241123T082135_chelated_magnesium.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ Magnesium oxide chelated == Iron complex   331
+    ❌ Magnesium oxide chelated == Iron complex   349
+    ❌ Magnesium oxide chelated == Pseudoephedrine ext. rel.   412
+data/variety/Magnesium oxide/20241118T140948_magnesium_250mg.json.gz
+  PEAK COMPARISONS
+    ✅ Magnesium oxide == Magnesium oxide   3747
+    ❌ Magnesium oxide == Multivitamin   11121
+    ❌ Magnesium oxide == Multivitamin   11505
+data/variety/Magnesium oxide/20241118T161414_magnesium_250mg.json.gz
+  PEAK COMPARISONS
+    ✅ Magnesium oxide == Magnesium oxide   3747
+    ✅ Magnesium oxide == Magnesium oxide   9005
+    ❌ Magnesium oxide == Multivitamin   12058
+data/variety/Magnesium oxide/20241118T175635_magnesium_250mg.json.gz
+  PEAK COMPARISONS
+    ✅ Magnesium oxide == Magnesium oxide   9005
+    ✅ Magnesium oxide == Magnesium oxide   11594
+    ❌ Magnesium oxide == Multivitamin   17541
+data/variety/Meclizine/20241122T131011_meclizine.json.gz
+  PEAK COMPARISONS
+    ✅ Meclizine == Meclizine   987
+    ✅ Meclizine == Meclizine   1293
+    ❌ Meclizine == Fexofenadine   4307
+data/variety/Meclizine/20241122T141647_meclizine.json.gz
+  PEAK COMPARISONS
+    ✅ Meclizine == Meclizine   790
+    ✅ Meclizine == Meclizine   987
+    ❌ Meclizine == Fexofenadine   4438
+data/variety/Meclizine/20241122T152524_meclizine.json.gz
+  PEAK COMPARISONS
+    ✅ Meclizine == Meclizine   790
+    ✅ Meclizine == Meclizine   1293
+    ❌ Meclizine == Aspirin name brand   4075
+data/variety/Melatonin/20241122T165417_melatonin.json.gz
+  PEAK COMPARISONS
+    ✅ Melatonin == Melatonin   94
+    ✅ Melatonin == Melatonin   136
+    ❌ Melatonin == Ondansetron   168
+data/variety/Melatonin/20241122T180504_melatonin.json.gz
+  PEAK COMPARISONS
+    ✅ Melatonin == Melatonin   94
+    ✅ Melatonin == Melatonin   126
+    ❌ Melatonin == Ondansetron   173
+data/variety/Melatonin/20241122T191121_melatonin.json.gz
+  PEAK COMPARISONS
+    ✅ Melatonin == Melatonin   126
+    ✅ Melatonin == Melatonin   136
+    ❌ Melatonin == Ondansetron   155
+data/variety/Meloxicam/20241119T203422_meloxicam.json.gz
+  PEAK COMPARISONS
+    ✅ Meloxicam == Meloxicam   303
+    ✅ Meloxicam == Meloxicam   393
+    ❌ Meloxicam == Cold medicine   482
+data/variety/Meloxicam/20241119T214202_meloxicam.json.gz
+  PEAK COMPARISONS
+    ✅ Meloxicam == Meloxicam   226
+    ✅ Meloxicam == Meloxicam   303
+    ❌ Meloxicam == Microgestin Fe brown   511
+data/variety/Meloxicam/20241120T055607_meloxicam.json.gz
+  PEAK COMPARISONS
+    ✅ Meloxicam == Meloxicam   226
+    ✅ Meloxicam == Meloxicam   393
+    ❌ Meloxicam == Tramadol   509
+data/variety/Microgestin Fe brown/20241121T183711_microgestin_fe_1.5_30_brown.json.gz
+  PEAK COMPARISONS
+    ✅ Microgestin Fe brown == Microgestin Fe brown   810
+    ❌ Microgestin Fe brown == Pseudoephedrine   835
+    ❌ Microgestin Fe brown == Pseudoephedrine   883
+data/variety/Microgestin Fe brown/20241125T143300_microgestin_fe_1.5_30_brown.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ Microgestin Fe brown == Escitalopram   404
+    ❌ Microgestin Fe brown == Escitalopram   428
+    ❌ Microgestin Fe brown == Escitalopram   433
+data/variety/Microgestin Fe brown/20241125T153953_microgestin_fe_1.5_30_brown.json.gz
+  PEAK COMPARISONS
+    ✅ Microgestin Fe brown == Microgestin Fe brown   491
+    ❌ Microgestin Fe brown == Escitalopram   495
+    ❌ Microgestin Fe brown == Escitalopram   497
+data/variety/Microgestin Fe green/20241121T164900_microgestin_fe_1.5_30_green.json.gz
+  PEAK COMPARISONS
+    ✅ Microgestin Fe green == Microgestin Fe green   6
+    ✅ Microgestin Fe green == Microgestin Fe green   12
+    ❌ Microgestin Fe green == Ondansetron   107
+data/variety/Microgestin Fe green/20241125T132524_microgestin_fe_1.5_30_green.json.gz
+  PEAK COMPARISONS
+    ✅ Microgestin Fe green == Microgestin Fe green   6
+    ✅ Microgestin Fe green == Microgestin Fe green   8
+    ❌ Microgestin Fe green == Ondansetron   103
+data/variety/Microgestin Fe green/20250421T132354_microgestin_fe_1.5_30_green.json.gz
+  PEAK COMPARISONS
+    ✅ Microgestin Fe green == Microgestin Fe green   8
+    ✅ Microgestin Fe green == Microgestin Fe green   12
+    ❌ Microgestin Fe green == Ondansetron   103
+data/variety/Multivitamin/20241118T103838_multivitamin_one_a_day.json.gz
+  PEAK COMPARISONS
+    ✅ Multivitamin == Multivitamin   3688
+    ✅ Multivitamin == Multivitamin   8560
+    ❌ Multivitamin == Nabumetone   11011
+data/variety/Multivitamin/20241118T115514_multivitamin_one_a_day.json.gz
+  PEAK COMPARISONS
+    ✅ Multivitamin == Multivitamin   3688
+    ✅ Multivitamin == Multivitamin   5724
+    ❌ Multivitamin == Nabumetone   7861
+data/variety/Multivitamin/20241118T130146_multivitamin_one_a_day.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ Multivitamin == Nabumetone   3933
+    ❌ Multivitamin == Nabumetone   4694
+    ❌ Multivitamin == Nabumetone   5011
+data/variety/Nabumetone/20241119T061634_nabumetone.json.gz
+  PEAK COMPARISONS
+    ✅ Nabumetone == Nabumetone   2381
+    ✅ Nabumetone == Nabumetone   2706
+    ❌ Nabumetone == Multivitamin   3933
+data/variety/Nabumetone/20241119T072652_nabumetone.json.gz
+  PEAK COMPARISONS
+    ✅ Nabumetone == Nabumetone   1227
+    ✅ Nabumetone == Nabumetone   2706
+    ❌ Nabumetone == Multivitamin   5011
+data/variety/Nabumetone/20241119T083335_nabumetone.json.gz
+  PEAK COMPARISONS
+    ✅ Nabumetone == Nabumetone   1227
+    ✅ Nabumetone == Nabumetone   2381
+    ❌ Nabumetone == Multivitamin   4694
+data/variety/Ondansetron/20241130T092823_ondansetron.json.gz
+  PEAK COMPARISONS
+    ✅ Ondansetron == Ondansetron   93
+    ✅ Ondansetron == Ondansetron   96
+    ❌ Ondansetron == Microgestin Fe green   103
+data/variety/Ondansetron/20241130T110429_ondansetron.json.gz
+  PEAK COMPARISONS
+    ✅ Ondansetron == Ondansetron   93
+    ✅ Ondansetron == Ondansetron   97
+    ❌ Ondansetron == Tramadol   110
+data/variety/Ondansetron/20250409T094032_ondansetron.json.gz
+  PEAK COMPARISONS
+    ✅ Ondansetron == Ondansetron   96
+    ✅ Ondansetron == Ondansetron   97
+    ❌ Ondansetron == Microgestin Fe green   111
+data/variety/Powdered milk/20241211T115744_powdered_milk.json.gz
+  PEAK COMPARISONS
+    ✅ Powdered milk == Powdered milk   219
+    ❌ Powdered milk == Pseudoephedrine ext. rel.   227
+    ❌ Powdered milk == Pseudoephedrine ext. rel.   262
+data/variety/Powdered milk/20241211T131559_powdered_milk.json.gz
+  PEAK COMPARISONS
+    ✅ Powdered milk == Powdered milk   219
+    ❌ Powdered milk == Pseudoephedrine ext. rel.   224
+    ❌ Powdered milk == Pseudoephedrine ext. rel.   255
+data/variety/Powdered milk/20241212T141429_powdered_milk.json.gz
+  PEAK COMPARISONS
+    ✅ Powdered milk == Powdered milk   281
+    ❌ Powdered milk == Pseudoephedrine ext. rel.   311
+    ✅ Powdered milk == Powdered milk   334
+data/variety/Pseudoephedrine ext. rel./20241123T120142_sudafed_sinus.json.gz
+  PEAK COMPARISONS
+    ✅ Pseudoephedrine ext. rel. == Pseudoephedrine ext. rel.   234
+    ❌ Pseudoephedrine ext. rel. == Iron complex   249
+    ✅ Pseudoephedrine ext. rel. == Pseudoephedrine ext. rel.   277
+data/variety/Pseudoephedrine ext. rel./20241210T081932_sudafed_sinus.json.gz
+  PEAK COMPARISONS
+    ✅ Pseudoephedrine ext. rel. == Pseudoephedrine ext. rel.   195
+    ✅ Pseudoephedrine ext. rel. == Pseudoephedrine ext. rel.   234
+    ❌ Pseudoephedrine ext. rel. == Powdered milk   255
+data/variety/Pseudoephedrine ext. rel./20241210T095514_sudafed_sinus.json.gz
+  PEAK COMPARISONS
+    ✅ Pseudoephedrine ext. rel. == Pseudoephedrine ext. rel.   195
+    ❌ Pseudoephedrine ext. rel. == Powdered milk   224
+    ❌ Pseudoephedrine ext. rel. == Powdered milk   227
+data/variety/Pseudoephedrine/20241117T072809_pseudoephedrine_generic.json.gz
+  PEAK COMPARISONS
+    ✅ Pseudoephedrine == Pseudoephedrine   447
+    ✅ Pseudoephedrine == Pseudoephedrine   539
+    ❌ Pseudoephedrine == Microgestin Fe brown   606
+data/variety/Pseudoephedrine/20241117T083614_pseudoephedrine_generic.json.gz
+  PEAK COMPARISONS
+    ✅ Pseudoephedrine == Pseudoephedrine   398
+    ✅ Pseudoephedrine == Pseudoephedrine   539
+    ❌ Pseudoephedrine == Lactase   689
+data/variety/Pseudoephedrine/20241117T094254_pseudoephedrine_generic.json.gz
+  PEAK COMPARISONS
+    ✅ Pseudoephedrine == Pseudoephedrine   398
+    ✅ Pseudoephedrine == Pseudoephedrine   447
+    ❌ Pseudoephedrine == Lactase   689
+data/variety/Tramadol/20241120T070250_tramadol.json.gz
+  PEAK COMPARISONS
+    ✅ Tramadol == Tramadol   111
+    ✅ Tramadol == Tramadol   134
+    ❌ Tramadol == Ondansetron   147
+data/variety/Tramadol/20241120T080911_tramadol.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ Tramadol == Ondansetron   110
+    ✅ Tramadol == Tramadol   111
+    ❌ Tramadol == Ondansetron   127
+data/variety/Tramadol/20241120T094124_tramadol.json.gz
+  PEAK COMPARISONS
+    ✅ Tramadol == Tramadol   134
+    ✅ Tramadol == Tramadol   139
+    ❌ Tramadol == Ondansetron   142
+data/variety/Zinc gluconate/20241118T190508_zinc_50mg.json.gz
+  PEAK COMPARISONS
+    ✅ Zinc gluconate == Zinc gluconate   502
+    ✅ Zinc gluconate == Zinc gluconate   861
+    ❌ Zinc gluconate == Famotidine   1381
+data/variety/Zinc gluconate/20241118T201303_zinc_50mg.json.gz
+  PEAK COMPARISONS
+    ✅ Zinc gluconate == Zinc gluconate   729
+    ✅ Zinc gluconate == Zinc gluconate   861
+    ❌ Zinc gluconate == Famotidine   1266
+data/variety/Zinc gluconate/20241118T211945_zinc_50mg.json.gz
+  PEAK COMPARISONS
+    ✅ Zinc gluconate == Zinc gluconate   502
+    ✅ Zinc gluconate == Zinc gluconate   729
+    ❌ Zinc gluconate == Famotidine   1231
+PEAK MATCH FAILURES
+  data/variety/Doxycycline/20241128T170703_doxycycline.json.gz
+  data/variety/Hydrocodone acetamin./20241119T192545_hydrocodone_acetaminophen.json.gz
+  data/variety/Ibuprofen/20241118T092825_ibuprofen_600mg_generic.json.gz
+  data/variety/Iron complex/20250409T130446_iron_complex.json.gz
+  data/variety/Magnesium oxide chelated/20241122T212828_chelated_magnesium.json.gz
+  data/variety/Magnesium oxide chelated/20241123T071513_chelated_magnesium.json.gz
+  data/variety/Magnesium oxide chelated/20241123T082135_chelated_magnesium.json.gz
+  data/variety/Microgestin Fe brown/20241125T143300_microgestin_fe_1.5_30_brown.json.gz
+  data/variety/Multivitamin/20241118T130146_multivitamin_one_a_day.json.gz
+  data/variety/Tramadol/20241120T080911_tramadol.json.gz
+10 peak failures out of 96 samples
+Peak failure rate: 0.10416666666666667
+Total number of measurements:  795690480
+Number of out-of-dynamic-range measurements removed:  45
+Number of noise peaks removed:  136
+Done!  Elapsed time 439.3 seconds
