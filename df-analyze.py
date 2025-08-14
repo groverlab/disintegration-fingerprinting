@@ -573,10 +573,6 @@ if args.figure == "variety":
             numpy.array(peak_times) / 60.0,
             60.0 * average_dict[sample] / bin_width + 1, label=str(sample), linewidth=1.5
         )
-
-                # numpy.array(peak_times) / 60.0,
-                # 60.0 * numpy.array(peak_counts) / bin_width + 1,
-
         lines[0].set_color(style[0])
         lines[0].set_linestyle(style[1])
     average_axs.set_yscale("log")
