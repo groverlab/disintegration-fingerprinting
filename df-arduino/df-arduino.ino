@@ -5,7 +5,7 @@ int incomingByte = 0;
 void setup() {
   Serial.begin(115200);
   servo1.attach(9);
-  servo1.write(60);  // was 40
+  servo1.write(60);
 }
 
 void loop() {
@@ -13,10 +13,10 @@ void loop() {
   if (Serial.available() > 0) {
     incomingByte = Serial.read();
     if (incomingByte == '1') {
-      servo1.write(60);  // was 40
+      servo1.write(60);
     }
     if (incomingByte == '2') {
-      servo1.write(90);  // was 70
+      servo1.write(90);
     }
   }
 }
