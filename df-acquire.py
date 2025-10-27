@@ -15,7 +15,7 @@ import argparse
 try:
     import serial
     from serial.tools.list_ports import comports
-except ImportError as err:
+except ImportError:
     sys.exit(
         "❌ Can't find pyserial module - install it by running 'pip install pyserial'"
     )
