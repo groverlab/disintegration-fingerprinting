@@ -105,6 +105,8 @@ while True:
         print("quitting now")
         ser.write(b"1")
         break
+    except Exception as e:
+        errors += 1
 r["stop_time"] = str(time.time())
 f = gzip.open(r["filename"], "wt")
 json.dump(r, f)
