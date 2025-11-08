@@ -606,4 +606,4 @@ if args.figure == "variety":
 plog(f"Total number of measurements:  {measurement_count}")
 plog(f"Number of out-of-dynamic-range measurements removed:  {oodr_count}")
 plog(f"Number of noise peaks removed:  {noise_peak_count}")
-plog(f"Done!  Elapsed time {(time.time() - start_time):.1f} seconds")
+# plog(f"Done!  Elapsed time {(time.time() - start_time):.1f} seconds")
