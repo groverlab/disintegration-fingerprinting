@@ -509,9 +509,7 @@ for a, (filename_a, sample_a, peak_times_a, peak_counts_a, baselines_a) in enume
             summary_baselines,
         )
     ):
-        peak_difference = (
-            numpy.absolute(peak_counts_a - peak_counts_b)
-        ).sum()  # ORIGINAL
+        peak_difference = int((numpy.absolute(peak_counts_a - peak_counts_b)).sum())  # ORIGINAL
 
         if filename_a != filename_b:  # don't include statistics from self-comparisons
             if sample_a == sample_b:
@@ -523,6 +521,10 @@ for a, (filename_a, sample_a, peak_times_a, peak_counts_a, baselines_a) in enume
             )
     peak_comparison_dict[filename_a] = for_peak_comparison_dict
 
+#### Testing saving the peak comparison dict:
+with open("COMPARISONS.json", "w") as f:
+    json.dump(peak_comparison_dict, f, indent=4)
+
 peak_match_failures = []
 peak_fail_count = 0
 sample_count = 0
@@ -532,9 +534,7 @@ for c in peak_comparison_dict:  # the peak and baseline dicts have the same set 
     sample_count += 1
     peak_comparison_dict[c].sort(key=lambda tup: tup[4])
     plog("  PEAK COMPARISONS")
-    for rank, comparison in enumerate(
-        peak_comparison_dict[c][:3]
-    ):  # print the top 3 matches
+    for rank, comparison in enumerate(peak_comparison_dict[c][:3]):  # print the top 3 matches
         result = "❌"
         if comparison[1] == comparison[3]:
             result = "✅"
@@ -606,4 +606,4 @@ if args.figure == "variety":
 plog(f"Total number of measurements:  {measurement_count}")
 plog(f"Number of out-of-dynamic-range measurements removed:  {oodr_count}")
 plog(f"Number of noise peaks removed:  {noise_peak_count}")
-# plog(f"Done!  Elapsed time {(time.time() - start_time):.1f} seconds")
+plog(f"Done!  Elapsed time {(time.time() - start_time):.1f} seconds")
