@@ -59,9 +59,9 @@ d = json.load(f)
 # ax = sns.swarmplot(bigtable[61])
 # # plt.hist(bigtable[9])
 
+count = 0
+fig, axes = plt.subplots(ncols=41)
 for l in d:
-	print()
-	print(l)
 	df = pd.DataFrame(columns=["drug", "score", "match"])
 	for i in d[l]:
 		# print(i[1], i[3], i[4])
@@ -72,9 +72,17 @@ for l in d:
 		df = pd.concat([df, pd.DataFrame({"drug" : [i[2]], "score" : [i[4]], "match" : match })])
 		# print(i[0], i[2], i[4])
 	print(df)
-	sns.swarmplot(y=df["score"], hue=df["match"])
-	plt.show()
-	break
+	# sns.stripplot(y=df["score"], hue=df["match"], log_scale=True, ax=axes[count])
+	sns.stripplot(y=df["score"], hue=df["match"], ax=axes[count])
+	handles, labels = axes[count].get_legend_handles_labels()
+	axes[count].legend([],[])
+
+	if count > 39:
+		break
+	count += 1
+
+plt.tight_layout()
+plt.show()
 
 
 # plt.show()
