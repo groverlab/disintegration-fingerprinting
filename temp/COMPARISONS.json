@@ -1,0 +1,20 @@
+{
+    "some tylenols/20251113T170126_T02one.json.gz": [
+        [
+            "some tylenols/20251113T170126_T02one.json.gz",
+            "some tylenols",
+            "some tylenols/20251117T101939_T03one.json.gz",
+            "some tylenols",
+            1320
+        ]
+    ],
+    "some tylenols/20251117T101939_T03one.json.gz": [
+        [
+            "some tylenols/20251117T101939_T03one.json.gz",
+            "some tylenols",
+            "some tylenols/20251113T170126_T02one.json.gz",
+            "some tylenols",
+            1320
+        ]
+    ]
+}
