@@ -9,6 +9,7 @@ import gzip
 import json
 import numpy
 import scipy
+import sys
 import argparse
 import matplotlib.pyplot as plt
 import time
@@ -23,12 +24,7 @@ start_time = time.time()
 
 parser = argparse.ArgumentParser()
 parser.add_argument("directory", help="directory containing DF data files")
-parser.add_argument(
-    "--figure",
-    default="none",
-    help="figure to generate",
-    choices=["aspirin", "beads", "variety", "long", "condensed"],
-)
+parser.add_argument("--figure", default="none", help="figure to generate", choices=["aspirin", "beads", "variety", "long", "condensed", "bayer_tylenol"],)
 args = parser.parse_args()
 
 
@@ -169,6 +165,34 @@ for filename in sorted(list_dir(args.directory)):
     sample_axs[0].set_xlabel("Time (seconds)")
     sample_axs[0].set_ylabel("Sensor output (volts)")
 
+
+
+
+
+
+##### DISCARD TESTING:
+
+# Original aspirins:
+# aspirin/bayer/20241121T124250_Bayer_Aspirin.json.gz     -0.4234769589340449
+# aspirin/generic/20241114T201703_generic_aspirin.json.gz -0.5492949490815137
+# aspirin/generic/20241115T080902_generic_aspirin.json.gz -1.180565397378209
+# aspirin/generic/20241119T123836_Generic_Aspirin.json.gz -0.3501627837618819
+# aspirin/generic/20241121T150322_generic_aspirin.json.gz -0.22782928989961843
+
+# New Tylenol and Bayer:
+# bayer_tylenol/tylenol-cold/20251210T135456_T06COLDONE.json.gz   -0.2052484326550232
+# bayer_tylenol/tylenol-cold/20251210T160747_T06COLDTHREE.json.gz -0.20948676231470195
+# bayer_tylenol/tylenol-rt/20251113T154922_T01one.json.gz         -0.21095045032875986
+# bayer_tylenol/tylenol-rt/20251117T112834_T04one.json.gz         -0.24732790108080935
+# bayer_tylenol/tylenol-rt/20251119T164358_T13one.json.gz         -0.6429757147389821
+# bayer_tylenol/tylenol-rt/20251124T135557_T17.json.gz            -0.22988615287523775
+
+# min_slope discard threshold was originally < -0.2
+# Changing this to -0.25 would admit all new tylenols except one.
+# It will also admit one old generic aspirin.
+
+
+
     ########################################################
     # DISABLE BUBBLE DISCARDS FOR LONG DRUG RUNS:
     ########################################################
@@ -180,9 +204,18 @@ for filename in sorted(list_dir(args.directory)):
         min_slope = numpy.min(slopes)
         plog(f"  Minimum slope: {min_slope}")
         log.write(f"{filename},{min_slope},\n")
-        if min_slope < -0.2:
+        if min_slope < -0.25:
             discards.write(f"{filename}\t{min_slope}\n")
             discard = True
+
+
+
+
+
+
+
+
+
 
     # calculate peak counts and average prominence
     peak_times = []
@@ -282,6 +315,113 @@ if args.figure == "aspirin":
     summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
     summary_fig.savefig("aspirin.pdf")
     summary_fig.clf()
+
+
+
+# ########### Bayer-Tylenol log plot
+# if args.figure == "bayer_tylenol":
+#     summary_fig, summary_axs = plt.subplots(1, 2, figsize=(8, 3))
+#     for sample, peak_times, peak_counts in zip(
+#         summary_samples, summary_peak_times, summary_peak_counts
+#     ):
+#         if "bayer-cold" in sample:
+#             summary_axs[0].plot(
+#                 numpy.array(peak_times) / 60.0,
+#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
+#                 color="tab:blue",
+#                 linewidth=1, zorder=10
+#             )
+#         elif "bayer-hot" in sample:
+#             summary_axs[0].plot(
+#                 numpy.array(peak_times) / 60.0,
+#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
+#                 color="tab:red",
+#                 linewidth=1, zorder=10
+#             )
+#         elif "bayer-rt" in sample:
+#             summary_axs[0].plot(
+#                 numpy.array(peak_times) / 60.0,
+#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
+#                 color="tab:olive",
+#                 linewidth=1,
+#             )
+#         elif "bayer-ca" in sample:
+#             summary_axs[0].plot(
+#                 numpy.array(peak_times) / 60.0,
+#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
+#                 color="tab:pink",
+#                 linewidth=1, zorder=10
+#             )
+#         elif "tylenol-cold" in sample:
+#             summary_axs[1].plot(
+#                 numpy.array(peak_times) / 60.0,
+#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
+#                 color="tab:blue",
+#                 linewidth=1, zorder=10
+#             )
+#         elif "tylenol-hot" in sample:
+#             summary_axs[1].plot(
+#                 numpy.array(peak_times) / 60.0,
+#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
+#                 color="tab:red",
+#                 linewidth=1, zorder=10
+#             )
+#         elif "tylenol-rt" in sample:
+#             summary_axs[1].plot(
+#                 numpy.array(peak_times) / 60.0,
+#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
+#                 color="tab:olive",
+#                 linewidth=1,
+#             )
+#         elif "tylenol-ca" in sample:
+#             summary_axs[1].plot(
+#                 numpy.array(peak_times) / 60.0,
+#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
+#                 color="tab:pink",
+#                 linewidth=1, zorder=10
+#             )
+#         else:
+#             sys.exit("ERROR Bayer-Tylenol run can't be categorized")
+#     summary_axs[0].set_yscale("log")
+#     summary_axs[1].set_yscale("log")
+#     summary_axs[0].set_ylim(0.7, 1500)
+#     summary_axs[1].set_ylim(0.7, 1500)
+#     summary_axs[0].set_yticks([1, 10, 100, 1000])
+#     summary_axs[1].set_yticks([1, 10, 100, 1000])
+#     summary_axs[0].minorticks_off()
+#     summary_axs[1].minorticks_off()
+#     summary_axs[0].yaxis.set_major_formatter(mticker.ScalarFormatter())
+#     summary_axs[1].yaxis.set_major_formatter(mticker.ScalarFormatter())
+#     a = summary_axs[0].get_yticks().tolist()
+#     b = summary_axs[0].get_yticks().tolist()
+#     a[0] = "0"
+#     b[0] = "0"
+#     summary_axs[0].set_yticklabels(a)
+#     summary_axs[1].set_yticklabels(b)
+#     summary_axs[0].set_xlabel("Time (minutes)")
+#     summary_axs[1].set_xlabel("Time (minutes)")
+#     summary_axs[0].set_ylabel("Particles per minute")
+#     summary_axs[1].set_ylabel("Particles per minute")
+#     summary_axs[0].legend(("bayer-cold", "bayer-hot", "bayer-rt", "bayer-ca"), frameon=False)
+#     summary_axs[1].legend(("tylenol-cold", "tylenol-hot", "tylenol-rt", "tylenol-ca"), frameon=False)
+#     lega = summary_axs[0].get_legend()
+#     legb = summary_axs[1].get_legend()
+#     if len(lega.legend_handles) > 1:  # only do this if there are at least 2 sample types
+#         lega.legend_handles[0].set_color("tab:blue")
+#         lega.legend_handles[1].set_color("tab:red")
+#         lega.legend_handles[2].set_color("tab:olive")
+#         lega.legend_handles[3].set_color("tab:pink")
+#         legb.legend_handles[0].set_color("tab:blue")
+#         legb.legend_handles[1].set_color("tab:red")
+#         legb.legend_handles[2].set_color("tab:olive")
+#         legb.legend_handles[3].set_color("tab:pink")
+#     summary_axs[0].yaxis.set_label_coords(-0.1, 0.50)
+#     summary_axs[1].yaxis.set_label_coords(-0.1, 0.50)
+#     summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
+#     summary_fig.savefig("bayer_tylenol.pdf")
+#     summary_fig.clf()
+
+
 
 
 ############## Bead plot
@@ -481,49 +621,40 @@ if args.figure == "condensed":
 ################
 
 peak_match_comparisons = []
+peak_match_comparisons_with_self_comparisons = []
 peak_mismatch_comparisons = []
+peak_mismatch_comparisons_with_self_comparisons = []
 peak_comparison_dict = {}
+peak_comparison_dict_with_self_comparisons = {}
 
-for a, (filename_a, sample_a, peak_times_a, peak_counts_a, baselines_a) in enumerate(
-    zip(
-        summary_filenames,
-        summary_samples,
-        summary_peak_times,
-        summary_peak_counts,
-        summary_baselines,
-    )
-):
+for a, (filename_a, sample_a, peak_times_a, peak_counts_a, baselines_a) in enumerate(zip(summary_filenames, summary_samples, summary_peak_times, summary_peak_counts, summary_baselines)):
     for_peak_comparison_dict = []
-    for b, (
-        filename_b,
-        sample_b,
-        peak_times_b,
-        peak_counts_b,
-        baselines_b,
-    ) in enumerate(
-        zip(
-            summary_filenames,
-            summary_samples,
-            summary_peak_times,
-            summary_peak_counts,
-            summary_baselines,
-        )
-    ):
+    for_peak_comparison_dict_with_self_comparisons = []
+    for b, (filename_b, sample_b, peak_times_b, peak_counts_b, baselines_b) in enumerate(zip(summary_filenames, summary_samples, summary_peak_times, summary_peak_counts, summary_baselines)):
         peak_difference = int((numpy.absolute(peak_counts_a - peak_counts_b)).sum())  # ORIGINAL
 
+        # DON'T include self-comparisons:
         if filename_a != filename_b:  # don't include statistics from self-comparisons
             if sample_a == sample_b:
                 peak_match_comparisons.append(peak_difference)
             else:
                 peak_mismatch_comparisons.append(peak_difference)
-            for_peak_comparison_dict.append(
-                (filename_a, sample_a, filename_b, sample_b, peak_difference)
-            )
-    peak_comparison_dict[filename_a] = for_peak_comparison_dict
+            for_peak_comparison_dict.append((filename_a, sample_a, filename_b, sample_b, peak_difference))
 
-#### Testing saving the peak comparison dict:
-with open("COMPARISONS.json", "w") as f:
+        # DO include self-comparisons:
+        if sample_a == sample_b:
+            peak_match_comparisons_with_self_comparisons.append(peak_difference)
+        else:
+            peak_mismatch_comparisons_with_self_comparisons.append(peak_difference)
+        for_peak_comparison_dict_with_self_comparisons.append((filename_a, sample_a, filename_b, sample_b, peak_difference))
+
+    peak_comparison_dict[filename_a] = for_peak_comparison_dict
+    peak_comparison_dict_with_self_comparisons[filename_a] = for_peak_comparison_dict_with_self_comparisons
+
+with open(args.figure + " comparisons.json", "w") as f:
     json.dump(peak_comparison_dict, f, indent=4)
+with open(args.figure + " comparisons self.json", "w") as f:
+    json.dump(peak_comparison_dict_with_self_comparisons, f, indent=4)
 
 peak_match_failures = []
 peak_fail_count = 0
@@ -554,9 +685,7 @@ plog(f"Peak failure rate: {peak_fail_count / sample_count}")
 # calculate and plot average fingerprints for each variety sample:
 if args.figure == "variety":
     average_dict = {}
-    for filename, sample, peak_times, peak_counts in zip(
-        summary_filenames, summary_samples, summary_peak_times, summary_peak_counts
-    ):
+    for filename, sample, peak_times, peak_counts in zip(summary_filenames, summary_samples, summary_peak_times, summary_peak_counts):
         if sample not in average_dict:
             average_dict[sample] = numpy.array(peak_counts)
         else:
@@ -571,12 +700,7 @@ if args.figure == "variety":
         for line in ["solid", "dashed", "dotted"]:
             styles.append((color, line))
     for sample, style in zip(average_dict, styles):
-        lines = average_axs.plot(
-            numpy.array(peak_times) / 60.0,
-            60.0 * average_dict[sample] / bin_width + 1,
-            label=str(sample),
-            linewidth=1.5,
-        )
+        lines = average_axs.plot(numpy.array(peak_times) / 60.0, 60.0 * average_dict[sample] / bin_width + 1, label=str(sample), linewidth=1.5)
         lines[0].set_color(style[0])
         lines[0].set_linestyle(style[1])
     average_axs.set_yscale("log")

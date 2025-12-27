@@ -385,20 +385,6 @@ aspirin/generic/20241119T153203_Generic_Aspirin.json.gz,-0.09486201796468427,
   Minimum slope: -0.07557934600958849
 aspirin/generic/20241119T153214_generic_aspirin.json.gz,-0.07557934600958849,
 
-  aspirin/generic/20241121T150322_generic_aspirin.json.gz
-  💊 generic
-  Start time: 1732230209.7916918
-  Stop time: 1732234109.792077
-  Duration: 3900.000385284424 s
-  Measurements: 7863285
-  Measurements per second: 2016.226723892115
-  Byte count: 45652222
-  Seconds per byte: 8.542848988345899e-05
-  Baseline mean: 39.222730573366306
-  ⚠️  Noise peak removed at index 7387
-  Minimum slope: -0.22782928989961843
-aspirin/generic/20241121T150322_generic_aspirin.json.gz,-0.22782928989961843,
-
   aspirin/generic/20241121T150345_Generic_Aspirin.json.gz
   💊 generic
   Start time: 1732230228.2428167
@@ -572,7 +558,7 @@ aspirin/generic/20241203T115945_Generic_Aspirin.json.gz
 PEAK MATCH FAILURES
 0 peak failures out of 26 samples
 Peak failure rate: 0.0
-Total number of measurements:  247572403
+Total number of measurements:  239709118
 Number of out-of-dynamic-range measurements removed:  12
-Number of noise peaks removed:  26
-Done!  Elapsed time 219.0 seconds
+Number of noise peaks removed:  25
+Done!  Elapsed time 234.7 seconds
