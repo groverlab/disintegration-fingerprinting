@@ -11,6 +11,7 @@ import collections
 import bayer_tylenol
 import scipy.stats
 from statannotations.Annotator import Annotator
+import itertools
 
 use("MacOSX")
 plt.rcParams["font.family"] = "Arial"
@@ -128,7 +129,7 @@ if args.figure == "bayer_tylenol":
 	print(bayer_bottle)
 	print(generic_bottle)
 
-	fig, axs = plt.subplots(figsize=(14, 4))
+	fig, axs = plt.subplots(figsize=(8, 4))
 	plt.subplots_adjust(left=0.05, right=1, top=0.98, bottom=0.05)
 	ax_swarm = sns.swarmplot(x="type", y="score", data=df, order=order, size=3)
 	ax_box = sns.boxplot(x="type", y="score", data=df, order=order, fill=False, showfliers=False)
@@ -161,22 +162,18 @@ if args.figure == "variety":
 				print("MISMATCH")  # mismatch
 				uber.append([i[1], i[4], False])
 
-
-	df = pd.DataFrame(uber, columns=["type", "score", "match"])
+	df = pd.DataFrame(uber, columns=["drugtype", "score", "match"])
 	df = df.drop_duplicates()
-	# print(df)
 
-	# order = ["bayer_bottle", "generic_bottle", "bottle_mismatches",
-	# 	"bayers", "hot_bayers", "cold_bayers", "canadian_bayers",
-	# 	"tylenols", "hot_tylenols", "cold_tylenols", "canadian_tylenols", "mismatches"]
-
-
-	fig, axs = plt.subplots(figsize=(14, 4))
-	plt.subplots_adjust(left=0.05, right=1, top=0.98, bottom=0.10)
-	ax_swarm = sns.swarmplot(x="type", y="score", hue="match", data=df, size=3)
-	# ax_box = sns.boxplot(x="type", y="score", data=df, fill=False, showfliers=False)
+	fig, axs = plt.subplots(figsize=(7, 8))
+	plt.subplots_adjust(left=0.25, right=0.98, top=0.98, bottom=0.10)
+	
+	ax_swarm = sns.swarmplot(y="drugtype", x="score",  data=df[~df["match"]], log_scale=False, size=1)
+	ax_swarm = sns.swarmplot(y="drugtype", x="score",  data=df[df["match"]], log_scale=False, size=4)
+	# sns.boxplot(y="drugtype", x="score",  data=df, log_scale=False, fill=False, showfliers=False)
 
 
+	# plt.savefig("OUT.PNG")
 	plt.show()
 
 
