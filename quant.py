@@ -30,27 +30,43 @@ d = json.load(f)
 
 ######### aspirin #############
 if args.figure == "aspirin":
-	generics = []
-	bayers = []
-	mismatches = []
+	uber = []
 	for x, l in enumerate(d):
 		for y, i in enumerate(d[l]):
 			print(x, i[1], y, i[3], i[4], end=" ")  # short
 			# print(x, i[0], y, i[2], i[4], end=" ")  # full
 			if i[1] == "generic" and i[3] == "generic":
 				print("GENERIC MATCH")
-				generics.append(i[4])
+				uber.append(["generic_match", i[4]])
 			elif i[1] == "bayer" and i[3] == "bayer":
 				print("BAYER MATCH")
-				bayers.append(i[4])
+				uber.append(["bayer_match", i[4]])
 			else:
 				print("MISMATCH")
-				mismatches.append(i[4])
-	print("Generic matches:", numpy.mean(generics), numpy.std(generics))
-	print("Bayer matches:", numpy.mean(bayers), numpy.std(bayers))
-	print("Mismatches:", numpy.mean(mismatches), numpy.std(mismatches))
-	sns.swarmplot([generics, bayers, mismatches])
+				uber.append(["mismatch", i[4]])
+	df = pd.DataFrame(uber, columns=["drugtype", "score"])
+	df = df.drop_duplicates()
+
+	order = ["bayer_match", "generic_match", "mismatch"]
+
+	fig, axs = plt.subplots(figsize=(7.5, 5))
+	plt.subplots_adjust(left=0.15, right=0.98, top=0.98, bottom=0.12)
+	
+	ax_swarm = sns.stripplot(y="drugtype", x="score", order=order, data=df, log_scale=False, jitter=0.2, size=4)
+	sns.boxplot(y="drugtype", x="score", order=order, data=df, log_scale=False, fill=False, showfliers=False)
+		
+	pairs = [("bayer_match", "generic_match"), ]
+	annotator = Annotator(ax_swarm, pairs, data=df, order=order, y="drugtype", x="score", orient='h')
+	annotator.configure(test='Mann-Whitney', text_format='star')
+	annotator.apply_and_annotate()
+	axs.set_xlabel("← more similar                           Difference score                           less similar →")
+	axs.set_ylabel("")
 	plt.show()
+
+
+
+
+
 
 ######### bayer_tylenol #############
 if args.figure == "bayer_tylenol":
@@ -130,8 +146,8 @@ if args.figure == "bayer_tylenol":
 	print(generic_bottle)
 
 	fig, axs = plt.subplots(figsize=(8, 4))
-	plt.subplots_adjust(left=0.20, right=1, top=0.98, bottom=0.05)
-	ax_swarm = sns.stripplot(y="type", x="score", data=df, order=order, jitter=0.3, orient='h', size=3)
+	plt.subplots_adjust(left=0.20, right=0.95, top=0.98, bottom=0.13)
+	ax_swarm = sns.stripplot(y="type", x="score", data=df, order=order, jitter=0.25, orient='h', size=3)
 	# ax_box = sns.boxplot(y="type", x="score", data=df, order=order, fill=False, orient='h', showfliers=False)
 
 	pairs = [("bayer_bottle", "generic_bottle"), ("bayer_bottle", "bayers"),
@@ -140,7 +156,8 @@ if args.figure == "bayer_tylenol":
 	annotator = Annotator(ax_swarm, pairs, data=df, order=order, y="type", x="score", orient='h')
 	annotator.configure(test='Mann-Whitney', text_format='star')
 	annotator.apply_and_annotate()
-
+	axs.set_xlabel("← more similar                           Difference score                           less similar →")
+	axs.set_ylabel("")
 	plt.show()
 
 
