@@ -24,7 +24,7 @@ start_time = time.time()
 
 parser = argparse.ArgumentParser()
 parser.add_argument("directory", help="directory containing DF data files")
-parser.add_argument("--figure", default="none", help="figure to generate", choices=["aspirin", "beads", "variety", "long", "condensed", "bayer_tylenol", "bayer_tylenol_only"],)
+parser.add_argument("--figure", default="none", help="figure to generate", choices=["aspirin", "beads", "variety", "long", "condensed", "bayer_tylenol_only", "bayer_tylenol_only_subdirs"],)
 args = parser.parse_args()
 
 
@@ -319,59 +319,61 @@ if args.figure == "aspirin":
 
 
 ########### Bayer-Tylenol_only log plot
-if args.figure == "bayer_tylenol_only":
+if args.figure == "bayer_tylenol_only_subdirs":
     summary_fig, summary_axs = plt.subplots(1, 2, figsize=(8, 3))
-    for filename, peak_times, peak_counts in zip(summary_filenames, summary_peak_times, summary_peak_counts):
-        if "ACOLD" in filename:
+    for sample, peak_times, peak_counts in zip(
+        summary_samples, summary_peak_times, summary_peak_counts
+    ):
+        if "ACOLD" in sample:
             summary_axs[0].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
                 color="tab:blue",
                 linewidth=1, zorder=10
             )
-        elif "AHOT" in filename:
+        elif "AHOT" in sample:
             summary_axs[0].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
                 color="tab:red",
                 linewidth=1, zorder=10
             )
-        elif "ART" in filename:
+        elif "ART" in sample:
             summary_axs[0].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
                 color="tab:olive",
                 linewidth=1,
             )
-        elif "ACANADA" in filename:
+        elif "ACANADA" in sample:
             summary_axs[0].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
                 color="tab:pink",
                 linewidth=1, zorder=10
             )
-        elif "TCOLD" in filename:
+        elif "TCOLD" in sample:
             summary_axs[1].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
                 color="tab:blue",
                 linewidth=1, zorder=10
             )
-        elif "THOT" in filename:
+        elif "THOT" in sample:
             summary_axs[1].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
                 color="tab:red",
                 linewidth=1, zorder=10
             )
-        elif "TRT" in filename:
+        elif "TRT" in sample:
             summary_axs[1].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
                 color="tab:olive",
                 linewidth=1,
             )
-        elif "TCANADA" in filename:
+        elif "TCANADA" in sample:
             summary_axs[1].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
@@ -379,7 +381,7 @@ if args.figure == "bayer_tylenol_only":
                 linewidth=1, zorder=10
             )
         else:
-            sys.exit(f"ERROR {filename} run can't be categorized")
+            sys.exit(f"ERROR {sample} run can't be categorized")
     summary_axs[0].set_yscale("log")
     summary_axs[1].set_yscale("log")
     summary_axs[0].set_ylim(0.7, 1500)
@@ -416,7 +418,7 @@ if args.figure == "bayer_tylenol_only":
     summary_axs[0].yaxis.set_label_coords(-0.1, 0.50)
     summary_axs[1].yaxis.set_label_coords(-0.1, 0.50)
     summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
-    summary_fig.savefig("bayer_tylenol_only.pdf")
+    summary_fig.savefig("bayer_tylenol_only_subdirs.pdf")
     summary_fig.clf()
 
 

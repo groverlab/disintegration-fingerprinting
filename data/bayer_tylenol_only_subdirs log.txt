@@ -1,0 +1,1009 @@
+
+  bayer_tylenol_only_subdirs/ACANADA/503 20251124T150228_A17one ACANADA.json.gz
+  💊 ACANADA
+  Start time: 1764025348.9293485
+  Stop time: 1764029248.9305558
+  Duration: 3900.0012073516846 s
+  Measurements: 7642606
+  Measurements per second: 1959.64195744179
+  Byte count: 45733023
+  Seconds per byte: 8.527757299909268e-05
+  Baseline mean: 12.084794423977804
+  ⚠️  Noise peak removed at index 3080
+  Minimum slope: -0.11295028898740124
+bayer_tylenol_only_subdirs/ACANADA/503 20251124T150228_A17one ACANADA.json.gz,-0.11295028898740124,
+
+  bayer_tylenol_only_subdirs/ACANADA/508 20251125T104844_A19one ACANADA.json.gz
+  💊 ACANADA
+  Start time: 1764096524.844866
+  Stop time: 1764100424.8459437
+  Duration: 3900.0010776519775 s
+  Measurements: 7641229
+  Measurements per second: 1959.2889457867675
+  Byte count: 45732993
+  Seconds per byte: 8.527762610358735e-05
+  Baseline mean: 12.006520898712877
+  ⚠️  Noise peak removed at index 728
+  Minimum slope: -0.08294583157383152
+bayer_tylenol_only_subdirs/ACANADA/508 20251125T104844_A19one ACANADA.json.gz,-0.08294583157383152,
+
+  bayer_tylenol_only_subdirs/ACOLD/553 20251203T131110_A01 ACOLD 1.json.gz
+  💊 ACOLD
+  Start time: 1764796270.9356198
+  Stop time: 1764800170.9385054
+  Duration: 3900.002885580063 s
+  Measurements: 7645919
+  Measurements per second: 1960.490600730105
+  Byte count: 45733339
+  Seconds per byte: 8.527702045940846e-05
+  Baseline mean: 11.989584813839917
+  ⚠️  Noise peak removed at index 3430
+  Minimum slope: -0.064104259120197
+bayer_tylenol_only_subdirs/ACOLD/553 20251203T131110_A01 ACOLD 1.json.gz,-0.064104259120197,
+
+  bayer_tylenol_only_subdirs/ACOLD/554 20251203T143126_A01 ACOLD 2.json.gz
+  💊 ACOLD
+  Start time: 1764801086.7359731
+  Stop time: 1764804986.7379742
+  Duration: 3900.0020010471344 s
+  Measurements: 7647648
+  Measurements per second: 1960.934378481508
+  Byte count: 45733374
+  Seconds per byte: 8.527693585535881e-05
+  Baseline mean: 12.954615485198724
+  ⚠️  Noise peak removed at index 4684
+  ⚠️  Noise peak removed at index 9234
+  Minimum slope: -0.09346373408497848
+bayer_tylenol_only_subdirs/ACOLD/554 20251203T143126_A01 ACOLD 2.json.gz,-0.09346373408497848,
+
+  bayer_tylenol_only_subdirs/ACOLD/555 20251203T155106_AO1 ACOLD 3.json.gz
+  💊 ACOLD
+  Start time: 1764805866.5923913
+  Stop time: 1764809766.5951598
+  Duration: 3900.0027685165405 s
+  Measurements: 7644809
+  Measurements per second: 1960.2060443941393
+  Byte count: 45733438
+  Seconds per byte: 8.527683329900849e-05
+  Baseline mean: 11.961750559983626
+  ⚠️  Noise peak removed at index 487
+  ⚠️  Noise peak removed at index 605
+  ⚠️  Noise peak removed at index 6362016
+  Minimum slope: -0.08386639680064856
+bayer_tylenol_only_subdirs/ACOLD/555 20251203T155106_AO1 ACOLD 3.json.gz,-0.08386639680064856,
+
+  bayer_tylenol_only_subdirs/AHOT/550 20251203T093716_A01 AHOT 1.json.gz
+  💊 AHOT
+  Start time: 1764783436.7320116
+  Stop time: 1764787336.7336326
+  Duration: 3900.0016210079193 s
+  Measurements: 7648614
+  Measurements per second: 1961.1822617712878
+  Byte count: 45733501
+  Seconds per byte: 8.527669073504605e-05
+  Baseline mean: 11.271987174385155
+  ⚠️  Noise peak removed at index 133
+  ⚠️  Noise peak removed at index 233716
+  Minimum slope: -0.0709210539709391
+bayer_tylenol_only_subdirs/AHOT/550 20251203T093716_A01 AHOT 1.json.gz,-0.0709210539709391,
+
+  bayer_tylenol_only_subdirs/AHOT/551 20251203T105425_A01 AHOT 2.json.gz
+  💊 AHOT
+  Start time: 1764788065.5599217
+  Stop time: 1764791965.562659
+  Duration: 3900.0027372837067 s
+  Measurements: 7645705
+  Measurements per second: 1960.4358035207736
+  Byte count: 45733342
+  Seconds per byte: 8.52770116228048e-05
+  Baseline mean: 12.070194089756564
+  Minimum slope: -0.08463350246078426
+bayer_tylenol_only_subdirs/AHOT/551 20251203T105425_A01 AHOT 2.json.gz,-0.08463350246078426,
+
+  bayer_tylenol_only_subdirs/AHOT/552 20251203T120239_A01 AHOT 3.json.gz
+  💊 AHOT
+  Start time: 1764792159.8373706
+  Stop time: 1764796059.83811
+  Duration: 3900.000739336014 s
+  Measurements: 7651527
+  Measurements per second: 1961.9296280704536
+  Byte count: 45733278
+  Seconds per byte: 8.527708727408549e-05
+  Baseline mean: 12.474124061240385
+  Minimum slope: -0.07502375648282653
+bayer_tylenol_only_subdirs/AHOT/552 20251203T120239_A01 AHOT 3.json.gz,-0.07502375648282653,
+
+  bayer_tylenol_only_subdirs/ART/501 20251112T162420_A12one ART.json.gz
+  💊 ART
+  Start time: 1762993460.0878627
+  Stop time: 1762997360.0905075
+  Duration: 3900.002644777298 s
+  Measurements: 7633774
+  Measurements per second: 1957.3766213268586
+  Byte count: 45733088
+  Seconds per byte: 8.527748322565268e-05
+  Baseline mean: 8.924501270629971
+  ⚠️  Noise peak removed at index 5316
+  Minimum slope: -0.06583325450628014
+bayer_tylenol_only_subdirs/ART/501 20251112T162420_A12one ART.json.gz,-0.06583325450628014,
+
+  bayer_tylenol_only_subdirs/ART/502 20251111T121444_A07one ART.json.gz
+  💊 ART
+  Start time: 1762892084.736559
+  Stop time: 1762895984.7377534
+  Duration: 3900.0011944770813 s
+  Measurements: 7629886
+  Measurements per second: 1956.3804264483124
+  Byte count: 45733278
+  Seconds per byte: 8.527709722616168e-05
+  Baseline mean: 10.693428540566353
+  ⚠️  Noise peak removed at index 489
+  Minimum slope: -0.055772876482660314
+bayer_tylenol_only_subdirs/ART/502 20251111T121444_A07one ART.json.gz,-0.055772876482660314,
+
+  bayer_tylenol_only_subdirs/ART/504 20251113T120744_A14one ART.json.gz
+  💊 ART
+  Start time: 1763064464.8571584
+  Stop time: 1763068364.858492
+  Duration: 3900.001333475113 s
+  Measurements: 7635230
+  Measurements per second: 1957.7506126636617
+  Byte count: 45733117
+  Seconds per byte: 8.527740047710093e-05
+  Baseline mean: 11.075658343566653
+  Minimum slope: -0.10116342987856482
+bayer_tylenol_only_subdirs/ART/504 20251113T120744_A14one ART.json.gz,-0.10116342987856482,
+
+  bayer_tylenol_only_subdirs/ART/505 20251110T134251_A03one ART.json.gz
+  💊 ART
+  Start time: 1762810971.5120537
+  Stop time: 1762814871.513511
+  Duration: 3900.0014572143555 s
+  Measurements: 7633046
+  Measurements per second: 1957.190550757393
+  Byte count: 45733373
+  Seconds per byte: 8.527692582863625e-05
+  Baseline mean: 11.752639328698045
+  Minimum slope: -0.09083433673410762
+bayer_tylenol_only_subdirs/ART/505 20251110T134251_A03one ART.json.gz,-0.09083433673410762,
+
+  bayer_tylenol_only_subdirs/ART/506 20251112T151658_A11one ART.json.gz
+  💊 ART
+  Start time: 1762989418.9726863
+  Stop time: 1762993318.9739478
+  Duration: 3900.001261472702 s
+  Measurements: 7631681
+  Measurements per second: 1956.840649102292
+  Byte count: 45732958
+  Seconds per byte: 8.527769538704892e-05
+  Baseline mean: 9.613942329558375
+  ⚠️  Noise peak removed at index 610
+  ⚠️  Noise peak removed at index 6194917
+  Minimum slope: -0.05034997526338198
+bayer_tylenol_only_subdirs/ART/506 20251112T151658_A11one ART.json.gz,-0.05034997526338198,
+
+  bayer_tylenol_only_subdirs/ART/507 20251111T110351_A06one ART.json.gz
+  💊 ART
+  Start time: 1762887831.6372828
+  Stop time: 1762891731.64012
+  Duration: 3900.0028371810913 s
+  Measurements: 7631163
+  Measurements per second: 1956.7070380686641
+  Byte count: 45733563
+  Seconds per byte: 8.527660171985924e-05
+  Baseline mean: 9.956628519775553
+  ⚠️  Noise peak removed at index 486
+  Minimum slope: -0.06299510067917152
+bayer_tylenol_only_subdirs/ART/507 20251111T110351_A06one ART.json.gz,-0.06299510067917152,
+
+  bayer_tylenol_only_subdirs/ART/509 20251110T161145_A04one ART.json.gz
+  💊 ART
+  Start time: 1762819905.7109513
+  Stop time: 1762823805.711459
+  Duration: 3900.000507593155 s
+  Measurements: 7636627
+  Measurements per second: 1958.109232327476
+  Byte count: 45733438
+  Seconds per byte: 8.527678386202137e-05
+  Baseline mean: 10.442975150229964
+  Minimum slope: -0.04009455478053248
+bayer_tylenol_only_subdirs/ART/509 20251110T161145_A04one ART.json.gz,-0.04009455478053248,
+
+  bayer_tylenol_only_subdirs/ART/510 20251112T114510_A08one ART.json.gz
+  💊 ART
+  Start time: 1762976710.220691
+  Stop time: 1762980610.223615
+  Duration: 3900.002923965454 s
+  Measurements: 7635132
+  Measurements per second: 1957.7246860719613
+  Byte count: 45732928
+  Seconds per byte: 8.527778767992843e-05
+  Baseline mean: 9.987384590894619
+  ⚠️  Noise peak removed at index 493
+  ⚠️  Noise peak removed at index 5178152
+  ⚠️  Noise peak removed at index 5868588
+  ⚠️  Noise peak removed at index 6371440
+  ⚠️  Noise peak removed at index 6578355
+  Minimum slope: -0.06131794980677153
+bayer_tylenol_only_subdirs/ART/510 20251112T114510_A08one ART.json.gz,-0.06131794980677153,
+
+  bayer_tylenol_only_subdirs/ART/511 20251113T132033_A15one ART.json.gz
+  💊 ART
+  Start time: 1763068833.534496
+  Stop time: 1763072733.53703
+  Duration: 3900.0025339126587 s
+  Measurements: 7635632
+  Measurements per second: 1957.8530869157125
+  Byte count: 45733214
+  Seconds per byte: 8.527724585271131e-05
+  Baseline mean: 10.597571305934723
+  Minimum slope: -0.05179292339869637
+bayer_tylenol_only_subdirs/ART/511 20251113T132033_A15one ART.json.gz,-0.05179292339869637,
+
+  bayer_tylenol_only_subdirs/ART/512 20251125T093826_A18one ART.json.gz
+  💊 ART
+  Start time: 1764092306.5908964
+  Stop time: 1764096206.5928695
+  Duration: 3900.0019731521606 s
+  Measurements: 7648626
+  Measurements per second: 1961.1851616110926
+  Byte count: 45733248
+  Seconds per byte: 8.527717019250766e-05
+  Baseline mean: 12.609458944723333
+  ⚠️  Noise peak removed at index 568
+  Minimum slope: -0.06389887721681745
+bayer_tylenol_only_subdirs/ART/512 20251125T093826_A18one ART.json.gz,-0.06389887721681745,
+
+  bayer_tylenol_only_subdirs/ART/513 20251029T115335_A02one ART.json.gz
+  💊 ART
+  Start time: 1761764015.3599043
+  Stop time: 1761767915.3621576
+  Duration: 3900.002253293991 s
+  Measurements: 7627690
+  Measurements per second: 1955.8168187101833
+  Byte count: 45732955
+  Seconds per byte: 8.527772266834695e-05
+  Baseline mean: 9.58321394460363
+  ⚠️  Noise peak removed at index 376
+  ⚠️  Noise peak removed at index 493
+  Minimum slope: -0.03489972013460109
+bayer_tylenol_only_subdirs/ART/513 20251029T115335_A02one ART.json.gz,-0.03489972013460109,
+
+  bayer_tylenol_only_subdirs/ART/514 20251112T141056_A10one ART.json.gz
+  💊 ART
+  Start time: 1762985456.7667453
+  Stop time: 1762989356.768176
+  Duration: 3900.001430749893 s
+  Measurements: 7634021
+  Measurements per second: 1957.440563946698
+  Byte count: 45732990
+  Seconds per byte: 8.527763941850059e-05
+  Baseline mean: 10.325180788647838
+  ⚠️  Noise peak removed at index 4311717
+  Minimum slope: -0.07861866657119485
+bayer_tylenol_only_subdirs/ART/514 20251112T141056_A10one ART.json.gz,-0.07861866657119485,
+
+  bayer_tylenol_only_subdirs/ART/515 20251113T142955_A16one ART.json.gz
+  💊 ART
+  Start time: 1763072995.992932
+  Stop time: 1763076895.9940577
+  Duration: 3900.001125574112 s
+  Measurements: 7634751
+  Measurements per second: 1957.627896549928
+  Byte count: 45733184
+  Seconds per byte: 8.527727099810308e-05
+  Baseline mean: 10.99619663780508
+  Minimum slope: -0.11074348047225839
+bayer_tylenol_only_subdirs/ART/515 20251113T142955_A16one ART.json.gz,-0.11074348047225839,
+
+  bayer_tylenol_only_subdirs/ART/516 20251110T172526_A05one ART.json.gz
+  💊 ART
+  Start time: 1762824327.0521421
+  Stop time: 1762828227.0525935
+  Duration: 3900.0004513263702 s
+  Measurements: 7635113
+  Measurements per second: 1957.72105549458
+  Byte count: 45733365
+  Seconds per byte: 8.52769187512524e-05
+  Baseline mean: 10.807103020517689
+  Minimum slope: -0.061917166670881034
+bayer_tylenol_only_subdirs/ART/516 20251110T172526_A05one ART.json.gz,-0.061917166670881034,
+
+  bayer_tylenol_only_subdirs/ART/517 20251113T105935_A13one ART.json.gz
+  💊 ART
+  Start time: 1763060375.3359895
+  Stop time: 1763064275.3380868
+  Duration: 3900.0020973682404 s
+  Measurements: 7633128
+  Measurements per second: 1957.2112551300702
+  Byte count: 45733182
+  Seconds per byte: 8.52772959766552e-05
+  Baseline mean: 10.010801776039386
+  ⚠️  Noise peak removed at index 569
+  Minimum slope: -0.06668097671084809
+bayer_tylenol_only_subdirs/ART/517 20251113T105935_A13one ART.json.gz,-0.06668097671084809,
+
+  bayer_tylenol_only_subdirs/ART/518 20251112T125208_A09one ART.json.gz
+  💊 ART
+  Start time: 1762980728.780092
+  Stop time: 1762984628.7811923
+  Duration: 3900.0011003017426 s
+  Measurements: 7632133
+  Measurements per second: 1956.9566273736443
+  Byte count: 45732831
+  Seconds per byte: 8.527792867889029e-05
+  Baseline mean: 10.006498158002456
+  ⚠️  Noise peak removed at index 1993393
+  ⚠️  Noise peak removed at index 1993637
+  ⚠️  Noise peak removed at index 1994030
+  ⚠️  Noise peak removed at index 1994069
+  ⚠️  Noise peak removed at index 1994148
+  ⚠️  Noise peak removed at index 1994854
+  ⚠️  Noise peak removed at index 2021611
+  ⚠️  Noise peak removed at index 2030370
+  ⚠️  Noise peak removed at index 2033394
+  ⚠️  Noise peak removed at index 2077210
+  ⚠️  Noise peak removed at index 2081407
+  ⚠️  Noise peak removed at index 2112197
+  ⚠️  Noise peak removed at index 2116394
+  ⚠️  Noise peak removed at index 2188588
+  ⚠️  Noise peak removed at index 2202120
+  ⚠️  Noise peak removed at index 2261036
+  ⚠️  Noise peak removed at index 2379192
+  ⚠️  Noise peak removed at index 2439644
+  ⚠️  Noise peak removed at index 2444194
+  ⚠️  Noise peak removed at index 2555813
+  ⚠️  Noise peak removed at index 2592879
+  ⚠️  Noise peak removed at index 2606415
+  ⚠️  Noise peak removed at index 2674289
+  ⚠️  Noise peak removed at index 2727672
+  ⚠️  Noise peak removed at index 2732222
+  ⚠️  Noise peak removed at index 2822100
+  ⚠️  Noise peak removed at index 2838889
+  ⚠️  Noise peak removed at index 2928789
+  ⚠️  Noise peak removed at index 3103106
+  ⚠️  Noise peak removed at index 3127470
+  ⚠️  Noise peak removed at index 3307057
+  ⚠️  Noise peak removed at index 3369437
+  ⚠️  Noise peak removed at index 3720132
+  ⚠️  Noise peak removed at index 3873554
+  ⚠️  Noise peak removed at index 3894303
+  ⚠️  Noise peak removed at index 3905717
+  ⚠️  Noise peak removed at index 3912934
+  ⚠️  Noise peak removed at index 3975316
+  ⚠️  Noise peak removed at index 3989089
+  ⚠️  Noise peak removed at index 3993639
+  ⚠️  Noise peak removed at index 4075341
+  ⚠️  Noise peak removed at index 4095737
+  ⚠️  Noise peak removed at index 4125830
+  ⚠️  Noise peak removed at index 4137950
+  ⚠️  Noise peak removed at index 4214453
+  ⚠️  Noise peak removed at index 4425113
+  ⚠️  Noise peak removed at index 4429663
+  ⚠️  Noise peak removed at index 4554721
+  ⚠️  Noise peak removed at index 4586884
+  ⚠️  Noise peak removed at index 4656587
+  ⚠️  Noise peak removed at index 4679539
+  ⚠️  Noise peak removed at index 4793696
+  ⚠️  Noise peak removed at index 4887961
+  ⚠️  Noise peak removed at index 4896943
+  ⚠️  Noise peak removed at index 5268728
+  ⚠️  Noise peak removed at index 5273278
+  ⚠️  Noise peak removed at index 5285045
+  ⚠️  Noise peak removed at index 5401184
+  ⚠️  Noise peak removed at index 5428915
+  ⚠️  Noise peak removed at index 5433465
+  ⚠️  Noise peak removed at index 5437662
+  ⚠️  Noise peak removed at index 5458882
+  ⚠️  Noise peak removed at index 5493751
+  ⚠️  Noise peak removed at index 5512500
+  ⚠️  Noise peak removed at index 5517050
+  ⚠️  Noise peak removed at index 5567771
+  ⚠️  Noise peak removed at index 5603199
+  ⚠️  Noise peak removed at index 5635290
+  Minimum slope: -0.07950510977688216
+bayer_tylenol_only_subdirs/ART/518 20251112T125208_A09one ART.json.gz,-0.07950510977688216,
+
+  bayer_tylenol_only_subdirs/ART/519 20251027T133114_A01one ART.json.gz
+  💊 ART
+  Start time: 1761597074.334135
+  Stop time: 1761600974.3371844
+  Duration: 3900.0030493736267 s
+  Measurements: 7633986
+  Measurements per second: 1957.4307771954388
+  Byte count: 45732800
+  Seconds per byte: 8.527802910326127e-05
+  Baseline mean: 10.071952016828222
+  ⚠️  Noise peak removed at index 652
+  ⚠️  Noise peak removed at index 4966
+  Minimum slope: -0.04245737941989245
+bayer_tylenol_only_subdirs/ART/519 20251027T133114_A01one ART.json.gz,-0.04245737941989245,
+
+  bayer_tylenol_only_subdirs/TCANADA/101 20251124T124538_T16one TCANADA.json.gz
+  💊 TCANADA
+  Start time: 1764017138.3243058
+  Stop time: 1764021038.326494
+  Duration: 3900.002188205719 s
+  Measurements: 7643018
+  Measurements per second: 1959.7471055564554
+  Byte count: 45732830
+  Seconds per byte: 8.527795433183818e-05
+  Baseline mean: 12.03305362259517
+  ⚠️  Noise peak removed at index 377
+  ⚠️  Noise peak removed at index 612
+  Minimum slope: -0.17389914673447515
+bayer_tylenol_only_subdirs/TCANADA/101 20251124T124538_T16one TCANADA.json.gz,-0.17389914673447515,
+
+  bayer_tylenol_only_subdirs/TCANADA/108 20251124T135557_T17one TCANADA.json.gz
+  💊 TCANADA
+  Start time: 1764021357.467554
+  Stop time: 1764025257.4696906
+  Duration: 3900.0021364688873 s
+  Measurements: 7643581
+  Measurements per second: 1959.891490449438
+  Byte count: 45732955
+  Seconds per byte: 8.527772011384104e-05
+  Baseline mean: 12.68452380952381
+  Minimum slope: -0.22988615287523775
+bayer_tylenol_only_subdirs/TCANADA/108 20251124T135557_T17one TCANADA.json.gz,-0.22988615287523775,
+
+  bayer_tylenol_only_subdirs/TCOLD/153 20251210T135456_T06 TCOLD 1.json.gz
+  💊 TCOLD
+  Start time: 1765403696.2457178
+  Stop time: 1765407596.2471323
+  Duration: 3900.00141453743 s
+  Measurements: 7642340
+  Measurements per second: 1959.5736482332636
+  Byte count: 45733567
+  Seconds per byte: 8.52765631540927e-05
+  Baseline mean: 12.102206960852312
+  ⚠️  Noise peak removed at index 604
+  ⚠️  Noise peak removed at index 721
+  Minimum slope: -0.2052484326550232
+bayer_tylenol_only_subdirs/TCOLD/153 20251210T135456_T06 TCOLD 1.json.gz,-0.2052484326550232,
+
+  bayer_tylenol_only_subdirs/TCOLD/154 20251210T150122_T06 TCOLD 2.json.gz
+  💊 TCOLD
+  Start time: 1765407682.9562764
+  Stop time: 1765411582.9566016
+  Duration: 3900.000325202942 s
+  Measurements: 7637380
+  Measurements per second: 1958.3024008087943
+  Byte count: 45733528
+  Seconds per byte: 8.527661205588474e-05
+  Baseline mean: 12.175424533397006
+  Minimum slope: -0.1900316064907609
+bayer_tylenol_only_subdirs/TCOLD/154 20251210T150122_T06 TCOLD 2.json.gz,-0.1900316064907609,
+
+  bayer_tylenol_only_subdirs/TCOLD/155 20251210T160747_T06 TCOLD 3.json.gz
+  💊 TCOLD
+  Start time: 1765411667.653528
+  Stop time: 1765415567.654894
+  Duration: 3900.0013661384583 s
+  Measurements: 7638395
+  Measurements per second: 1958.562134444345
+  Byte count: 45733565
+  Seconds per byte: 8.527656582508839e-05
+  Baseline mean: 11.977623395376867
+  ⚠️  Noise peak removed at index 6133
+  Minimum slope: -0.20948676231470195
+bayer_tylenol_only_subdirs/TCOLD/155 20251210T160747_T06 TCOLD 3.json.gz,-0.20948676231470195,
+
+  bayer_tylenol_only_subdirs/THOT/150 20251210T103434_T06 THOT 1.json.gz
+  💊 THOT
+  Start time: 1765391674.241994
+  Stop time: 1765395574.2441857
+  Duration: 3900.0021917819977 s
+  Measurements: 7640446
+  Measurements per second: 1959.0876169505204
+  Byte count: 45733564
+  Seconds per byte: 8.527658574306603e-05
+  Baseline mean: 11.860255032717639
+  Minimum slope: -0.13143678673629933
+bayer_tylenol_only_subdirs/THOT/150 20251210T103434_T06 THOT 1.json.gz,-0.13143678673629933,
+
+  bayer_tylenol_only_subdirs/THOT/151 20251210T114041_T06 THOT 2.json.gz
+  💊 THOT
+  Start time: 1765395641.9372888
+  Stop time: 1765399541.939609
+  Duration: 3900.002320289612 s
+  Measurements: 7645426
+  Measurements per second: 1960.3644747145318
+  Byte count: 45733469
+  Seconds per byte: 8.52767656940612e-05
+  Baseline mean: 13.53831503664076
+  Minimum slope: -0.1696019875767057
+bayer_tylenol_only_subdirs/THOT/151 20251210T114041_T06 THOT 2.json.gz,-0.1696019875767057,
+
+  bayer_tylenol_only_subdirs/THOT/152 20251210T124817_T06 THOT 3.json.gz
+  💊 THOT
+  Start time: 1765399697.7181723
+  Stop time: 1765403597.7213142
+  Duration: 3900.0031418800354 s
+  Measurements: 7641027
+  Measurements per second: 1959.2361139269665
+  Byte count: 45733598
+  Seconds per byte: 8.527654312000633e-05
+  Baseline mean: 12.640098238752005
+  ⚠️  Noise peak removed at index 3270
+  Minimum slope: -0.1123948141231557
+bayer_tylenol_only_subdirs/THOT/152 20251210T124817_T06 THOT 3.json.gz,-0.1123948141231557,
+
+  bayer_tylenol_only_subdirs/TRT/102 20251113T170126_T02one TRT.json.gz
+  💊 TRT
+  Start time: 1763082086.630492
+  Stop time: 1763085986.6332357
+  Duration: 3900.0027437210083 s
+  Measurements: 7626186
+  Measurements per second: 1955.430932011044
+  Byte count: 45733275
+  Seconds per byte: 8.527713669578679e-05
+  Baseline mean: 10.140985917895131
+  Minimum slope: -0.12942591085222727
+bayer_tylenol_only_subdirs/TRT/102 20251113T170126_T02one TRT.json.gz,-0.12942591085222727,
+
+  bayer_tylenol_only_subdirs/TRT/103 20251124T112431_T15one TRT.json.gz
+  💊 TRT
+  Start time: 1764012271.2856305
+  Stop time: 1764016171.288598
+  Duration: 3900.002967596054 s
+  Measurements: 7632591
+  Measurements per second: 1957.0731262044906
+  Byte count: 45733149
+  Seconds per byte: 8.527737653919379e-05
+  Baseline mean: 12.86677354800564
+  ⚠️  Noise peak removed at index 5158
+  ⚠️  Noise peak removed at index 6169881
+  Minimum slope: -0.07125918926696458
+bayer_tylenol_only_subdirs/TRT/103 20251124T112431_T15one TRT.json.gz,-0.07125918926696458,
+
+  bayer_tylenol_only_subdirs/TRT/104 20251118T150120_T08one TRT.json.gz
+  💊 TRT
+  Start time: 1763506880.2876668
+  Stop time: 1763510780.2881167
+  Duration: 3900.0004498958588 s
+  Measurements: 7625493
+  Measurements per second: 1955.2543898305505
+  Byte count: 45733126
+  Seconds per byte: 8.527736437469546e-05
+  Baseline mean: 10.089484695501888
+  ⚠️  Noise peak removed at index 373
+  Minimum slope: -0.08431904409267997
+bayer_tylenol_only_subdirs/TRT/104 20251118T150120_T08one TRT.json.gz,-0.08431904409267997,
+
+  bayer_tylenol_only_subdirs/TRT/105 20251119T164358_T13one TRT.json.gz
+  💊 TRT
+  Start time: 1763599438.9333446
+  Stop time: 1763603338.935057
+  Duration: 3900.001712322235 s
+  Measurements: 8146708
+  Measurements per second: 2088.8985700339827
+  Byte count: 45733340
+  Seconds per byte: 8.527699294042891e-05
+  Baseline mean: 46.00562835782711
+  ⚠️  Noise peak removed at index 2986
+  Minimum slope: -0.6429757147389821
+bayer_tylenol_only_subdirs/TRT/105 20251119T164358_T13one TRT.json.gz,-0.6429757147389821,
+
+  bayer_tylenol_only_subdirs/TRT/106 20251117T124159_T05one TRT.json.gz
+  💊 TRT
+  Start time: 1763412119.0688875
+  Stop time: 1763416019.070184
+  Duration: 3900.001296520233 s
+  Measurements: 7625350
+  Measurements per second: 1955.2172987233878
+  Byte count: 45718620
+  Seconds per byte: 8.530444043412145e-05
+  Baseline mean: 10.888450361406043
+  ⚠️  Noise peak removed at index 795
+  ⚠️  Noise peak removed at index 912
+  ⚠️  Noise peak removed at index 5109
+  Minimum slope: -0.08099847770406582
+bayer_tylenol_only_subdirs/TRT/106 20251117T124159_T05one TRT.json.gz,-0.08099847770406582,
+
+  bayer_tylenol_only_subdirs/TRT/107 20251118T134538_T07one TRT.json.gz
+  💊 TRT
+  Start time: 1763502338.249696
+  Stop time: 1763506238.2530677
+  Duration: 3900.0033717155457 s
+  Measurements: 7631253
+  Measurements per second: 1956.7298467855273
+  Byte count: 45732987
+  Seconds per byte: 8.527768745381852e-05
+  Baseline mean: 9.848109109928593
+  ⚠️  Noise peak removed at index 376
+  ⚠️  Noise peak removed at index 3160
+  Minimum slope: -0.1105985083880301
+bayer_tylenol_only_subdirs/TRT/107 20251118T134538_T07one TRT.json.gz,-0.1105985083880301,
+
+  bayer_tylenol_only_subdirs/TRT/109 20251118T123829_T06one TRT.json.gz
+  💊 TRT
+  Start time: 1763498309.9081762
+  Stop time: 1763502209.9101605
+  Duration: 3900.001984357834 s
+  Measurements: 7632129
+  Measurements per second: 1956.955158128385
+  Byte count: 45733120
+  Seconds per byte: 8.527740911527213e-05
+  Baseline mean: 10.793724700959658
+  ⚠️  Noise peak removed at index 1124333
+  Minimum slope: -0.12218221040179802
+bayer_tylenol_only_subdirs/TRT/109 20251118T123829_T06one TRT.json.gz,-0.12218221040179802,
+
+  bayer_tylenol_only_subdirs/TRT/110 20251117T112834_T04one TRT.json.gz
+  💊 TRT
+  Start time: 1763407714.3894506
+  Stop time: 1763411614.392241
+  Duration: 3900.00279045105 s
+  Measurements: 7632659
+  Measurements per second: 1957.0906509831636
+  Byte count: 45732864
+  Seconds per byte: 8.527790410089012e-05
+  Baseline mean: 11.427184245235821
+  ⚠️  Noise peak removed at index 705457
+  Minimum slope: -0.24732790108080935
+bayer_tylenol_only_subdirs/TRT/110 20251117T112834_T04one TRT.json.gz,-0.24732790108080935,
+
+  bayer_tylenol_only_subdirs/TRT/111 20251120T111520_T14one TRT.json.gz
+  💊 TRT
+  Start time: 1763666120.2934217
+  Stop time: 1763670020.295184
+  Duration: 3900.001762151718 s
+  Measurements: 7634692
+  Measurements per second: 1957.6124488179128
+  Byte count: 45733020
+  Seconds per byte: 8.527759072442008e-05
+  Baseline mean: 10.94720744076045
+  ⚠️  Noise peak removed at index 610
+  Minimum slope: -0.14125221578152242
+bayer_tylenol_only_subdirs/TRT/111 20251120T111520_T14one TRT.json.gz,-0.14125221578152242,
+
+  bayer_tylenol_only_subdirs/TRT/112 20251119T131818_T11one TRT.json.gz
+  💊 TRT
+  Start time: 1763587098.4415553
+  Stop time: 1763590998.4425826
+  Duration: 3900.0010273456573 s
+  Measurements: 7631566
+  Measurements per second: 1956.8112794047256
+  Byte count: 45733087
+  Seconds per byte: 8.527744972355916e-05
+  Baseline mean: 10.811020085618289
+  Minimum slope: -0.16911736489318482
+bayer_tylenol_only_subdirs/TRT/112 20251119T131818_T11one TRT.json.gz,-0.16911736489318482,
+
+  bayer_tylenol_only_subdirs/TRT/113 20251117T101939_T03one TRT.json.gz
+  💊 TRT
+  Start time: 1763403579.7178783
+  Stop time: 1763407479.7195268
+  Duration: 3900.001648426056 s
+  Measurements: 7634213
+  Measurements per second: 1957.4896854417943
+  Byte count: 45732989
+  Seconds per byte: 8.527764604290474e-05
+  Baseline mean: 9.933017237458499
+  ⚠️  Noise peak removed at index 165565
+  ⚠️  Noise peak removed at index 1483808
+  Minimum slope: -0.1225991058343494
+bayer_tylenol_only_subdirs/TRT/113 20251117T101939_T03one TRT.json.gz,-0.1225991058343494,
+
+  bayer_tylenol_only_subdirs/TRT/114 20251113T154922_T01one TRT.json.gz
+  💊 TRT
+  Start time: 1763077762.215673
+  Stop time: 1763081662.2162468
+  Duration: 3900.00057387352 s
+  Measurements: 7631179
+  Measurements per second: 1956.7122761781125
+  Byte count: 45733179
+  Seconds per byte: 8.527726825798662e-05
+  Baseline mean: 10.197206319607497
+  Minimum slope: -0.21095045032875986
+bayer_tylenol_only_subdirs/TRT/114 20251113T154922_T01one TRT.json.gz,-0.21095045032875986,
+
+  bayer_tylenol_only_subdirs/TRT/115 20251118T160812_T09one TRT.json.gz
+  💊 TRT
+  Start time: 1763510892.2819116
+  Stop time: 1763514792.28229
+  Duration: 3900.000378370285 s
+  Measurements: 7629625
+  Measurements per second: 1956.3139127663967
+  Byte count: 45733079
+  Seconds per byte: 8.527745045047776e-05
+  Baseline mean: 9.387948629027214
+  ⚠️  Noise peak removed at index 2099
+  Minimum slope: -0.14329648548417687
+bayer_tylenol_only_subdirs/TRT/115 20251118T160812_T09one TRT.json.gz,-0.14329648548417687,
+
+  bayer_tylenol_only_subdirs/TRT/116 20251119T121001_T10one TRT.json.gz
+  💊 TRT
+  Start time: 1763583001.5807106
+  Stop time: 1763586901.5815547
+  Duration: 3900.00084400177 s
+  Measurements: 7629502
+  Measurements per second: 1956.2821407421566
+  Byte count: 45733147
+  Seconds per byte: 8.527733383407379e-05
+  Baseline mean: 10.000938048971841
+  ⚠️  Noise peak removed at index 648
+  Minimum slope: -0.09326803480521831
+bayer_tylenol_only_subdirs/TRT/116 20251119T121001_T10one TRT.json.gz,-0.09326803480521831,
+
+  bayer_tylenol_only_subdirs/TRT/117 20251119T142553_T12one TRT.json.gz
+  💊 TRT
+  Start time: 1763591153.5860422
+  Stop time: 1763595053.5880141
+  Duration: 3900.0019719600677 s
+  Measurements: 7633337
+  Measurements per second: 1957.2649077825026
+  Byte count: 45732956
+  Seconds per byte: 8.527771465199118e-05
+  Baseline mean: 13.21534884249784
+  ⚠️  Noise peak removed at index 494
+  ⚠️  Noise peak removed at index 729
+  Minimum slope: -0.16701545651477728
+bayer_tylenol_only_subdirs/TRT/117 20251119T142553_T12one TRT.json.gz,-0.16701545651477728,
+bayer_tylenol_only_subdirs/ACANADA/503 20251124T150228_A17one ACANADA.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ ACANADA == ART   755
+    ❌ ACANADA == ART   778
+    ❌ ACANADA == ART   787
+bayer_tylenol_only_subdirs/ACANADA/508 20251125T104844_A19one ACANADA.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ ACANADA == ART   698
+    ❌ ACANADA == ART   735
+    ❌ ACANADA == ART   767
+bayer_tylenol_only_subdirs/ACOLD/553 20251203T131110_A01 ACOLD 1.json.gz
+  PEAK COMPARISONS
+    ✅ ACOLD == ACOLD   880
+    ❌ ACOLD == AHOT   968
+    ❌ ACOLD == AHOT   1102
+bayer_tylenol_only_subdirs/ACOLD/554 20251203T143126_A01 ACOLD 2.json.gz
+  PEAK COMPARISONS
+    ✅ ACOLD == ACOLD   838
+    ❌ ACOLD == ART   1015
+    ❌ ACOLD == AHOT   1126
+bayer_tylenol_only_subdirs/ACOLD/555 20251203T155106_AO1 ACOLD 3.json.gz
+  PEAK COMPARISONS
+    ✅ ACOLD == ACOLD   838
+    ✅ ACOLD == ACOLD   880
+    ❌ ACOLD == AHOT   938
+bayer_tylenol_only_subdirs/AHOT/550 20251203T093716_A01 AHOT 1.json.gz
+  PEAK COMPARISONS
+    ✅ AHOT == AHOT   1735
+    ❌ AHOT == ACOLD   2043
+    ❌ AHOT == ACOLD   2379
+bayer_tylenol_only_subdirs/AHOT/551 20251203T105425_A01 AHOT 2.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ AHOT == ACOLD   938
+    ❌ AHOT == ACOLD   968
+    ❌ AHOT == ACOLD   1126
+bayer_tylenol_only_subdirs/AHOT/552 20251203T120239_A01 AHOT 3.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ AHOT == ACOLD   1102
+    ❌ AHOT == ACOLD   1222
+    ✅ AHOT == AHOT   1272
+bayer_tylenol_only_subdirs/ART/501 20251112T162420_A12one ART.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ ART == ACANADA   735
+    ✅ ART == ART   736
+    ✅ ART == ART   743
+bayer_tylenol_only_subdirs/ART/502 20251111T121444_A07one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   574
+    ✅ ART == ART   721
+    ✅ ART == ART   911
+bayer_tylenol_only_subdirs/ART/504 20251113T120744_A14one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   632
+    ✅ ART == ART   667
+    ✅ ART == ART   684
+bayer_tylenol_only_subdirs/ART/505 20251110T134251_A03one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   493
+    ✅ ART == ART   721
+    ✅ ART == ART   789
+bayer_tylenol_only_subdirs/ART/506 20251112T151658_A11one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   686
+    ✅ ART == ART   803
+    ✅ ART == ART   836
+bayer_tylenol_only_subdirs/ART/507 20251111T110351_A06one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   644
+    ✅ ART == ART   745
+    ✅ ART == ART   757
+bayer_tylenol_only_subdirs/ART/509 20251110T161145_A04one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   699
+    ✅ ART == ART   770
+    ✅ ART == ART   782
+bayer_tylenol_only_subdirs/ART/510 20251112T114510_A08one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   648
+    ✅ ART == ART   665
+    ❌ ART == ACANADA   698
+bayer_tylenol_only_subdirs/ART/511 20251113T132033_A15one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   639
+    ✅ ART == ART   644
+    ✅ ART == ART   665
+bayer_tylenol_only_subdirs/ART/512 20251125T093826_A18one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   1077
+    ✅ ART == ART   1093
+    ❌ ART == ACOLD   1136
+bayer_tylenol_only_subdirs/ART/513 20251029T115335_A02one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   493
+    ✅ ART == ART   574
+    ✅ ART == ART   684
+bayer_tylenol_only_subdirs/ART/514 20251112T141056_A10one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   632
+    ✅ ART == ART   693
+    ✅ ART == ART   695
+bayer_tylenol_only_subdirs/ART/515 20251113T142955_A16one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   836
+    ✅ ART == ART   924
+    ✅ ART == ART   948
+bayer_tylenol_only_subdirs/ART/516 20251110T172526_A05one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   639
+    ✅ ART == ART   648
+    ✅ ART == ART   699
+bayer_tylenol_only_subdirs/ART/517 20251113T105935_A13one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   693
+    ✅ ART == ART   707
+    ✅ ART == ART   727
+bayer_tylenol_only_subdirs/ART/518 20251112T125208_A09one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   1006
+    ✅ ART == ART   1165
+    ✅ ART == ART   1201
+bayer_tylenol_only_subdirs/ART/519 20251027T133114_A01one ART.json.gz
+  PEAK COMPARISONS
+    ✅ ART == ART   770
+    ❌ ART == ACANADA   877
+    ✅ ART == ART   1005
+bayer_tylenol_only_subdirs/TCANADA/101 20251124T124538_T16one TCANADA.json.gz
+  PEAK COMPARISONS
+    ✅ TCANADA == TCANADA   945
+    ❌ TCANADA == TRT   1427
+    ❌ TCANADA == TRT   1442
+bayer_tylenol_only_subdirs/TCANADA/108 20251124T135557_T17one TCANADA.json.gz
+  PEAK COMPARISONS
+    ✅ TCANADA == TCANADA   945
+    ❌ TCANADA == TRT   999
+    ❌ TCANADA == TRT   1062
+bayer_tylenol_only_subdirs/TCOLD/153 20251210T135456_T06 TCOLD 1.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ TCOLD == THOT   526
+    ❌ TCOLD == THOT   669
+    ❌ TCOLD == THOT   689
+bayer_tylenol_only_subdirs/TCOLD/154 20251210T150122_T06 TCOLD 2.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ TCOLD == TRT   453
+    ✅ TCOLD == TCOLD   539
+    ❌ TCOLD == TRT   555
+bayer_tylenol_only_subdirs/TCOLD/155 20251210T160747_T06 TCOLD 3.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ TCOLD == TRT   486
+    ✅ TCOLD == TCOLD   539
+    ❌ TCOLD == TRT   676
+bayer_tylenol_only_subdirs/THOT/150 20251210T103434_T06 THOT 1.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ THOT == TCOLD   669
+    ✅ THOT == THOT   734
+    ✅ THOT == THOT   989
+bayer_tylenol_only_subdirs/THOT/151 20251210T114041_T06 THOT 2.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ THOT == TCOLD   526
+    ❌ THOT == TRT   694
+    ❌ THOT == TRT   760
+bayer_tylenol_only_subdirs/THOT/152 20251210T124817_T06 THOT 3.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ THOT == TCOLD   689
+    ✅ THOT == THOT   734
+    ✅ THOT == THOT   787
+bayer_tylenol_only_subdirs/TRT/102 20251113T170126_T02one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   208
+    ✅ TRT == TRT   398
+    ✅ TRT == TRT   732
+bayer_tylenol_only_subdirs/TRT/103 20251124T112431_T15one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   537
+    ✅ TRT == TRT   743
+    ❌ TRT == THOT   769
+bayer_tylenol_only_subdirs/TRT/104 20251118T150120_T08one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   208
+    ✅ TRT == TRT   390
+    ✅ TRT == TRT   674
+bayer_tylenol_only_subdirs/TRT/106 20251117T124159_T05one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   390
+    ✅ TRT == TRT   398
+    ✅ TRT == TRT   743
+bayer_tylenol_only_subdirs/TRT/107 20251118T134538_T07one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   532
+    ✅ TRT == TRT   632
+    ❌ TRT == TCOLD   676
+bayer_tylenol_only_subdirs/TRT/109 20251118T123829_T06one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   439
+    ✅ TRT == TRT   472
+    ❌ TRT == TCOLD   555
+bayer_tylenol_only_subdirs/TRT/110 20251117T112834_T04one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   505
+    ✅ TRT == TRT   612
+    ✅ TRT == TRT   647
+bayer_tylenol_only_subdirs/TRT/111 20251120T111520_T14one TRT.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ TRT == TCOLD   453
+    ✅ TRT == TRT   472
+    ❌ TRT == TCOLD   486
+bayer_tylenol_only_subdirs/TRT/112 20251119T131818_T11one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   425
+    ✅ TRT == TRT   439
+    ✅ TRT == TRT   491
+bayer_tylenol_only_subdirs/TRT/113 20251117T101939_T03one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   532
+    ✅ TRT == TRT   600
+    ❌ TRT == THOT   760
+bayer_tylenol_only_subdirs/TRT/114 20251113T154922_T01one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   505
+    ✅ TRT == TRT   593
+    ✅ TRT == TRT   731
+bayer_tylenol_only_subdirs/TRT/115 20251118T160812_T09one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   425
+    ✅ TRT == TRT   593
+    ✅ TRT == TRT   612
+bayer_tylenol_only_subdirs/TRT/116 20251119T121001_T10one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   537
+    ✅ TRT == TRT   600
+    ✅ TRT == TRT   632
+bayer_tylenol_only_subdirs/TRT/117 20251119T142553_T12one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   491
+    ✅ TRT == TRT   616
+    ✅ TRT == TRT   793
+PEAK MATCH FAILURES
+  bayer_tylenol_only_subdirs/ACANADA/503 20251124T150228_A17one ACANADA.json.gz
+  bayer_tylenol_only_subdirs/ACANADA/508 20251125T104844_A19one ACANADA.json.gz
+  bayer_tylenol_only_subdirs/AHOT/551 20251203T105425_A01 AHOT 2.json.gz
+  bayer_tylenol_only_subdirs/AHOT/552 20251203T120239_A01 AHOT 3.json.gz
+  bayer_tylenol_only_subdirs/ART/501 20251112T162420_A12one ART.json.gz
+  bayer_tylenol_only_subdirs/TCOLD/153 20251210T135456_T06 TCOLD 1.json.gz
+  bayer_tylenol_only_subdirs/TCOLD/154 20251210T150122_T06 TCOLD 2.json.gz
+  bayer_tylenol_only_subdirs/TCOLD/155 20251210T160747_T06 TCOLD 3.json.gz
+  bayer_tylenol_only_subdirs/THOT/150 20251210T103434_T06 THOT 1.json.gz
+  bayer_tylenol_only_subdirs/THOT/151 20251210T114041_T06 THOT 2.json.gz
+  bayer_tylenol_only_subdirs/THOT/152 20251210T124817_T06 THOT 3.json.gz
+  bayer_tylenol_only_subdirs/TRT/111 20251120T111520_T14one TRT.json.gz
+12 peak failures out of 47 samples
+Peak failure rate: 0.2553191489361702
+Total number of measurements:  367057772
+Number of out-of-dynamic-range measurements removed:  0
+Number of noise peaks removed:  119
+Done!  Elapsed time 217.6 seconds
