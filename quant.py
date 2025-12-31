@@ -130,15 +130,15 @@ if args.figure == "bayer_tylenol":
 	print(generic_bottle)
 
 	fig, axs = plt.subplots(figsize=(8, 4))
-	plt.subplots_adjust(left=0.05, right=1, top=0.98, bottom=0.05)
-	ax_swarm = sns.swarmplot(x="type", y="score", data=df, order=order, size=3)
-	ax_box = sns.boxplot(x="type", y="score", data=df, order=order, fill=False, showfliers=False)
+	plt.subplots_adjust(left=0.20, right=1, top=0.98, bottom=0.05)
+	ax_swarm = sns.stripplot(y="type", x="score", data=df, order=order, jitter=0.3, orient='h', size=3)
+	# ax_box = sns.boxplot(y="type", x="score", data=df, order=order, fill=False, orient='h', showfliers=False)
 
 	pairs = [("bayer_bottle", "generic_bottle"), ("bayer_bottle", "bayers"),
 			 ("bayers", "hot_bayers"), ("bayers", "cold_bayers"), ("bayers", "canadian_bayers"),
 			 ("tylenols", "hot_tylenols"), ("tylenols", "cold_tylenols"), ("tylenols", "canadian_tylenols"), ]
-	annotator = Annotator(ax_swarm, pairs, data=df, x="type", y="score", order=order)
-	annotator.configure(test='Mann-Whitney', text_format='star', loc='inside')
+	annotator = Annotator(ax_swarm, pairs, data=df, order=order, y="type", x="score", orient='h')
+	annotator.configure(test='Mann-Whitney', text_format='star')
 	annotator.apply_and_annotate()
 
 	plt.show()
@@ -165,16 +165,25 @@ if args.figure == "variety":
 	df = pd.DataFrame(uber, columns=["drugtype", "score", "match"])
 	df = df.drop_duplicates()
 
-	fig, axs = plt.subplots(figsize=(7, 8))
-	plt.subplots_adjust(left=0.25, right=0.98, top=0.98, bottom=0.10)
+	fig, axs = plt.subplots(figsize=(7.5, 9))
+	plt.subplots_adjust(left=0.25, right=0.98, top=0.98, bottom=0.05)
 	
-	ax_swarm = sns.swarmplot(y="drugtype", x="score",  data=df[~df["match"]], log_scale=False, size=1)
-	ax_swarm = sns.swarmplot(y="drugtype", x="score",  data=df[df["match"]], log_scale=False, size=4)
+	ax_swarm = sns.stripplot(y="drugtype", x="score",  data=df[~df["match"]], log_scale=False, jitter=0.3, size=2)
+	ax_swarm = sns.stripplot(y="drugtype", x="score",  data=df[df["match"]], log_scale=False, jitter=0.3, size=4)
 	# sns.boxplot(y="drugtype", x="score",  data=df, log_scale=False, fill=False, showfliers=False)
-
-
+	axs.set_xlabel("← more similar                           Difference score                           less similar →")
+	axs.set_ylabel("")
 	# plt.savefig("OUT.PNG")
 	plt.show()
 
-
+	print()
+	print("MISMATCHES:")
+	print("mean", df[~df["match"]]["score"].mean())
+	print("median", df[~df["match"]]["score"].median())
+	print("std", df[~df["match"]]["score"].std())
+	print()
+	print("MATCHES")
+	print("mean", df[df["match"]]["score"].mean())
+	print("median", df[df["match"]]["score"].median())
+	print("std", df[df["match"]]["score"].std())
 
