@@ -1,7 +1,0 @@
-[project]
-name = "disintegration-fingerprinting"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.14"
-dependencies = ["matplotlib", "numpy", "seaborn", "pandas", "scipy", "statannotations"]

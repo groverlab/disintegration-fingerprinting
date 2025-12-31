@@ -3,15 +3,10 @@ import sys
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-import numpy
-from matplotlib.colors import LogNorm
 from matplotlib import use
 import argparse
-import collections
-import bayer_tylenol
 import scipy.stats
 from statannotations.Annotator import Annotator
-import itertools
 
 use("MacOSX")
 plt.rcParams["font.family"] = "Arial"
@@ -27,6 +22,14 @@ if "self" in args.filename:
 
 f = open(args.filename, 'r')
 d = json.load(f)
+
+
+
+
+
+
+
+
 
 ######### aspirin #############
 if args.figure == "aspirin":
@@ -61,7 +64,8 @@ if args.figure == "aspirin":
 	annotator.apply_and_annotate()
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
-	plt.show()
+	plt.savefig("aspirin_quant.pdf")
+
 
 
 
@@ -69,7 +73,7 @@ if args.figure == "aspirin":
 
 
 ######### bayer_tylenol #############
-if args.figure == "bayer_tylenol":
+elif args.figure == "bayer_tylenol":
 	uber = []
 	for x, l in enumerate(d):
 		for y, i in enumerate(d[l]):
@@ -158,14 +162,14 @@ if args.figure == "bayer_tylenol":
 	annotator.apply_and_annotate()
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
-	plt.show()
+	plt.savefig("bayer_tylenol_quant.pdf")
 
 
 
 
 
 ######### variety #############
-if args.figure == "variety":
+elif args.figure == "variety":
 	uber = []
 	for x, l in enumerate(d):
 		for y, i in enumerate(d[l]):
@@ -190,8 +194,7 @@ if args.figure == "variety":
 	# sns.boxplot(y="drugtype", x="score",  data=df, log_scale=False, fill=False, showfliers=False)
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
-	# plt.savefig("OUT.PNG")
-	plt.show()
+	plt.savefig("variety_quant.pdf")
 
 	print()
 	print("MISMATCHES:")
@@ -203,4 +206,11 @@ if args.figure == "variety":
 	print("mean", df[df["match"]]["score"].mean())
 	print("median", df[df["match"]]["score"].median())
 	print("std", df[df["match"]]["score"].std())
+
+
+
+
+
+else:
+	print("No figure specified; nothing done!")
 
