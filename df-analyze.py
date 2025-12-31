@@ -318,108 +318,106 @@ if args.figure == "aspirin":
 
 
 
-# ########### Bayer-Tylenol log plot
-# if args.figure == "bayer_tylenol":
-#     summary_fig, summary_axs = plt.subplots(1, 2, figsize=(8, 3))
-#     for sample, peak_times, peak_counts in zip(
-#         summary_samples, summary_peak_times, summary_peak_counts
-#     ):
-#         if "bayer-cold" in sample:
-#             summary_axs[0].plot(
-#                 numpy.array(peak_times) / 60.0,
-#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-#                 color="tab:blue",
-#                 linewidth=1, zorder=10
-#             )
-#         elif "bayer-hot" in sample:
-#             summary_axs[0].plot(
-#                 numpy.array(peak_times) / 60.0,
-#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-#                 color="tab:red",
-#                 linewidth=1, zorder=10
-#             )
-#         elif "bayer-rt" in sample:
-#             summary_axs[0].plot(
-#                 numpy.array(peak_times) / 60.0,
-#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-#                 color="tab:olive",
-#                 linewidth=1,
-#             )
-#         elif "bayer-ca" in sample:
-#             summary_axs[0].plot(
-#                 numpy.array(peak_times) / 60.0,
-#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-#                 color="tab:pink",
-#                 linewidth=1, zorder=10
-#             )
-#         elif "tylenol-cold" in sample:
-#             summary_axs[1].plot(
-#                 numpy.array(peak_times) / 60.0,
-#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-#                 color="tab:blue",
-#                 linewidth=1, zorder=10
-#             )
-#         elif "tylenol-hot" in sample:
-#             summary_axs[1].plot(
-#                 numpy.array(peak_times) / 60.0,
-#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-#                 color="tab:red",
-#                 linewidth=1, zorder=10
-#             )
-#         elif "tylenol-rt" in sample:
-#             summary_axs[1].plot(
-#                 numpy.array(peak_times) / 60.0,
-#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-#                 color="tab:olive",
-#                 linewidth=1,
-#             )
-#         elif "tylenol-ca" in sample:
-#             summary_axs[1].plot(
-#                 numpy.array(peak_times) / 60.0,
-#                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-#                 color="tab:pink",
-#                 linewidth=1, zorder=10
-#             )
-#         else:
-#             sys.exit("ERROR Bayer-Tylenol run can't be categorized")
-#     summary_axs[0].set_yscale("log")
-#     summary_axs[1].set_yscale("log")
-#     summary_axs[0].set_ylim(0.7, 1500)
-#     summary_axs[1].set_ylim(0.7, 1500)
-#     summary_axs[0].set_yticks([1, 10, 100, 1000])
-#     summary_axs[1].set_yticks([1, 10, 100, 1000])
-#     summary_axs[0].minorticks_off()
-#     summary_axs[1].minorticks_off()
-#     summary_axs[0].yaxis.set_major_formatter(mticker.ScalarFormatter())
-#     summary_axs[1].yaxis.set_major_formatter(mticker.ScalarFormatter())
-#     a = summary_axs[0].get_yticks().tolist()
-#     b = summary_axs[0].get_yticks().tolist()
-#     a[0] = "0"
-#     b[0] = "0"
-#     summary_axs[0].set_yticklabels(a)
-#     summary_axs[1].set_yticklabels(b)
-#     summary_axs[0].set_xlabel("Time (minutes)")
-#     summary_axs[1].set_xlabel("Time (minutes)")
-#     summary_axs[0].set_ylabel("Particles per minute")
-#     summary_axs[1].set_ylabel("Particles per minute")
-#     summary_axs[0].legend(("bayer-cold", "bayer-hot", "bayer-rt", "bayer-ca"), frameon=False)
-#     summary_axs[1].legend(("tylenol-cold", "tylenol-hot", "tylenol-rt", "tylenol-ca"), frameon=False)
-#     lega = summary_axs[0].get_legend()
-#     legb = summary_axs[1].get_legend()
-#     if len(lega.legend_handles) > 1:  # only do this if there are at least 2 sample types
-#         lega.legend_handles[0].set_color("tab:blue")
-#         lega.legend_handles[1].set_color("tab:red")
-#         lega.legend_handles[2].set_color("tab:olive")
-#         lega.legend_handles[3].set_color("tab:pink")
-#         legb.legend_handles[0].set_color("tab:blue")
-#         legb.legend_handles[1].set_color("tab:red")
-#         legb.legend_handles[2].set_color("tab:olive")
-#         legb.legend_handles[3].set_color("tab:pink")
-#     summary_axs[0].yaxis.set_label_coords(-0.1, 0.50)
-#     summary_axs[1].yaxis.set_label_coords(-0.1, 0.50)
-#     summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
-#     summary_fig.savefig("bayer_tylenol.pdf")
-#     summary_fig.clf()
+########### Bayer-Tylenol_only log plot
+if args.figure == "bayer_tylenol_only":
+    summary_fig, summary_axs = plt.subplots(1, 2, figsize=(8, 3))
+    for filename, peak_times, peak_counts in zip(summary_filenames, summary_peak_times, summary_peak_counts):
+        if "ACOLD" in filename:
+            summary_axs[0].plot(
+                numpy.array(peak_times) / 60.0,
+                60.0 * numpy.array(peak_counts) / bin_width + 1,
+                color="tab:blue",
+                linewidth=1, zorder=10
+            )
+        elif "AHOT" in filename:
+            summary_axs[0].plot(
+                numpy.array(peak_times) / 60.0,
+                60.0 * numpy.array(peak_counts) / bin_width + 1,
+                color="tab:red",
+                linewidth=1, zorder=10
+            )
+        elif "ART" in filename:
+            summary_axs[0].plot(
+                numpy.array(peak_times) / 60.0,
+                60.0 * numpy.array(peak_counts) / bin_width + 1,
+                color="tab:olive",
+                linewidth=1,
+            )
+        elif "ACANADA" in filename:
+            summary_axs[0].plot(
+                numpy.array(peak_times) / 60.0,
+                60.0 * numpy.array(peak_counts) / bin_width + 1,
+                color="tab:pink",
+                linewidth=1, zorder=10
+            )
+        elif "TCOLD" in filename:
+            summary_axs[1].plot(
+                numpy.array(peak_times) / 60.0,
+                60.0 * numpy.array(peak_counts) / bin_width + 1,
+                color="tab:blue",
+                linewidth=1, zorder=10
+            )
+        elif "THOT" in filename:
+            summary_axs[1].plot(
+                numpy.array(peak_times) / 60.0,
+                60.0 * numpy.array(peak_counts) / bin_width + 1,
+                color="tab:red",
+                linewidth=1, zorder=10
+            )
+        elif "TRT" in filename:
+            summary_axs[1].plot(
+                numpy.array(peak_times) / 60.0,
+                60.0 * numpy.array(peak_counts) / bin_width + 1,
+                color="tab:olive",
+                linewidth=1,
+            )
+        elif "TCANADA" in filename:
+            summary_axs[1].plot(
+                numpy.array(peak_times) / 60.0,
+                60.0 * numpy.array(peak_counts) / bin_width + 1,
+                color="tab:pink",
+                linewidth=1, zorder=10
+            )
+        else:
+            sys.exit(f"ERROR {filename} run can't be categorized")
+    summary_axs[0].set_yscale("log")
+    summary_axs[1].set_yscale("log")
+    summary_axs[0].set_ylim(0.7, 1500)
+    summary_axs[1].set_ylim(0.7, 1500)
+    summary_axs[0].set_yticks([1, 10, 100, 1000])
+    summary_axs[1].set_yticks([1, 10, 100, 1000])
+    summary_axs[0].minorticks_off()
+    summary_axs[1].minorticks_off()
+    summary_axs[0].yaxis.set_major_formatter(mticker.ScalarFormatter())
+    summary_axs[1].yaxis.set_major_formatter(mticker.ScalarFormatter())
+    a = summary_axs[0].get_yticks().tolist()
+    b = summary_axs[0].get_yticks().tolist()
+    a[0] = "0"
+    b[0] = "0"
+    summary_axs[0].set_yticklabels(a)
+    summary_axs[1].set_yticklabels(b)
+    summary_axs[0].set_xlabel("Time (minutes)")
+    summary_axs[1].set_xlabel("Time (minutes)")
+    summary_axs[0].set_ylabel("Particles per minute")
+    summary_axs[1].set_ylabel("Particles per minute")
+    summary_axs[0].legend(("bayer-cold", "bayer-hot", "bayer-rt", "bayer-ca"), frameon=False)
+    summary_axs[1].legend(("tylenol-cold", "tylenol-hot", "tylenol-rt", "tylenol-ca"), frameon=False)
+    lega = summary_axs[0].get_legend()
+    legb = summary_axs[1].get_legend()
+    if len(lega.legend_handles) > 1:  # only do this if there are at least 2 sample types
+        lega.legend_handles[0].set_color("tab:blue")
+        lega.legend_handles[1].set_color("tab:red")
+        lega.legend_handles[2].set_color("tab:olive")
+        lega.legend_handles[3].set_color("tab:pink")
+        legb.legend_handles[0].set_color("tab:blue")
+        legb.legend_handles[1].set_color("tab:red")
+        legb.legend_handles[2].set_color("tab:olive")
+        legb.legend_handles[3].set_color("tab:pink")
+    summary_axs[0].yaxis.set_label_coords(-0.1, 0.50)
+    summary_axs[1].yaxis.set_label_coords(-0.1, 0.50)
+    summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
+    summary_fig.savefig("bayer_tylenol_only.pdf")
+    summary_fig.clf()
 
 
 
