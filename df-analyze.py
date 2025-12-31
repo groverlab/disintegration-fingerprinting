@@ -24,7 +24,7 @@ start_time = time.time()
 
 parser = argparse.ArgumentParser()
 parser.add_argument("directory", help="directory containing DF data files")
-parser.add_argument("--figure", default="none", help="figure to generate", choices=["aspirin", "beads", "variety", "long", "condensed", "bayer_tylenol"],)
+parser.add_argument("--figure", default="none", help="figure to generate", choices=["aspirin", "beads", "variety", "long", "condensed", "bayer_tylenol", "bayer_tylenol_only"],)
 args = parser.parse_args()
 
 

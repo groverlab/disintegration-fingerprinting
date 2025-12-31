@@ -8,7 +8,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("filename")
-parser.add_argument("--figure", default="none", help="figure to generate", choices=["aspirin", "variety", "bayer_tylenol"],)
+parser.add_argument("--figure", default="none", help="figure to generate", choices=["aspirin", "variety", "bayer_tylenol_only"],)
 args = parser.parse_args()
 
 f = open(args.filename, 'r')
@@ -94,7 +94,6 @@ plt.axis("off")
 cbar_ax = ax.inset_axes([0.8, 0.5, 0.04, 0.4])
 sns.heatmap(bigtable, mask=mask, cmap="Blues_r", linewidth=0.5, norm=LogNorm(), square=True, cbar_ax=cbar_ax)
 
-
 pointer = "— "
 for x, l in enumerate(d):
 	if args.figure == "aspirin":
@@ -102,7 +101,7 @@ for x, l in enumerate(d):
 		if label == "Bayer":
 			label = "Name brand"
 		plt.text(x+1-0.5, x+1-0.5, pointer+label, rotation=45, horizontalalignment="left", verticalalignment="center", rotation_mode='anchor', size=12)
-	elif args.figure == "bayer_tylenol":
+	elif args.figure == "bayer_tylenol_only":
 		label = bayer_tylenol_data[d[l][1][0].split(" ")[0][-3:]]
 		plt.text(x+1-0.5, x+1-0.5, pointer+label, rotation=45, horizontalalignment="left", verticalalignment="center", rotation_mode='anchor', size=9)
 	elif args.figure == "variety":
@@ -117,4 +116,4 @@ print("largest:\t", largest)
 # cax = ax.inset_axes([0.5, 0.1, 0.4, 0.04])
 # fig.colorbar(im, cax=cax, orientation="horizontal")
 plt.tight_layout()
-plt.show()
+plt.savefig(args.figure + "_comparisons.pdf")
