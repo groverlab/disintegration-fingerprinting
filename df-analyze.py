@@ -425,10 +425,57 @@ if args.figure == "bayer_tylenol_only_subdirs":
 
 ###### bayer-tylenol big plot
 if args.figure == "bayer_tylenol_only_subdirs":
+    plot_numbers = {
+        '101': 0,
+        '102': 1,
+        '103': 2,
+        '104': 3,
+        '105': 4,
+        '106': 5,
+        '107': 6,
+        '108': 7,
+        '109': 8,
+        '110': 9,
+        '111': 10,
+        '112': 11,
+        '113': 12,
+        '114': 13,
+        '115': 14,
+        '116': 15,
+        '117': 16,
+        '150': 18,
+        '151': 19,
+        '152': 20,
+        '153': 21,
+        '154': 22,
+        '155': 23,
+        '501': 24,
+        '502': 25,
+        '503': 26,
+        '504': 27,
+        '505': 28,
+        '506': 29,
+        '507': 30,
+        '508': 31,
+        '509': 32,
+        '510': 33,
+        '511': 34,
+        '512': 35,
+        '513': 36,
+        '514': 37,
+        '515': 38,
+        '516': 39,
+        '517': 40,
+        '518': 41,
+        '519': 42,
+        '550': 48,
+        '551': 49,
+        '552': 50,
+        '553': 51,
+        '554': 52,
+        '555': 53,
+    }
     bayer_tylenol_data = {
-    '011': 'Tylenol',
-    '012': 'Tylenol',
-    '013': 'Tylenol',
     '101': 'Tylenol 2027/03 BC',
     '102': 'Tylenol 2028/04 CA',
     '103': 'Tylenol 2028/04 WA',
@@ -452,9 +499,6 @@ if args.figure == "bayer_tylenol_only_subdirs":
     '153': 'Tylenol COLD 1',
     '154': 'Tylenol COLD 2',
     '155': 'Tylenol COLD 3',
-    '411': 'Bayer',
-    '412': 'Bayer',
-    '413': 'Bayer',
     '501': 'Bayer 2026/10 CO',
     '502': 'Bayer 2027/01 CO',
     '503': 'Bayer 2027/06 BC',
@@ -481,16 +525,13 @@ if args.figure == "bayer_tylenol_only_subdirs":
     '554': 'Bayer COLD 2',
     '555': 'Bayer COLD 3',
     }
-    sample_plot_numbers = {}
-    most_recent_plot_number = 0
     collage_fig, collage_axs = plt.subplots(
-        10, 5, sharex=True, sharey=True, figsize=(6.5, 8)
+        9, 6, sharex=True, sharey=True, figsize=(6.5, 8)
     )
     for filename, sample, peak_times, peak_counts in zip(summary_filenames, summary_samples, summary_peak_times, summary_peak_counts):
-        sample_plot_numbers[sample] = most_recent_plot_number
-        most_recent_plot_number += 1
+        plot_number = plot_numbers[filename.split(" ")[0][-3:]]
         label = bayer_tylenol_data[filename.split(" ")[0][-3:]]
-        collage_axs.flat[sample_plot_numbers[sample]].text(
+        collage_axs.flat[plot_number].text(
             0.02,
             0.90,
             # sample,
@@ -499,22 +540,22 @@ if args.figure == "bayer_tylenol_only_subdirs":
             size=8,
             horizontalalignment="left",
             verticalalignment="center",
-            transform=collage_axs.flat[sample_plot_numbers[sample]].transAxes,
+            transform=collage_axs.flat[plot_number].transAxes,
         )
-        collage_axs.flat[sample_plot_numbers[sample]].plot(
+        collage_axs.flat[plot_number].plot(
             numpy.array(peak_times) / 60.0,
             60.0 * numpy.array(peak_counts) / bin_width + 1,
         )  # log
-        collage_axs.flat[sample_plot_numbers[sample]].set_yscale("log")
-        collage_axs.flat[sample_plot_numbers[sample]].set_ylim(0.5, 5000)
-        collage_axs.flat[sample_plot_numbers[sample]].set_yticks([1, 10, 100, 1000])
-        collage_axs.flat[sample_plot_numbers[sample]].yaxis.set_major_formatter(
+        collage_axs.flat[plot_number].set_yscale("log")
+        collage_axs.flat[plot_number].set_ylim(0.5, 5000)
+        collage_axs.flat[plot_number].set_yticks([1, 10, 100, 1000])
+        collage_axs.flat[plot_number].yaxis.set_major_formatter(
             mticker.ScalarFormatter()
         )
-        a = collage_axs.flat[sample_plot_numbers[sample]].get_yticks().tolist()
+        a = collage_axs.flat[plot_number].get_yticks().tolist()
         a[0] = "0"
-        collage_axs.flat[sample_plot_numbers[sample]].set_yticklabels(a)
-        collage_axs.flat[sample_plot_numbers[sample]].set_xticks([0, 30, 60])
+        collage_axs.flat[plot_number].set_yticklabels(a)
+        collage_axs.flat[plot_number].set_xticks([0, 30, 60])
     collage_fig.subplots_adjust(
         left=0.10, right=0.99, bottom=0.06, top=0.99, hspace=0.10, wspace=0.08
     )
