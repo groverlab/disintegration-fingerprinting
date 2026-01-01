@@ -335,21 +335,21 @@ if args.figure == "bayer_tylenol_only_subdirs":
             summary_axs[0].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-                color="tab:red",
+                color="tab:pink",
                 linewidth=1, zorder=10
             )
         elif "ART" in sample:
             summary_axs[0].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-                color="tab:olive",
+                color="lightgray",
                 linewidth=1,
             )
         elif "ACANADA" in sample:
             summary_axs[0].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-                color="tab:pink",
+                color="tab:red",
                 linewidth=1, zorder=10
             )
         elif "TCOLD" in sample:
@@ -363,21 +363,21 @@ if args.figure == "bayer_tylenol_only_subdirs":
             summary_axs[1].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-                color="tab:red",
+                color="tab:pink",
                 linewidth=1, zorder=10
             )
         elif "TRT" in sample:
             summary_axs[1].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-                color="tab:olive",
+                color="lightgray",
                 linewidth=1,
             )
         elif "TCANADA" in sample:
             summary_axs[1].plot(
                 numpy.array(peak_times) / 60.0,
                 60.0 * numpy.array(peak_counts) / bin_width + 1,
-                color="tab:pink",
+                color="tab:red",
                 linewidth=1, zorder=10
             )
         else:
@@ -408,18 +408,135 @@ if args.figure == "bayer_tylenol_only_subdirs":
     legb = summary_axs[1].get_legend()
     if len(lega.legend_handles) > 1:  # only do this if there are at least 2 sample types
         lega.legend_handles[0].set_color("tab:blue")
-        lega.legend_handles[1].set_color("tab:red")
-        lega.legend_handles[2].set_color("tab:olive")
-        lega.legend_handles[3].set_color("tab:pink")
+        lega.legend_handles[1].set_color("tab:pink")
+        lega.legend_handles[2].set_color("lightgray")
+        lega.legend_handles[3].set_color("tab:red")
         legb.legend_handles[0].set_color("tab:blue")
-        legb.legend_handles[1].set_color("tab:red")
-        legb.legend_handles[2].set_color("tab:olive")
-        legb.legend_handles[3].set_color("tab:pink")
+        legb.legend_handles[1].set_color("tab:pink")
+        legb.legend_handles[2].set_color("lightgray")
+        legb.legend_handles[3].set_color("tab:red")
     summary_axs[0].yaxis.set_label_coords(-0.1, 0.50)
     summary_axs[1].yaxis.set_label_coords(-0.1, 0.50)
     summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
     summary_fig.savefig("bayer_tylenol_only_subdirs.pdf")
     summary_fig.clf()
+
+
+
+###### bayer-tylenol big plot
+if args.figure == "bayer_tylenol_only_subdirs":
+    bayer_tylenol_data = {
+    '011': 'Tylenol',
+    '012': 'Tylenol',
+    '013': 'Tylenol',
+    '101': 'Tylenol 2027/03 BC',
+    '102': 'Tylenol 2028/04 CA',
+    '103': 'Tylenol 2028/04 WA',
+    '104': 'Tylenol 2028/04 MD',
+    '105': 'Tylenol 2028/04 TN',
+    '106': 'Tylenol 2028/04 CO',
+    '107': 'Tylenol 2028/05 DC',
+    '108': 'Tylenol 2028/07 BC',
+    '109': 'Tylenol 2028/10 VA',
+    '110': 'Tylenol 2028/12 CO',
+    '111': 'Tylenol 2029/01 TN',
+    '112': 'Tylenol 2029/01 CO',
+    '113': 'Tylenol 2029/01 CA',
+    '114': 'Tylenol 2029/02 CA',
+    '115': 'Tylenol 2029/03 VA',
+    '116': 'Tylenol 2029/03 CA',
+    '117': 'Tylenol 2029/07 CO',
+    '150': 'Tylenol HOT 1',
+    '151': 'Tylenol HOT 2',
+    '152': 'Tylenol HOT 3',
+    '153': 'Tylenol COLD 1',
+    '154': 'Tylenol COLD 2',
+    '155': 'Tylenol COLD 3',
+    '411': 'Bayer',
+    '412': 'Bayer',
+    '413': 'Bayer',
+    '501': 'Bayer 2026/10 CO',
+    '502': 'Bayer 2027/01 CO',
+    '503': 'Bayer 2027/06 BC',
+    '504': 'Bayer 2027/09 TN',
+    '505': 'Bayer 2027/09 CA',
+    '506': 'Bayer 2027/10 MD',
+    '507': 'Bayer 2027/11 CO',
+    '508': 'Bayer 2027/12 BC',
+    '509': 'Bayer 2028/01 CA',
+    '510': 'Bayer 2028/01 CO',
+    '511': 'Bayer 2028/01 TN',
+    '512': 'Bayer 2028/01 BC',
+    '513': 'Bayer 2028/02 CA',
+    '514': 'Bayer 2028/02 DC',
+    '515': 'Bayer 2028/02 MN',
+    '516': 'Bayer 2028/04 CA',
+    '517': 'Bayer 2028/04 TN',
+    '518': 'Bayer 2028/05 VA',
+    '519': 'Bayer 2028/06 CA',
+    '550': 'Bayer HOT 1',
+    '551': 'Bayer HOT 2',
+    '552': 'Bayer HOT 3',
+    '553': 'Bayer COLD 1',
+    '554': 'Bayer COLD 2',
+    '555': 'Bayer COLD 3',
+    }
+    sample_plot_numbers = {}
+    most_recent_plot_number = 0
+    collage_fig, collage_axs = plt.subplots(
+        10, 5, sharex=True, sharey=True, figsize=(6.5, 8)
+    )
+    for filename, sample, peak_times, peak_counts in zip(summary_filenames, summary_samples, summary_peak_times, summary_peak_counts):
+        sample_plot_numbers[sample] = most_recent_plot_number
+        most_recent_plot_number += 1
+        label = bayer_tylenol_data[filename.split(" ")[0][-3:]]
+        collage_axs.flat[sample_plot_numbers[sample]].text(
+            0.02,
+            0.90,
+            # sample,
+            # filename,
+            label,
+            size=8,
+            horizontalalignment="left",
+            verticalalignment="center",
+            transform=collage_axs.flat[sample_plot_numbers[sample]].transAxes,
+        )
+        collage_axs.flat[sample_plot_numbers[sample]].plot(
+            numpy.array(peak_times) / 60.0,
+            60.0 * numpy.array(peak_counts) / bin_width + 1,
+        )  # log
+        collage_axs.flat[sample_plot_numbers[sample]].set_yscale("log")
+        collage_axs.flat[sample_plot_numbers[sample]].set_ylim(0.5, 5000)
+        collage_axs.flat[sample_plot_numbers[sample]].set_yticks([1, 10, 100, 1000])
+        collage_axs.flat[sample_plot_numbers[sample]].yaxis.set_major_formatter(
+            mticker.ScalarFormatter()
+        )
+        a = collage_axs.flat[sample_plot_numbers[sample]].get_yticks().tolist()
+        a[0] = "0"
+        collage_axs.flat[sample_plot_numbers[sample]].set_yticklabels(a)
+        collage_axs.flat[sample_plot_numbers[sample]].set_xticks([0, 30, 60])
+    collage_fig.subplots_adjust(
+        left=0.10, right=0.99, bottom=0.06, top=0.99, hspace=0.10, wspace=0.08
+    )
+    collage_fig.text(0.5, 0.01, "Time (minutes)", ha="center")
+    collage_fig.text(
+        0.01, 0.5, "Particles per minute", va="center", rotation="vertical"
+    )
+    collage_fig.savefig("BIGPLOT.pdf")
+    collage_fig.clf()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
