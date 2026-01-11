@@ -56,19 +56,18 @@ bayer_tylenol_only/103 20251124T112431_T15one TRT.json.gz,-0.07125918926696458,
   Minimum slope: -0.08431904409267997
 bayer_tylenol_only/104 20251118T150120_T08one TRT.json.gz,-0.08431904409267997,
 
-  bayer_tylenol_only/105 20251119T164358_T13one TRT.json.gz
+  bayer_tylenol_only/105 20260107T104635_T13two TRT.json.gz
   💊 bayer_tylenol_only
-  Start time: 1763599438.9333446
-  Stop time: 1763603338.935057
-  Duration: 3900.001712322235 s
-  Measurements: 8146708
-  Measurements per second: 2088.8985700339827
-  Byte count: 45733340
-  Seconds per byte: 8.527699294042891e-05
-  Baseline mean: 46.00562835782711
-  ⚠️  Noise peak removed at index 2986
-  Minimum slope: -0.6429757147389821
-bayer_tylenol_only/105 20251119T164358_T13one TRT.json.gz,-0.6429757147389821,
+  Start time: 1767811595.9790423
+  Stop time: 1767815495.9819958
+  Duration: 3900.002953529358 s
+  Measurements: 7628162
+  Measurements per second: 1955.9374930977415
+  Byte count: 45733436
+  Seconds per byte: 8.527684107376839e-05
+  Baseline mean: 11.766523780827525
+  Minimum slope: -0.08109057921263566
+bayer_tylenol_only/105 20260107T104635_T13two TRT.json.gz,-0.08109057921263566,
 
   bayer_tylenol_only/106 20251117T124159_T05one TRT.json.gz
   💊 bayer_tylenol_only
@@ -753,14 +752,19 @@ bayer_tylenol_only/102 20251113T170126_T02one TRT.json.gz
     ✅ bayer_tylenol_only == bayer_tylenol_only   732
 bayer_tylenol_only/103 20251124T112431_T15one TRT.json.gz
   PEAK COMPARISONS
+    ✅ bayer_tylenol_only == bayer_tylenol_only   280
     ✅ bayer_tylenol_only == bayer_tylenol_only   537
     ✅ bayer_tylenol_only == bayer_tylenol_only   743
-    ✅ bayer_tylenol_only == bayer_tylenol_only   769
 bayer_tylenol_only/104 20251118T150120_T08one TRT.json.gz
   PEAK COMPARISONS
     ✅ bayer_tylenol_only == bayer_tylenol_only   208
     ✅ bayer_tylenol_only == bayer_tylenol_only   390
     ✅ bayer_tylenol_only == bayer_tylenol_only   674
+bayer_tylenol_only/105 20260107T104635_T13two TRT.json.gz
+  PEAK COMPARISONS
+    ✅ bayer_tylenol_only == bayer_tylenol_only   280
+    ✅ bayer_tylenol_only == bayer_tylenol_only   619
+    ✅ bayer_tylenol_only == bayer_tylenol_only   749
 bayer_tylenol_only/106 20251117T124159_T05one TRT.json.gz
   PEAK COMPARISONS
     ✅ bayer_tylenol_only == bayer_tylenol_only   390
@@ -815,7 +819,7 @@ bayer_tylenol_only/116 20251119T121001_T10one TRT.json.gz
   PEAK COMPARISONS
     ✅ bayer_tylenol_only == bayer_tylenol_only   537
     ✅ bayer_tylenol_only == bayer_tylenol_only   600
-    ✅ bayer_tylenol_only == bayer_tylenol_only   632
+    ✅ bayer_tylenol_only == bayer_tylenol_only   619
 bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz
   PEAK COMPARISONS
     ✅ bayer_tylenol_only == bayer_tylenol_only   491
@@ -977,9 +981,9 @@ bayer_tylenol_only/555 20251203T155106_AO1 ACOLD 3.json.gz
     ✅ bayer_tylenol_only == bayer_tylenol_only   880
     ✅ bayer_tylenol_only == bayer_tylenol_only   938
 PEAK MATCH FAILURES
-0 peak failures out of 47 samples
+0 peak failures out of 48 samples
 Peak failure rate: 0.0
-Total number of measurements:  367057772
+Total number of measurements:  366539226
 Number of out-of-dynamic-range measurements removed:  0
-Number of noise peaks removed:  119
-Done!  Elapsed time 217.8 seconds
+Number of noise peaks removed:  118
+Done!  Elapsed time 262.3 seconds

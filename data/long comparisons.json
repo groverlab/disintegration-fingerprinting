@@ -1,0 +1,950 @@
+{
+    "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz": [
+        [
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            109272
+        ],
+        [
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            106394
+        ],
+        [
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            214829
+        ],
+        [
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            216145
+        ],
+        [
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            215644
+        ],
+        [
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            105308
+        ],
+        [
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            123432
+        ],
+        [
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            132521
+        ],
+        [
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            166507
+        ],
+        [
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            170431
+        ],
+        [
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            172016
+        ]
+    ],
+    "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz": [
+        [
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            109272
+        ],
+        [
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            14600
+        ],
+        [
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            192745
+        ],
+        [
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            194055
+        ],
+        [
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            193552
+        ],
+        [
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            103986
+        ],
+        [
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            118462
+        ],
+        [
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            114221
+        ],
+        [
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            144445
+        ],
+        [
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            148393
+        ],
+        [
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            149986
+        ]
+    ],
+    "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz": [
+        [
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            106394
+        ],
+        [
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            14600
+        ],
+        [
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            189271
+        ],
+        [
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            190581
+        ],
+        [
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            190072
+        ],
+        [
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            97668
+        ],
+        [
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            112242
+        ],
+        [
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            109271
+        ],
+        [
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            140967
+        ],
+        [
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            144921
+        ],
+        [
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            146514
+        ]
+    ],
+    "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz": [
+        [
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            214829
+        ],
+        [
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            192745
+        ],
+        [
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            189271
+        ],
+        [
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            2080
+        ],
+        [
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            2401
+        ],
+        [
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            109603
+        ],
+        [
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            91531
+        ],
+        [
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            82390
+        ],
+        [
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            48522
+        ],
+        [
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            44582
+        ],
+        [
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            42995
+        ]
+    ],
+    "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz": [
+        [
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            216145
+        ],
+        [
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            194055
+        ],
+        [
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            190581
+        ],
+        [
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            2080
+        ],
+        [
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            1733
+        ],
+        [
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            110913
+        ],
+        [
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            92825
+        ],
+        [
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            83696
+        ],
+        [
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            49800
+        ],
+        [
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            45830
+        ],
+        [
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            44277
+        ]
+    ],
+    "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz": [
+        [
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            215644
+        ],
+        [
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            193552
+        ],
+        [
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            190072
+        ],
+        [
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            2401
+        ],
+        [
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            1733
+        ],
+        [
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            110412
+        ],
+        [
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            92346
+        ],
+        [
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            83205
+        ],
+        [
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            49297
+        ],
+        [
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            45365
+        ],
+        [
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            43802
+        ]
+    ],
+    "long/Iron complex/20241125T220916_iron_complex_long.json.gz": [
+        [
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            105308
+        ],
+        [
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            103986
+        ],
+        [
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            97668
+        ],
+        [
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            109603
+        ],
+        [
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            110913
+        ],
+        [
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            110412
+        ],
+        [
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            20944
+        ],
+        [
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            27601
+        ],
+        [
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            61209
+        ],
+        [
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            65155
+        ],
+        [
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            66718
+        ]
+    ],
+    "long/Iron complex/20241211T221002_iron_complex_long.json.gz": [
+        [
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            123432
+        ],
+        [
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            118462
+        ],
+        [
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            112242
+        ],
+        [
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            91531
+        ],
+        [
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            92825
+        ],
+        [
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            92346
+        ],
+        [
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            20944
+        ],
+        [
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            15813
+        ],
+        [
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            44103
+        ],
+        [
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            47425
+        ],
+        [
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            49230
+        ]
+    ],
+    "long/Iron complex/20241212T193348_iron_complex_long.json.gz": [
+        [
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            132521
+        ],
+        [
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            114221
+        ],
+        [
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            109271
+        ],
+        [
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            82390
+        ],
+        [
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            83696
+        ],
+        [
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            83205
+        ],
+        [
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            27601
+        ],
+        [
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            15813
+        ],
+        [
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            34140
+        ],
+        [
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            38034
+        ],
+        [
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            39597
+        ]
+    ],
+    "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz": [
+        [
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            166507
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            144445
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            140967
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            48522
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            49800
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            49297
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            61209
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            44103
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            34140
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            8002
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            8169
+        ]
+    ],
+    "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz": [
+        [
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            170431
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            148393
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            144921
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            44582
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            45830
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            45365
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            65155
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            47425
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            38034
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            8002
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            6589
+        ]
+    ],
+    "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz": [
+        [
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/B-100 complex/20241126T093349_b-100_complex_long.json.gz",
+            "B-100 complex",
+            172016
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/B-100 complex/20241126T222347_b-100_complex_long.json.gz",
+            "B-100 complex",
+            149986
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/B-100 complex/20241127T083420_b-100_complex_long.json.gz",
+            "B-100 complex",
+            146514
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Guaifenesin/20241117T211932_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            42995
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Guaifenesin/20241209T211352_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            44277
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Guaifenesin/20241210T215931_guaifenesin_generic_12_hours.json.gz",
+            "Guaifenesin",
+            43802
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Iron complex/20241125T220916_iron_complex_long.json.gz",
+            "Iron complex",
+            66718
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Iron complex/20241211T221002_iron_complex_long.json.gz",
+            "Iron complex",
+            49230
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Iron complex/20241212T193348_iron_complex_long.json.gz",
+            "Iron complex",
+            39597
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Pseudoephedrine ext. rel./20241123T221406_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            8169
+        ],
+        [
+            "long/Pseudoephedrine ext. rel./20241124T202013_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            "long/Pseudoephedrine ext. rel./20241124T101120_sudafed_sinus_long.json.gz",
+            "Pseudoephedrine ext. rel.",
+            6589
+        ]
+    ]
+}

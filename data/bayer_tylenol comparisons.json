@@ -24,6 +24,13 @@
         [
             "bayer_tylenol/101 20251124T124538_T16one TCANADA.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            2243
+        ],
+        [
+            "bayer_tylenol/101 20251124T124538_T16one TCANADA.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             2114
@@ -526,6 +533,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             208
+        ],
+        [
+            "bayer_tylenol/102 20251113T170126_T02one TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            781
         ],
         [
             "bayer_tylenol/102 20251113T170126_T02one TRT.json.gz",
@@ -1036,6 +1050,13 @@
         [
             "bayer_tylenol/103 20251124T112431_T15one TRT.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            280
+        ],
+        [
+            "bayer_tylenol/103 20251124T112431_T15one TRT.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             743
@@ -1542,6 +1563,13 @@
         [
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            861
+        ],
+        [
+            "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             390
@@ -2023,6 +2051,519 @@
             5574
         ]
     ],
+    "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz": [
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/101 20251124T124538_T16one TCANADA.json.gz",
+            "bayer_tylenol",
+            2243
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/102 20251113T170126_T02one TRT.json.gz",
+            "bayer_tylenol",
+            781
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/103 20251124T112431_T15one TRT.json.gz",
+            "bayer_tylenol",
+            280
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
+            "bayer_tylenol",
+            861
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
+            "bayer_tylenol",
+            749
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/107 20251118T134538_T07one TRT.json.gz",
+            "bayer_tylenol",
+            995
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/108 20251124T135557_T17one TCANADA.json.gz",
+            "bayer_tylenol",
+            1848
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/109 20251118T123829_T06one TRT.json.gz",
+            "bayer_tylenol",
+            1157
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/110 20251117T112834_T04one TRT.json.gz",
+            "bayer_tylenol",
+            1165
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/111 20251120T111520_T14one TRT.json.gz",
+            "bayer_tylenol",
+            1277
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/112 20251119T131818_T11one TRT.json.gz",
+            "bayer_tylenol",
+            1442
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/113 20251117T101939_T03one TRT.json.gz",
+            "bayer_tylenol",
+            945
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/114 20251113T154922_T01one TRT.json.gz",
+            "bayer_tylenol",
+            1136
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/115 20251118T160812_T09one TRT.json.gz",
+            "bayer_tylenol",
+            1405
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/116 20251119T121001_T10one TRT.json.gz",
+            "bayer_tylenol",
+            619
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/117 20251119T142553_T12one TRT.json.gz",
+            "bayer_tylenol",
+            1629
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/150 20251210T103434_T06 THOT 1.json.gz",
+            "bayer_tylenol",
+            1660
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/151 20251210T114041_T06 THOT 2.json.gz",
+            "bayer_tylenol",
+            927
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/152 20251210T124817_T06 THOT 3.json.gz",
+            "bayer_tylenol",
+            1448
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/153 20251210T135456_T06 TCOLD 1.json.gz",
+            "bayer_tylenol",
+            1191
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/154 20251210T150122_T06 TCOLD 2.json.gz",
+            "bayer_tylenol",
+            1486
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/155 20251210T160747_T06 TCOLD 3.json.gz",
+            "bayer_tylenol",
+            1503
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241112T125840_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            3235
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241112T140739_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            3076
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241112T141148_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            2878
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241112T151442_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            2777
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241112T151958_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            3495
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241113T120447_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1452
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241113T120556_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1377
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241114T143102_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1489
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241114T154625_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1431
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241115T134832_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1242
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241115T140108_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1089
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241116T102324_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1482
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241119T123655_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1353
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241119T140627_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            2831
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241119T153203_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1424
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241119T153214_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1597
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241121T124410_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            2920
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241121T135122_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            3388
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241121T135144_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            3166
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241121T150345_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1626
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241126T114333_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            3136
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241126T114353_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            2921
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241203T115929_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1444
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241203T115945_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            1413
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241203T131113_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            3283
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/20241203T131130_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            2452
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/501 20251112T162420_A12one ART.json.gz",
+            "bayer_tylenol",
+            3822
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/502 20251111T121444_A07one ART.json.gz",
+            "bayer_tylenol",
+            2771
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/503 20251124T150228_A17one ACANADA.json.gz",
+            "bayer_tylenol",
+            4071
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/504 20251113T120744_A14one ART.json.gz",
+            "bayer_tylenol",
+            3433
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/505 20251110T134251_A03one ART.json.gz",
+            "bayer_tylenol",
+            2950
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/506 20251112T151658_A11one ART.json.gz",
+            "bayer_tylenol",
+            3243
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/507 20251111T110351_A06one ART.json.gz",
+            "bayer_tylenol",
+            3272
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/508 20251125T104844_A19one ACANADA.json.gz",
+            "bayer_tylenol",
+            3731
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/509 20251110T161145_A04one ART.json.gz",
+            "bayer_tylenol",
+            4024
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/510 20251112T114510_A08one ART.json.gz",
+            "bayer_tylenol",
+            3661
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/511 20251113T132033_A15one ART.json.gz",
+            "bayer_tylenol",
+            3622
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/512 20251125T093826_A18one ART.json.gz",
+            "bayer_tylenol",
+            4727
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/513 20251029T115335_A02one ART.json.gz",
+            "bayer_tylenol",
+            3005
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/514 20251112T141056_A10one ART.json.gz",
+            "bayer_tylenol",
+            3687
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/515 20251113T142955_A16one ART.json.gz",
+            "bayer_tylenol",
+            3455
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/516 20251110T172526_A05one ART.json.gz",
+            "bayer_tylenol",
+            3649
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/517 20251113T105935_A13one ART.json.gz",
+            "bayer_tylenol",
+            3472
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/518 20251112T125208_A09one ART.json.gz",
+            "bayer_tylenol",
+            3882
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/519 20251027T133114_A01one ART.json.gz",
+            "bayer_tylenol",
+            4294
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/550 20251203T093716_A01 AHOT 1.json.gz",
+            "bayer_tylenol",
+            7356
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/551 20251203T105425_A01 AHOT 2.json.gz",
+            "bayer_tylenol",
+            5055
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/552 20251203T120239_A01 AHOT 3.json.gz",
+            "bayer_tylenol",
+            5887
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/553 20251203T131110_A01 ACOLD 1.json.gz",
+            "bayer_tylenol",
+            5409
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/554 20251203T143126_A01 ACOLD 2.json.gz",
+            "bayer_tylenol",
+            5177
+        ],
+        [
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/555 20251203T155106_AO1 ACOLD 3.json.gz",
+            "bayer_tylenol",
+            5127
+        ]
+    ],
     "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz": [
         [
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
@@ -2051,6 +2592,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             390
+        ],
+        [
+            "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            749
         ],
         [
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
@@ -2561,6 +3109,13 @@
         [
             "bayer_tylenol/107 20251118T134538_T07one TRT.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            995
+        ],
+        [
+            "bayer_tylenol/107 20251118T134538_T07one TRT.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1224
@@ -3063,6 +3618,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             1611
+        ],
+        [
+            "bayer_tylenol/108 20251124T135557_T17one TCANADA.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1848
         ],
         [
             "bayer_tylenol/108 20251124T135557_T17one TCANADA.json.gz",
@@ -3573,6 +4135,13 @@
         [
             "bayer_tylenol/109 20251118T123829_T06one TRT.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1157
+        ],
+        [
+            "bayer_tylenol/109 20251118T123829_T06one TRT.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1048
@@ -4075,6 +4644,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             674
+        ],
+        [
+            "bayer_tylenol/110 20251117T112834_T04one TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1165
         ],
         [
             "bayer_tylenol/110 20251117T112834_T04one TRT.json.gz",
@@ -4585,6 +5161,13 @@
         [
             "bayer_tylenol/111 20251120T111520_T14one TRT.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1277
+        ],
+        [
+            "bayer_tylenol/111 20251120T111520_T14one TRT.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1228
@@ -5087,6 +5670,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             1089
+        ],
+        [
+            "bayer_tylenol/112 20251119T131818_T11one TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1442
         ],
         [
             "bayer_tylenol/112 20251119T131818_T11one TRT.json.gz",
@@ -5597,6 +6187,13 @@
         [
             "bayer_tylenol/113 20251117T101939_T03one TRT.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            945
+        ],
+        [
+            "bayer_tylenol/113 20251117T101939_T03one TRT.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1034
@@ -6099,6 +6696,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             731
+        ],
+        [
+            "bayer_tylenol/114 20251113T154922_T01one TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1136
         ],
         [
             "bayer_tylenol/114 20251113T154922_T01one TRT.json.gz",
@@ -6609,6 +7213,13 @@
         [
             "bayer_tylenol/115 20251118T160812_T09one TRT.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1405
+        ],
+        [
+            "bayer_tylenol/115 20251118T160812_T09one TRT.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             978
@@ -7111,6 +7722,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             958
+        ],
+        [
+            "bayer_tylenol/116 20251119T121001_T10one TRT.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            619
         ],
         [
             "bayer_tylenol/116 20251119T121001_T10one TRT.json.gz",
@@ -7621,6 +8239,13 @@
         [
             "bayer_tylenol/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1629
+        ],
+        [
+            "bayer_tylenol/117 20251119T142553_T12one TRT.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1148
@@ -8123,6 +8748,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             2441
+        ],
+        [
+            "bayer_tylenol/150 20251210T103434_T06 THOT 1.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1660
         ],
         [
             "bayer_tylenol/150 20251210T103434_T06 THOT 1.json.gz",
@@ -8633,6 +9265,13 @@
         [
             "bayer_tylenol/151 20251210T114041_T06 THOT 2.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            927
+        ],
+        [
+            "bayer_tylenol/151 20251210T114041_T06 THOT 2.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1400
@@ -9135,6 +9774,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             2053
+        ],
+        [
+            "bayer_tylenol/152 20251210T124817_T06 THOT 3.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1448
         ],
         [
             "bayer_tylenol/152 20251210T124817_T06 THOT 3.json.gz",
@@ -9645,6 +10291,13 @@
         [
             "bayer_tylenol/153 20251210T135456_T06 TCOLD 1.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1191
+        ],
+        [
+            "bayer_tylenol/153 20251210T135456_T06 TCOLD 1.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1770
@@ -10147,6 +10800,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             1729
+        ],
+        [
+            "bayer_tylenol/154 20251210T150122_T06 TCOLD 2.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1486
         ],
         [
             "bayer_tylenol/154 20251210T150122_T06 TCOLD 2.json.gz",
@@ -10657,6 +11317,13 @@
         [
             "bayer_tylenol/155 20251210T160747_T06 TCOLD 3.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1503
+        ],
+        [
+            "bayer_tylenol/155 20251210T160747_T06 TCOLD 3.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1548
@@ -11159,6 +11826,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             3038
+        ],
+        [
+            "bayer_tylenol/20241112T125840_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3235
         ],
         [
             "bayer_tylenol/20241112T125840_Bayer_Aspirin BAYERBOTTLE.json.gz",
@@ -11669,6 +12343,13 @@
         [
             "bayer_tylenol/20241112T140739_Bayer_Aspirin BAYERBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3076
+        ],
+        [
+            "bayer_tylenol/20241112T140739_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             3279
@@ -12171,6 +12852,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             2759
+        ],
+        [
+            "bayer_tylenol/20241112T141148_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            2878
         ],
         [
             "bayer_tylenol/20241112T141148_Bayer_Aspirin BAYERBOTTLE.json.gz",
@@ -12681,6 +13369,13 @@
         [
             "bayer_tylenol/20241112T151442_Bayer_Aspirin BAYERBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            2777
+        ],
+        [
+            "bayer_tylenol/20241112T151442_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             2938
@@ -13183,6 +13878,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             3434
+        ],
+        [
+            "bayer_tylenol/20241112T151958_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3495
         ],
         [
             "bayer_tylenol/20241112T151958_Bayer_Aspirin BAYERBOTTLE.json.gz",
@@ -13693,6 +14395,13 @@
         [
             "bayer_tylenol/20241113T120447_Generic_Aspirin GENERICBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1452
+        ],
+        [
+            "bayer_tylenol/20241113T120447_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1303
@@ -14195,6 +14904,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             1084
+        ],
+        [
+            "bayer_tylenol/20241113T120556_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1377
         ],
         [
             "bayer_tylenol/20241113T120556_Generic_Aspirin GENERICBOTTLE.json.gz",
@@ -14705,6 +15421,13 @@
         [
             "bayer_tylenol/20241114T143102_Generic_Aspirin GENERICBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1489
+        ],
+        [
+            "bayer_tylenol/20241114T143102_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1380
@@ -15207,6 +15930,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             1050
+        ],
+        [
+            "bayer_tylenol/20241114T154625_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1431
         ],
         [
             "bayer_tylenol/20241114T154625_Generic_Aspirin GENERICBOTTLE.json.gz",
@@ -15717,6 +16447,13 @@
         [
             "bayer_tylenol/20241115T134832_generic_aspirin GENERICBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1242
+        ],
+        [
+            "bayer_tylenol/20241115T134832_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1063
@@ -16219,6 +16956,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             792
+        ],
+        [
+            "bayer_tylenol/20241115T140108_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1089
         ],
         [
             "bayer_tylenol/20241115T140108_generic_aspirin GENERICBOTTLE.json.gz",
@@ -16729,6 +17473,13 @@
         [
             "bayer_tylenol/20241116T102324_generic_aspirin GENERICBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1482
+        ],
+        [
+            "bayer_tylenol/20241116T102324_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1235
@@ -17231,6 +17982,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             1092
+        ],
+        [
+            "bayer_tylenol/20241119T123655_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1353
         ],
         [
             "bayer_tylenol/20241119T123655_generic_aspirin GENERICBOTTLE.json.gz",
@@ -17741,6 +18499,13 @@
         [
             "bayer_tylenol/20241119T140627_Bayer_Aspirin BAYERBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            2831
+        ],
+        [
+            "bayer_tylenol/20241119T140627_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             2996
@@ -18243,6 +19008,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             1243
+        ],
+        [
+            "bayer_tylenol/20241119T153203_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1424
         ],
         [
             "bayer_tylenol/20241119T153203_Generic_Aspirin GENERICBOTTLE.json.gz",
@@ -18753,6 +19525,13 @@
         [
             "bayer_tylenol/20241119T153214_generic_aspirin GENERICBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1597
+        ],
+        [
+            "bayer_tylenol/20241119T153214_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1416
@@ -19255,6 +20034,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             2759
+        ],
+        [
+            "bayer_tylenol/20241121T124410_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            2920
         ],
         [
             "bayer_tylenol/20241121T124410_Bayer_Aspirin BAYERBOTTLE.json.gz",
@@ -19765,6 +20551,13 @@
         [
             "bayer_tylenol/20241121T135122_Bayer_Aspirin BAYERBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3388
+        ],
+        [
+            "bayer_tylenol/20241121T135122_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             3577
@@ -20267,6 +21060,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             3075
+        ],
+        [
+            "bayer_tylenol/20241121T135144_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3166
         ],
         [
             "bayer_tylenol/20241121T135144_Bayer_Aspirin BAYERBOTTLE.json.gz",
@@ -20777,6 +21577,13 @@
         [
             "bayer_tylenol/20241121T150345_Generic_Aspirin GENERICBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1626
+        ],
+        [
+            "bayer_tylenol/20241121T150345_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1743
@@ -21279,6 +22086,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             2969
+        ],
+        [
+            "bayer_tylenol/20241126T114333_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3136
         ],
         [
             "bayer_tylenol/20241126T114333_Bayer_Aspirin BAYERBOTTLE.json.gz",
@@ -21789,6 +22603,13 @@
         [
             "bayer_tylenol/20241126T114353_Bayer_Aspirin BAYERBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            2921
+        ],
+        [
+            "bayer_tylenol/20241126T114353_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             3136
@@ -22291,6 +23112,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             1153
+        ],
+        [
+            "bayer_tylenol/20241203T115929_generic_aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1444
         ],
         [
             "bayer_tylenol/20241203T115929_generic_aspirin GENERICBOTTLE.json.gz",
@@ -22801,6 +23629,13 @@
         [
             "bayer_tylenol/20241203T115945_Generic_Aspirin GENERICBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            1413
+        ],
+        [
+            "bayer_tylenol/20241203T115945_Generic_Aspirin GENERICBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             1300
@@ -23303,6 +24138,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             3140
+        ],
+        [
+            "bayer_tylenol/20241203T131113_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3283
         ],
         [
             "bayer_tylenol/20241203T131113_Bayer_Aspirin BAYERBOTTLE.json.gz",
@@ -23813,6 +24655,13 @@
         [
             "bayer_tylenol/20241203T131130_Bayer_Aspirin BAYERBOTTLE.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            2452
+        ],
+        [
+            "bayer_tylenol/20241203T131130_Bayer_Aspirin BAYERBOTTLE.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             2535
@@ -24315,6 +25164,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             3995
+        ],
+        [
+            "bayer_tylenol/501 20251112T162420_A12one ART.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3822
         ],
         [
             "bayer_tylenol/501 20251112T162420_A12one ART.json.gz",
@@ -24825,6 +25681,13 @@
         [
             "bayer_tylenol/502 20251111T121444_A07one ART.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            2771
+        ],
+        [
+            "bayer_tylenol/502 20251111T121444_A07one ART.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             2870
@@ -25327,6 +26190,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             4218
+        ],
+        [
+            "bayer_tylenol/503 20251124T150228_A17one ACANADA.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            4071
         ],
         [
             "bayer_tylenol/503 20251124T150228_A17one ACANADA.json.gz",
@@ -25837,6 +26707,13 @@
         [
             "bayer_tylenol/504 20251113T120744_A14one ART.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3433
+        ],
+        [
+            "bayer_tylenol/504 20251113T120744_A14one ART.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             3560
@@ -26339,6 +27216,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             2839
+        ],
+        [
+            "bayer_tylenol/505 20251110T134251_A03one ART.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            2950
         ],
         [
             "bayer_tylenol/505 20251110T134251_A03one ART.json.gz",
@@ -26849,6 +27733,13 @@
         [
             "bayer_tylenol/506 20251112T151658_A11one ART.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3243
+        ],
+        [
+            "bayer_tylenol/506 20251112T151658_A11one ART.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             3474
@@ -27351,6 +28242,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             3559
+        ],
+        [
+            "bayer_tylenol/507 20251111T110351_A06one ART.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3272
         ],
         [
             "bayer_tylenol/507 20251111T110351_A06one ART.json.gz",
@@ -27861,6 +28759,13 @@
         [
             "bayer_tylenol/508 20251125T104844_A19one ACANADA.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3731
+        ],
+        [
+            "bayer_tylenol/508 20251125T104844_A19one ACANADA.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             3992
@@ -28363,6 +29268,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             4307
+        ],
+        [
+            "bayer_tylenol/509 20251110T161145_A04one ART.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            4024
         ],
         [
             "bayer_tylenol/509 20251110T161145_A04one ART.json.gz",
@@ -28873,6 +29785,13 @@
         [
             "bayer_tylenol/510 20251112T114510_A08one ART.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3661
+        ],
+        [
+            "bayer_tylenol/510 20251112T114510_A08one ART.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             3934
@@ -29375,6 +30294,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             3701
+        ],
+        [
+            "bayer_tylenol/511 20251113T132033_A15one ART.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3622
         ],
         [
             "bayer_tylenol/511 20251113T132033_A15one ART.json.gz",
@@ -29885,6 +30811,13 @@
         [
             "bayer_tylenol/512 20251125T093826_A18one ART.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            4727
+        ],
+        [
+            "bayer_tylenol/512 20251125T093826_A18one ART.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             5064
@@ -30387,6 +31320,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             2886
+        ],
+        [
+            "bayer_tylenol/513 20251029T115335_A02one ART.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3005
         ],
         [
             "bayer_tylenol/513 20251029T115335_A02one ART.json.gz",
@@ -30897,6 +31837,13 @@
         [
             "bayer_tylenol/514 20251112T141056_A10one ART.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3687
+        ],
+        [
+            "bayer_tylenol/514 20251112T141056_A10one ART.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             3746
@@ -31399,6 +32346,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             3366
+        ],
+        [
+            "bayer_tylenol/515 20251113T142955_A16one ART.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3455
         ],
         [
             "bayer_tylenol/515 20251113T142955_A16one ART.json.gz",
@@ -31909,6 +32863,13 @@
         [
             "bayer_tylenol/516 20251110T172526_A05one ART.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3649
+        ],
+        [
+            "bayer_tylenol/516 20251110T172526_A05one ART.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             3844
@@ -32411,6 +33372,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             3407
+        ],
+        [
+            "bayer_tylenol/517 20251113T105935_A13one ART.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3472
         ],
         [
             "bayer_tylenol/517 20251113T105935_A13one ART.json.gz",
@@ -32921,6 +33889,13 @@
         [
             "bayer_tylenol/518 20251112T125208_A09one ART.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            3882
+        ],
+        [
+            "bayer_tylenol/518 20251112T125208_A09one ART.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             3801
@@ -33423,6 +34398,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             4689
+        ],
+        [
+            "bayer_tylenol/519 20251027T133114_A01one ART.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            4294
         ],
         [
             "bayer_tylenol/519 20251027T133114_A01one ART.json.gz",
@@ -33933,6 +34915,13 @@
         [
             "bayer_tylenol/550 20251203T093716_A01 AHOT 1.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            7356
+        ],
+        [
+            "bayer_tylenol/550 20251203T093716_A01 AHOT 1.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             7625
@@ -34435,6 +35424,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             5502
+        ],
+        [
+            "bayer_tylenol/551 20251203T105425_A01 AHOT 2.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            5055
         ],
         [
             "bayer_tylenol/551 20251203T105425_A01 AHOT 2.json.gz",
@@ -34945,6 +35941,13 @@
         [
             "bayer_tylenol/552 20251203T120239_A01 AHOT 3.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            5887
+        ],
+        [
+            "bayer_tylenol/552 20251203T120239_A01 AHOT 3.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             6156
@@ -35447,6 +36450,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             5856
+        ],
+        [
+            "bayer_tylenol/553 20251203T131110_A01 ACOLD 1.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            5409
         ],
         [
             "bayer_tylenol/553 20251203T131110_A01 ACOLD 1.json.gz",
@@ -35957,6 +36967,13 @@
         [
             "bayer_tylenol/554 20251203T143126_A01 ACOLD 2.json.gz",
             "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            5177
+        ],
+        [
+            "bayer_tylenol/554 20251203T143126_A01 ACOLD 2.json.gz",
+            "bayer_tylenol",
             "bayer_tylenol/106 20251117T124159_T05one TRT.json.gz",
             "bayer_tylenol",
             5462
@@ -36459,6 +37476,13 @@
             "bayer_tylenol/104 20251118T150120_T08one TRT.json.gz",
             "bayer_tylenol",
             5574
+        ],
+        [
+            "bayer_tylenol/555 20251203T155106_AO1 ACOLD 3.json.gz",
+            "bayer_tylenol",
+            "bayer_tylenol/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol",
+            5127
         ],
         [
             "bayer_tylenol/555 20251203T155106_AO1 ACOLD 3.json.gz",
