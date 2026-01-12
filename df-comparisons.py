@@ -59,7 +59,7 @@ bayer_tylenol_data = {
 '513': 'Bayer 2028/02 CA',
 '514': 'Bayer 2028/02 DC',
 '515': 'Bayer 2028/02 MN',
-'516': 'Bayer 2028/04 CA',
+
 '517': 'Bayer 2028/04 TN',
 '518': 'Bayer 2028/05 VA',
 '519': 'Bayer 2028/06 CA',

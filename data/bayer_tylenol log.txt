@@ -959,19 +959,6 @@ bayer_tylenol/514 20251112T141056_A10one ART.json.gz,-0.07861866657119485,
   Minimum slope: -0.11074348047225839
 bayer_tylenol/515 20251113T142955_A16one ART.json.gz,-0.11074348047225839,
 
-  bayer_tylenol/516 20251110T172526_A05one ART.json.gz
-  💊 bayer_tylenol
-  Start time: 1762824327.0521421
-  Stop time: 1762828227.0525935
-  Duration: 3900.0004513263702 s
-  Measurements: 7635113
-  Measurements per second: 1957.72105549458
-  Byte count: 45733365
-  Seconds per byte: 8.52769187512524e-05
-  Baseline mean: 10.807103020517689
-  Minimum slope: -0.061917166670881034
-bayer_tylenol/516 20251110T172526_A05one ART.json.gz,-0.061917166670881034,
-
   bayer_tylenol/517 20251113T105935_A13one ART.json.gz
   💊 bayer_tylenol
   Start time: 1763060375.3359895
@@ -1454,19 +1441,19 @@ bayer_tylenol/508 20251125T104844_A19one ACANADA.json.gz
     ✅ bayer_tylenol == bayer_tylenol   767
 bayer_tylenol/509 20251110T161145_A04one ART.json.gz
   PEAK COMPARISONS
-    ✅ bayer_tylenol == bayer_tylenol   699
     ✅ bayer_tylenol == bayer_tylenol   770
     ✅ bayer_tylenol == bayer_tylenol   782
+    ✅ bayer_tylenol == bayer_tylenol   801
 bayer_tylenol/510 20251112T114510_A08one ART.json.gz
   PEAK COMPARISONS
-    ✅ bayer_tylenol == bayer_tylenol   648
     ✅ bayer_tylenol == bayer_tylenol   665
     ✅ bayer_tylenol == bayer_tylenol   698
+    ✅ bayer_tylenol == bayer_tylenol   751
 bayer_tylenol/511 20251113T132033_A15one ART.json.gz
   PEAK COMPARISONS
-    ✅ bayer_tylenol == bayer_tylenol   639
     ✅ bayer_tylenol == bayer_tylenol   644
     ✅ bayer_tylenol == bayer_tylenol   665
+    ✅ bayer_tylenol == bayer_tylenol   667
 bayer_tylenol/512 20251125T093826_A18one ART.json.gz
   PEAK COMPARISONS
     ✅ bayer_tylenol == bayer_tylenol   1077
@@ -1487,11 +1474,6 @@ bayer_tylenol/515 20251113T142955_A16one ART.json.gz
     ✅ bayer_tylenol == bayer_tylenol   612
     ✅ bayer_tylenol == bayer_tylenol   616
     ✅ bayer_tylenol == bayer_tylenol   677
-bayer_tylenol/516 20251110T172526_A05one ART.json.gz
-  PEAK COMPARISONS
-    ✅ bayer_tylenol == bayer_tylenol   639
-    ✅ bayer_tylenol == bayer_tylenol   648
-    ✅ bayer_tylenol == bayer_tylenol   699
 bayer_tylenol/517 20251113T105935_A13one ART.json.gz
   PEAK COMPARISONS
     ✅ bayer_tylenol == bayer_tylenol   693
@@ -1506,7 +1488,7 @@ bayer_tylenol/519 20251027T133114_A01one ART.json.gz
   PEAK COMPARISONS
     ✅ bayer_tylenol == bayer_tylenol   770
     ✅ bayer_tylenol == bayer_tylenol   877
-    ✅ bayer_tylenol == bayer_tylenol   1005
+    ✅ bayer_tylenol == bayer_tylenol   1015
 bayer_tylenol/550 20251203T093716_A01 AHOT 1.json.gz
   PEAK COMPARISONS
     ✅ bayer_tylenol == bayer_tylenol   1735
@@ -1538,9 +1520,9 @@ bayer_tylenol/555 20251203T155106_AO1 ACOLD 3.json.gz
     ✅ bayer_tylenol == bayer_tylenol   880
     ✅ bayer_tylenol == bayer_tylenol   938
 PEAK MATCH FAILURES
-0 peak failures out of 74 samples
+0 peak failures out of 73 samples
 Peak failure rate: 0.0
-Total number of measurements:  606248344
+Total number of measurements:  598613231
 Number of out-of-dynamic-range measurements removed:  12
 Number of noise peaks removed:  143
-Done!  Elapsed time 494.4 seconds
+Done!  Elapsed time 472.4 seconds

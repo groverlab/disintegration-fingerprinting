@@ -296,19 +296,6 @@ bayer_tylenol_only_subdirs/ART/514 20251112T141056_A10one ART.json.gz,-0.0786186
   Minimum slope: -0.11074348047225839
 bayer_tylenol_only_subdirs/ART/515 20251113T142955_A16one ART.json.gz,-0.11074348047225839,
 
-  bayer_tylenol_only_subdirs/ART/516 20251110T172526_A05one ART.json.gz
-  💊 ART
-  Start time: 1762824327.0521421
-  Stop time: 1762828227.0525935
-  Duration: 3900.0004513263702 s
-  Measurements: 7635113
-  Measurements per second: 1957.72105549458
-  Byte count: 45733365
-  Seconds per byte: 8.52769187512524e-05
-  Baseline mean: 10.807103020517689
-  Minimum slope: -0.061917166670881034
-bayer_tylenol_only_subdirs/ART/516 20251110T172526_A05one ART.json.gz,-0.061917166670881034,
-
   bayer_tylenol_only_subdirs/ART/517 20251113T105935_A13one ART.json.gz
   💊 ART
   Start time: 1763060375.3359895
@@ -817,19 +804,19 @@ bayer_tylenol_only_subdirs/ART/507 20251111T110351_A06one ART.json.gz
     ✅ ART == ART   757
 bayer_tylenol_only_subdirs/ART/509 20251110T161145_A04one ART.json.gz
   PEAK COMPARISONS
-    ✅ ART == ART   699
     ✅ ART == ART   770
     ✅ ART == ART   782
+    ✅ ART == ART   801
 bayer_tylenol_only_subdirs/ART/510 20251112T114510_A08one ART.json.gz
   PEAK COMPARISONS
-    ✅ ART == ART   648
     ✅ ART == ART   665
     ❌ ART == ACANADA   698
+    ✅ ART == ART   751
 bayer_tylenol_only_subdirs/ART/511 20251113T132033_A15one ART.json.gz
   PEAK COMPARISONS
-    ✅ ART == ART   639
     ✅ ART == ART   644
     ✅ ART == ART   665
+    ✅ ART == ART   667
 bayer_tylenol_only_subdirs/ART/512 20251125T093826_A18one ART.json.gz
   PEAK COMPARISONS
     ✅ ART == ART   1077
@@ -850,11 +837,6 @@ bayer_tylenol_only_subdirs/ART/515 20251113T142955_A16one ART.json.gz
     ✅ ART == ART   836
     ✅ ART == ART   924
     ✅ ART == ART   948
-bayer_tylenol_only_subdirs/ART/516 20251110T172526_A05one ART.json.gz
-  PEAK COMPARISONS
-    ✅ ART == ART   639
-    ✅ ART == ART   648
-    ✅ ART == ART   699
 bayer_tylenol_only_subdirs/ART/517 20251113T105935_A13one ART.json.gz
   PEAK COMPARISONS
     ✅ ART == ART   693
@@ -869,7 +851,7 @@ bayer_tylenol_only_subdirs/ART/519 20251027T133114_A01one ART.json.gz
   PEAK COMPARISONS
     ✅ ART == ART   770
     ❌ ART == ACANADA   877
-    ✅ ART == ART   1005
+    ❌ ART == ACOLD   1015
 bayer_tylenol_only_subdirs/TCANADA/101 20251124T124538_T16one TCANADA.json.gz
   PEAK COMPARISONS
     ✅ TCANADA == TCANADA   945
@@ -1005,9 +987,9 @@ PEAK MATCH FAILURES
   bayer_tylenol_only_subdirs/THOT/151 20251210T114041_T06 THOT 2.json.gz
   bayer_tylenol_only_subdirs/THOT/152 20251210T124817_T06 THOT 3.json.gz
   bayer_tylenol_only_subdirs/TRT/111 20251120T111520_T14one TRT.json.gz
-12 peak failures out of 48 samples
-Peak failure rate: 0.25
-Total number of measurements:  366539226
+12 peak failures out of 47 samples
+Peak failure rate: 0.2553191489361702
+Total number of measurements:  358904113
 Number of out-of-dynamic-range measurements removed:  0
 Number of noise peaks removed:  118
-Done!  Elapsed time 260.4 seconds
+Done!  Elapsed time 261.9 seconds
