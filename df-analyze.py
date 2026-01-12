@@ -464,16 +464,15 @@ if args.figure == "bayer_tylenol_only_subdirs":
         '513': 36,
         '514': 37,
         '515': 38,
-
         '517': 39,
         '518': 40,
         '519': 41,
-        '550': 48,
-        '551': 49,
-        '552': 50,
-        '553': 51,
-        '554': 52,
-        '555': 53,
+        '550': 42,
+        '551': 43,
+        '552': 44,
+        '553': 45,
+        '554': 46,
+        '555': 47,
     }
     bayer_tylenol_data = {
     '101': 'Tylenol 2027/03 BC',
@@ -514,7 +513,6 @@ if args.figure == "bayer_tylenol_only_subdirs":
     '513': 'Bayer 2028/02 CA',
     '514': 'Bayer 2028/02 DC',
     '515': 'Bayer 2028/02 MN',
-
     '517': 'Bayer 2028/04 TN',
     '518': 'Bayer 2028/05 VA',
     '519': 'Bayer 2028/06 CA',
@@ -525,9 +523,7 @@ if args.figure == "bayer_tylenol_only_subdirs":
     '554': 'Bayer COLD 2',
     '555': 'Bayer COLD 3',
     }
-    collage_fig, collage_axs = plt.subplots(
-        9, 6, sharex=True, sharey=True, figsize=(6.5, 8)
-    )
+    collage_fig, collage_axs = plt.subplots(8, 6, sharex=True, sharey=True, figsize=(6.5, 8))
     for filename, sample, peak_times, peak_counts in zip(summary_filenames, summary_samples, summary_peak_times, summary_peak_counts):
         plot_number = plot_numbers[filename.split(" ")[0][-3:]]
         label = bayer_tylenol_data[filename.split(" ")[0][-3:]]
@@ -563,7 +559,7 @@ if args.figure == "bayer_tylenol_only_subdirs":
     collage_fig.text(
         0.01, 0.5, "Particles per minute", va="center", rotation="vertical"
     )
-    collage_fig.savefig("BIGPLOT.pdf")
+    collage_fig.savefig("bayer_tylenol_only_subdirs_bigplot.pdf")
     collage_fig.clf()
 
 
