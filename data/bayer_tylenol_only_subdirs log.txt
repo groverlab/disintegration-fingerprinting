@@ -727,6 +727,20 @@ bayer_tylenol_only_subdirs/TRT/116 20251119T121001_T10one TRT.json.gz,-0.0932680
   ⚠️  Noise peak removed at index 729
   Minimum slope: -0.16701545651477728
 bayer_tylenol_only_subdirs/TRT/117 20251119T142553_T12one TRT.json.gz,-0.16701545651477728,
+
+  bayer_tylenol_only_subdirs/TRT/118 20260114T121643_T18one TRT.json.gz
+  💊 TRT
+  Start time: 1768421803.310998
+  Stop time: 1768425703.311168
+  Duration: 3900.000169992447 s
+  Measurements: 7632479
+  Measurements per second: 1957.0458121325626
+  Byte count: 45734062
+  Seconds per byte: 8.527561295544767e-05
+  Baseline mean: 10.416088686753838
+  ⚠️  Noise peak removed at index 183122
+  Minimum slope: -0.2409614911503645
+bayer_tylenol_only_subdirs/TRT/118 20260114T121643_T18one TRT.json.gz,-0.2409614911503645,
 bayer_tylenol_only_subdirs/ACANADA/503 20251124T150228_A17one ACANADA.json.gz
   PEAK COMPARISONS
   ^^^^^PEAK FAIL^^^^^
@@ -974,6 +988,11 @@ bayer_tylenol_only_subdirs/TRT/117 20251119T142553_T12one TRT.json.gz
     ✅ TRT == TRT   491
     ✅ TRT == TRT   616
     ✅ TRT == TRT   793
+bayer_tylenol_only_subdirs/TRT/118 20260114T121643_T18one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ TRT == TRT   902
+    ❌ TRT == TCANADA   1131
+    ✅ TRT == TRT   1223
 PEAK MATCH FAILURES
   bayer_tylenol_only_subdirs/ACANADA/503 20251124T150228_A17one ACANADA.json.gz
   bayer_tylenol_only_subdirs/ACANADA/508 20251125T104844_A19one ACANADA.json.gz
@@ -987,9 +1006,9 @@ PEAK MATCH FAILURES
   bayer_tylenol_only_subdirs/THOT/151 20251210T114041_T06 THOT 2.json.gz
   bayer_tylenol_only_subdirs/THOT/152 20251210T124817_T06 THOT 3.json.gz
   bayer_tylenol_only_subdirs/TRT/111 20251120T111520_T14one TRT.json.gz
-12 peak failures out of 47 samples
-Peak failure rate: 0.2553191489361702
-Total number of measurements:  358904113
+12 peak failures out of 48 samples
+Peak failure rate: 0.25
+Total number of measurements:  366536592
 Number of out-of-dynamic-range measurements removed:  0
-Number of noise peaks removed:  118
-Done!  Elapsed time 271.6 seconds
+Number of noise peaks removed:  119
+Done!  Elapsed time 259.8 seconds

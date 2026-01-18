@@ -35,6 +35,7 @@ bayer_tylenol_data = {
 '115': 'Tylenol 2029/03 VA',
 '116': 'Tylenol 2029/03 CA',
 '117': 'Tylenol 2029/07 CO',
+'118': 'Tylenol 2029/08 CA',
 '150': 'Tylenol HOT 1',
 '151': 'Tylenol HOT 2',
 '152': 'Tylenol HOT 3',

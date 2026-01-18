@@ -239,6 +239,20 @@ bayer_tylenol_only/116 20251119T121001_T10one TRT.json.gz,-0.09326803480521831,
   Minimum slope: -0.16701545651477728
 bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz,-0.16701545651477728,
 
+  bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz
+  💊 bayer_tylenol_only
+  Start time: 1768421803.310998
+  Stop time: 1768425703.311168
+  Duration: 3900.000169992447 s
+  Measurements: 7632479
+  Measurements per second: 1957.0458121325626
+  Byte count: 45734062
+  Seconds per byte: 8.527561295544767e-05
+  Baseline mean: 10.416088686753838
+  ⚠️  Noise peak removed at index 183122
+  Minimum slope: -0.2409614911503645
+bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz,-0.2409614911503645,
+
   bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz
   💊 bayer_tylenol_only
   Start time: 1765391674.241994
@@ -812,6 +826,11 @@ bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz
     ✅ bayer_tylenol_only == bayer_tylenol_only   491
     ✅ bayer_tylenol_only == bayer_tylenol_only   616
     ✅ bayer_tylenol_only == bayer_tylenol_only   793
+bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz
+  PEAK COMPARISONS
+    ✅ bayer_tylenol_only == bayer_tylenol_only   902
+    ✅ bayer_tylenol_only == bayer_tylenol_only   1131
+    ✅ bayer_tylenol_only == bayer_tylenol_only   1223
 bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz
   PEAK COMPARISONS
     ✅ bayer_tylenol_only == bayer_tylenol_only   669
@@ -963,9 +982,9 @@ bayer_tylenol_only/555 20251203T155106_AO1 ACOLD 3.json.gz
     ✅ bayer_tylenol_only == bayer_tylenol_only   880
     ✅ bayer_tylenol_only == bayer_tylenol_only   938
 PEAK MATCH FAILURES
-0 peak failures out of 47 samples
+0 peak failures out of 48 samples
 Peak failure rate: 0.0
-Total number of measurements:  358904113
+Total number of measurements:  366536592
 Number of out-of-dynamic-range measurements removed:  0
-Number of noise peaks removed:  118
-Done!  Elapsed time 254.6 seconds
+Number of noise peaks removed:  119
+Done!  Elapsed time 258.8 seconds

@@ -122,6 +122,13 @@
         [
             "bayer_tylenol_only/101 20251124T124538_T16one TCANADA.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1942
+        ],
+        [
+            "bayer_tylenol_only/101 20251124T124538_T16one TCANADA.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             2707
@@ -449,6 +456,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             1098
+        ],
+        [
+            "bayer_tylenol_only/102 20251113T170126_T02one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1482
         ],
         [
             "bayer_tylenol_only/102 20251113T170126_T02one TRT.json.gz",
@@ -784,6 +798,13 @@
         [
             "bayer_tylenol_only/103 20251124T112431_T15one TRT.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            2113
+        ],
+        [
+            "bayer_tylenol_only/103 20251124T112431_T15one TRT.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             1600
@@ -1111,6 +1132,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             1026
+        ],
+        [
+            "bayer_tylenol_only/104 20251118T150120_T08one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1430
         ],
         [
             "bayer_tylenol_only/104 20251118T150120_T08one TRT.json.gz",
@@ -1446,6 +1474,13 @@
         [
             "bayer_tylenol_only/105 20260107T104635_T13two TRT.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            2061
+        ],
+        [
+            "bayer_tylenol_only/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             1660
@@ -1773,6 +1808,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             1148
+        ],
+        [
+            "bayer_tylenol_only/106 20251117T124159_T05one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1548
         ],
         [
             "bayer_tylenol_only/106 20251117T124159_T05one TRT.json.gz",
@@ -2108,6 +2150,13 @@
         [
             "bayer_tylenol_only/107 20251118T134538_T07one TRT.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            2044
+        ],
+        [
+            "bayer_tylenol_only/107 20251118T134538_T07one TRT.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             1703
@@ -2435,6 +2484,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             1103
+        ],
+        [
+            "bayer_tylenol_only/108 20251124T135557_T17one TCANADA.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1131
         ],
         [
             "bayer_tylenol_only/108 20251124T135557_T17one TCANADA.json.gz",
@@ -2770,6 +2826,13 @@
         [
             "bayer_tylenol_only/109 20251118T123829_T06one TRT.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1572
+        ],
+        [
+            "bayer_tylenol_only/109 20251118T123829_T06one TRT.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             2379
@@ -3097,6 +3160,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             874
+        ],
+        [
+            "bayer_tylenol_only/110 20251117T112834_T04one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1248
         ],
         [
             "bayer_tylenol_only/110 20251117T112834_T04one TRT.json.gz",
@@ -3432,6 +3502,13 @@
         [
             "bayer_tylenol_only/111 20251120T111520_T14one TRT.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1902
+        ],
+        [
+            "bayer_tylenol_only/111 20251120T111520_T14one TRT.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             2299
@@ -3759,6 +3836,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             491
+        ],
+        [
+            "bayer_tylenol_only/112 20251119T131818_T11one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1223
         ],
         [
             "bayer_tylenol_only/112 20251119T131818_T11one TRT.json.gz",
@@ -4094,6 +4178,13 @@
         [
             "bayer_tylenol_only/113 20251117T101939_T03one TRT.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1978
+        ],
+        [
+            "bayer_tylenol_only/113 20251117T101939_T03one TRT.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             1621
@@ -4421,6 +4512,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             793
+        ],
+        [
+            "bayer_tylenol_only/114 20251113T154922_T01one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1293
         ],
         [
             "bayer_tylenol_only/114 20251113T154922_T01one TRT.json.gz",
@@ -4756,6 +4854,13 @@
         [
             "bayer_tylenol_only/115 20251118T160812_T09one TRT.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1408
+        ],
+        [
+            "bayer_tylenol_only/115 20251118T160812_T09one TRT.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             2693
@@ -5083,6 +5188,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             1634
+        ],
+        [
+            "bayer_tylenol_only/116 20251119T121001_T10one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1996
         ],
         [
             "bayer_tylenol_only/116 20251119T121001_T10one TRT.json.gz",
@@ -5418,6 +5530,13 @@
         [
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            902
+        ],
+        [
+            "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             3117
@@ -5626,6 +5745,344 @@
             5326
         ]
     ],
+    "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz": [
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/101 20251124T124538_T16one TCANADA.json.gz",
+            "bayer_tylenol_only",
+            1942
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/102 20251113T170126_T02one TRT.json.gz",
+            "bayer_tylenol_only",
+            1482
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/103 20251124T112431_T15one TRT.json.gz",
+            "bayer_tylenol_only",
+            2113
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/104 20251118T150120_T08one TRT.json.gz",
+            "bayer_tylenol_only",
+            1430
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/105 20260107T104635_T13two TRT.json.gz",
+            "bayer_tylenol_only",
+            2061
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/106 20251117T124159_T05one TRT.json.gz",
+            "bayer_tylenol_only",
+            1548
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/107 20251118T134538_T07one TRT.json.gz",
+            "bayer_tylenol_only",
+            2044
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/108 20251124T135557_T17one TCANADA.json.gz",
+            "bayer_tylenol_only",
+            1131
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/109 20251118T123829_T06one TRT.json.gz",
+            "bayer_tylenol_only",
+            1572
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/110 20251117T112834_T04one TRT.json.gz",
+            "bayer_tylenol_only",
+            1248
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/111 20251120T111520_T14one TRT.json.gz",
+            "bayer_tylenol_only",
+            1902
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/112 20251119T131818_T11one TRT.json.gz",
+            "bayer_tylenol_only",
+            1223
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/113 20251117T101939_T03one TRT.json.gz",
+            "bayer_tylenol_only",
+            1978
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/114 20251113T154922_T01one TRT.json.gz",
+            "bayer_tylenol_only",
+            1293
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/115 20251118T160812_T09one TRT.json.gz",
+            "bayer_tylenol_only",
+            1408
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/116 20251119T121001_T10one TRT.json.gz",
+            "bayer_tylenol_only",
+            1996
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
+            "bayer_tylenol_only",
+            902
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            0
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
+            "bayer_tylenol_only",
+            3475
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/151 20251210T114041_T06 THOT 2.json.gz",
+            "bayer_tylenol_only",
+            2602
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/152 20251210T124817_T06 THOT 3.json.gz",
+            "bayer_tylenol_only",
+            3051
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/153 20251210T135456_T06 TCOLD 1.json.gz",
+            "bayer_tylenol_only",
+            2986
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/154 20251210T150122_T06 TCOLD 2.json.gz",
+            "bayer_tylenol_only",
+            1875
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/155 20251210T160747_T06 TCOLD 3.json.gz",
+            "bayer_tylenol_only",
+            2270
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/501 20251112T162420_A12one ART.json.gz",
+            "bayer_tylenol_only",
+            3995
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/502 20251111T121444_A07one ART.json.gz",
+            "bayer_tylenol_only",
+            2990
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/503 20251124T150228_A17one ACANADA.json.gz",
+            "bayer_tylenol_only",
+            4220
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/504 20251113T120744_A14one ART.json.gz",
+            "bayer_tylenol_only",
+            3354
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/505 20251110T134251_A03one ART.json.gz",
+            "bayer_tylenol_only",
+            2883
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/506 20251112T151658_A11one ART.json.gz",
+            "bayer_tylenol_only",
+            3458
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/507 20251111T110351_A06one ART.json.gz",
+            "bayer_tylenol_only",
+            3593
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/508 20251125T104844_A19one ACANADA.json.gz",
+            "bayer_tylenol_only",
+            3808
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/509 20251110T161145_A04one ART.json.gz",
+            "bayer_tylenol_only",
+            4095
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/510 20251112T114510_A08one ART.json.gz",
+            "bayer_tylenol_only",
+            3808
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/511 20251113T132033_A15one ART.json.gz",
+            "bayer_tylenol_only",
+            3565
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/512 20251125T093826_A18one ART.json.gz",
+            "bayer_tylenol_only",
+            4682
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/513 20251029T115335_A02one ART.json.gz",
+            "bayer_tylenol_only",
+            3018
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/514 20251112T141056_A10one ART.json.gz",
+            "bayer_tylenol_only",
+            3718
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/515 20251113T142955_A16one ART.json.gz",
+            "bayer_tylenol_only",
+            3782
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/517 20251113T105935_A13one ART.json.gz",
+            "bayer_tylenol_only",
+            3441
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/518 20251112T125208_A09one ART.json.gz",
+            "bayer_tylenol_only",
+            3603
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/519 20251027T133114_A01one ART.json.gz",
+            "bayer_tylenol_only",
+            4723
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/550 20251203T093716_A01 AHOT 1.json.gz",
+            "bayer_tylenol_only",
+            6921
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/551 20251203T105425_A01 AHOT 2.json.gz",
+            "bayer_tylenol_only",
+            5600
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/552 20251203T120239_A01 AHOT 3.json.gz",
+            "bayer_tylenol_only",
+            6278
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/553 20251203T131110_A01 ACOLD 1.json.gz",
+            "bayer_tylenol_only",
+            5462
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/554 20251203T143126_A01 ACOLD 2.json.gz",
+            "bayer_tylenol_only",
+            5442
+        ],
+        [
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/555 20251203T155106_AO1 ACOLD 3.json.gz",
+            "bayer_tylenol_only",
+            5432
+        ]
+    ],
     "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz": [
         [
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
@@ -5745,6 +6202,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             3117
+        ],
+        [
+            "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3475
         ],
         [
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
@@ -6080,6 +6544,13 @@
         [
             "bayer_tylenol_only/151 20251210T114041_T06 THOT 2.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            2602
+        ],
+        [
+            "bayer_tylenol_only/151 20251210T114041_T06 THOT 2.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             989
@@ -6407,6 +6878,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             2691
+        ],
+        [
+            "bayer_tylenol_only/152 20251210T124817_T06 THOT 3.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3051
         ],
         [
             "bayer_tylenol_only/152 20251210T124817_T06 THOT 3.json.gz",
@@ -6742,6 +7220,13 @@
         [
             "bayer_tylenol_only/153 20251210T135456_T06 TCOLD 1.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            2986
+        ],
+        [
+            "bayer_tylenol_only/153 20251210T135456_T06 TCOLD 1.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             669
@@ -7069,6 +7554,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             1105
+        ],
+        [
+            "bayer_tylenol_only/154 20251210T150122_T06 TCOLD 2.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            1875
         ],
         [
             "bayer_tylenol_only/154 20251210T150122_T06 TCOLD 2.json.gz",
@@ -7404,6 +7896,13 @@
         [
             "bayer_tylenol_only/155 20251210T160747_T06 TCOLD 3.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            2270
+        ],
+        [
+            "bayer_tylenol_only/155 20251210T160747_T06 TCOLD 3.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             2041
@@ -7731,6 +8230,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             4037
+        ],
+        [
+            "bayer_tylenol_only/501 20251112T162420_A12one ART.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3995
         ],
         [
             "bayer_tylenol_only/501 20251112T162420_A12one ART.json.gz",
@@ -8066,6 +8572,13 @@
         [
             "bayer_tylenol_only/502 20251111T121444_A07one ART.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            2990
+        ],
+        [
+            "bayer_tylenol_only/502 20251111T121444_A07one ART.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             2741
@@ -8393,6 +8906,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             4122
+        ],
+        [
+            "bayer_tylenol_only/503 20251124T150228_A17one ACANADA.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            4220
         ],
         [
             "bayer_tylenol_only/503 20251124T150228_A17one ACANADA.json.gz",
@@ -8728,6 +9248,13 @@
         [
             "bayer_tylenol_only/504 20251113T120744_A14one ART.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3354
+        ],
+        [
+            "bayer_tylenol_only/504 20251113T120744_A14one ART.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             3365
@@ -9055,6 +9582,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             2893
+        ],
+        [
+            "bayer_tylenol_only/505 20251110T134251_A03one ART.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            2883
         ],
         [
             "bayer_tylenol_only/505 20251110T134251_A03one ART.json.gz",
@@ -9390,6 +9924,13 @@
         [
             "bayer_tylenol_only/506 20251112T151658_A11one ART.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3458
+        ],
+        [
+            "bayer_tylenol_only/506 20251112T151658_A11one ART.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             3085
@@ -9717,6 +10258,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             3439
+        ],
+        [
+            "bayer_tylenol_only/507 20251111T110351_A06one ART.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3593
         ],
         [
             "bayer_tylenol_only/507 20251111T110351_A06one ART.json.gz",
@@ -10052,6 +10600,13 @@
         [
             "bayer_tylenol_only/508 20251125T104844_A19one ACANADA.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3808
+        ],
+        [
+            "bayer_tylenol_only/508 20251125T104844_A19one ACANADA.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             3541
@@ -10379,6 +10934,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             4105
+        ],
+        [
+            "bayer_tylenol_only/509 20251110T161145_A04one ART.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            4095
         ],
         [
             "bayer_tylenol_only/509 20251110T161145_A04one ART.json.gz",
@@ -10714,6 +11276,13 @@
         [
             "bayer_tylenol_only/510 20251112T114510_A08one ART.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3808
+        ],
+        [
+            "bayer_tylenol_only/510 20251112T114510_A08one ART.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             3431
@@ -11041,6 +11610,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             3541
+        ],
+        [
+            "bayer_tylenol_only/511 20251113T132033_A15one ART.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3565
         ],
         [
             "bayer_tylenol_only/511 20251113T132033_A15one ART.json.gz",
@@ -11376,6 +11952,13 @@
         [
             "bayer_tylenol_only/512 20251125T093826_A18one ART.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            4682
+        ],
+        [
+            "bayer_tylenol_only/512 20251125T093826_A18one ART.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             4193
@@ -11703,6 +12286,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             2860
+        ],
+        [
+            "bayer_tylenol_only/513 20251029T115335_A02one ART.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3018
         ],
         [
             "bayer_tylenol_only/513 20251029T115335_A02one ART.json.gz",
@@ -12038,6 +12628,13 @@
         [
             "bayer_tylenol_only/514 20251112T141056_A10one ART.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3718
+        ],
+        [
+            "bayer_tylenol_only/514 20251112T141056_A10one ART.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             3525
@@ -12365,6 +12962,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             3472
+        ],
+        [
+            "bayer_tylenol_only/515 20251113T142955_A16one ART.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3782
         ],
         [
             "bayer_tylenol_only/515 20251113T142955_A16one ART.json.gz",
@@ -12700,6 +13304,13 @@
         [
             "bayer_tylenol_only/517 20251113T105935_A13one ART.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3441
+        ],
+        [
+            "bayer_tylenol_only/517 20251113T105935_A13one ART.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             3370
@@ -13027,6 +13638,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             3531
+        ],
+        [
+            "bayer_tylenol_only/518 20251112T125208_A09one ART.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            3603
         ],
         [
             "bayer_tylenol_only/518 20251112T125208_A09one ART.json.gz",
@@ -13362,6 +13980,13 @@
         [
             "bayer_tylenol_only/519 20251027T133114_A01one ART.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            4723
+        ],
+        [
+            "bayer_tylenol_only/519 20251027T133114_A01one ART.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             3990
@@ -13689,6 +14314,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             7375
+        ],
+        [
+            "bayer_tylenol_only/550 20251203T093716_A01 AHOT 1.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            6921
         ],
         [
             "bayer_tylenol_only/550 20251203T093716_A01 AHOT 1.json.gz",
@@ -14024,6 +14656,13 @@
         [
             "bayer_tylenol_only/551 20251203T105425_A01 AHOT 2.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            5600
+        ],
+        [
+            "bayer_tylenol_only/551 20251203T105425_A01 AHOT 2.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             4321
@@ -14351,6 +14990,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             5876
+        ],
+        [
+            "bayer_tylenol_only/552 20251203T120239_A01 AHOT 3.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            6278
         ],
         [
             "bayer_tylenol_only/552 20251203T120239_A01 AHOT 3.json.gz",
@@ -14686,6 +15332,13 @@
         [
             "bayer_tylenol_only/553 20251203T131110_A01 ACOLD 1.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            5462
+        ],
+        [
+            "bayer_tylenol_only/553 20251203T131110_A01 ACOLD 1.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             4599
@@ -15017,6 +15670,13 @@
         [
             "bayer_tylenol_only/554 20251203T143126_A01 ACOLD 2.json.gz",
             "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            5442
+        ],
+        [
+            "bayer_tylenol_only/554 20251203T143126_A01 ACOLD 2.json.gz",
+            "bayer_tylenol_only",
             "bayer_tylenol_only/150 20251210T103434_T06 THOT 1.json.gz",
             "bayer_tylenol_only",
             4737
@@ -15344,6 +16004,13 @@
             "bayer_tylenol_only/117 20251119T142553_T12one TRT.json.gz",
             "bayer_tylenol_only",
             5326
+        ],
+        [
+            "bayer_tylenol_only/555 20251203T155106_AO1 ACOLD 3.json.gz",
+            "bayer_tylenol_only",
+            "bayer_tylenol_only/118 20260114T121643_T18one TRT.json.gz",
+            "bayer_tylenol_only",
+            5432
         ],
         [
             "bayer_tylenol_only/555 20251203T155106_AO1 ACOLD 3.json.gz",
