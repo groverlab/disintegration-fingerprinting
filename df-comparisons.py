@@ -154,7 +154,9 @@ for x, l in enumerate(d):
 	if args.figure == "aspirin":
 		label = d[l][1][1].title()
 		if label == "Bayer":
-			label = "Name brand"
+			label = "Aspirin (Bayer)"
+		elif label == "Generic":
+			label = "Aspirin (generic)"
 		plt.text(x+1-0.5, x+1-0.5, pointer+label, rotation=45, horizontalalignment="left", verticalalignment="center", rotation_mode='anchor', size=12)
 	
 	elif args.figure == "bayer_tylenol_only":

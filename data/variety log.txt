@@ -38,48 +38,8 @@ variety/Acetaminophen/20241210T124134_tylenol_extra_strength.json.gz,-0.07434326
   Minimum slope: -0.08157674706006846
 variety/Acetaminophen/20241210T135025_tylenol_extra_strength.json.gz,-0.08157674706006846,
 
-  variety/Aspirin generic/20241113T120556_Generic_Aspirin.json.gz
-  💊 Aspirin generic
-  Start time: 1731528362.2986782
-  Stop time: 1731532262.3060086
-  Duration: 3900.007330417633 s
-  Measurements: 7672268
-  Measurements per second: 1967.2445075067112
-  Byte count: 45882073
-  Seconds per byte: 8.500067837862585e-05
-  Baseline mean: 18.76744357365883
-  Minimum slope: -0.05159855064793057
-variety/Aspirin generic/20241113T120556_Generic_Aspirin.json.gz,-0.05159855064793057,
-
-  variety/Aspirin generic/20241114T154625_Generic_Aspirin.json.gz
-  💊 Aspirin generic
-  Start time: 1731627987.4539533
-  Stop time: 1731631887.4579198
-  Duration: 3900.0039665699005 s
-  Measurements: 7662261
-  Measurements per second: 1964.6803094764668
-  Byte count: 45882376
-  Seconds per byte: 8.500004373291175e-05
-  Baseline mean: 16.446189153963847
-  ⚠️  Noise peak removed at index 4227578
-  Minimum slope: -0.1201980020459362
-variety/Aspirin generic/20241114T154625_Generic_Aspirin.json.gz,-0.1201980020459362,
-
-  variety/Aspirin generic/20241116T102324_generic_aspirin.json.gz
-  💊 Aspirin generic
-  Start time: 1731781405.1021702
-  Stop time: 1731785305.1052318
-  Duration: 3900.0030615329742 s
-  Measurements: 9146610
-  Measurements per second: 2345.282774317808
-  Byte count: 45738172
-  Seconds per byte: 8.526801336819876e-05
-  Baseline mean: 28.016110924258285
-  Minimum slope: -0.06577267763642788
-variety/Aspirin generic/20241116T102324_generic_aspirin.json.gz,-0.06577267763642788,
-
-  variety/Aspirin name brand/20241112T151958_Bayers_aspirin.json.gz
-  💊 Aspirin name brand
+  variety/Aspirin (Bayer)/20241112T151958_Bayers_aspirin.json.gz
+  💊 Aspirin (Bayer)
   Start time: 1731453602.0229347
   Stop time: 1731457502.029734
   Duration: 3900.006799221039 s
@@ -90,10 +50,10 @@ variety/Aspirin generic/20241116T102324_generic_aspirin.json.gz,-0.0657726776364
   Baseline mean: 12.007278484617224
   ⚠️  Noise peak removed at index 2039
   Minimum slope: -0.081227971110959
-variety/Aspirin name brand/20241112T151958_Bayers_aspirin.json.gz,-0.081227971110959,
+variety/Aspirin (Bayer)/20241112T151958_Bayers_aspirin.json.gz,-0.081227971110959,
 
-  variety/Aspirin name brand/20241121T135122_Bayers_Aspirin.json.gz
-  💊 Aspirin name brand
+  variety/Aspirin (Bayer)/20241121T135122_Bayers_Aspirin.json.gz
+  💊 Aspirin (Bayer)
   Start time: 1732225885.3623447
   Stop time: 1732229785.3646748
   Duration: 3900.0023300647736 s
@@ -103,10 +63,10 @@ variety/Aspirin name brand/20241112T151958_Bayers_aspirin.json.gz,-0.08122797111
   Seconds per byte: 8.542889177249672e-05
   Baseline mean: 13.444277382905048
   Minimum slope: -0.10898339035306327
-variety/Aspirin name brand/20241121T135122_Bayers_Aspirin.json.gz,-0.10898339035306327,
+variety/Aspirin (Bayer)/20241121T135122_Bayers_Aspirin.json.gz,-0.10898339035306327,
 
-  variety/Aspirin name brand/20241121T135144_Bayers_Aspirin.json.gz
-  💊 Aspirin name brand
+  variety/Aspirin (Bayer)/20241121T135144_Bayers_Aspirin.json.gz
+  💊 Aspirin (Bayer)
   Start time: 1732225906.2943904
   Stop time: 1732229806.3088772
   Duration: 3900.0144867897034 s
@@ -117,7 +77,47 @@ variety/Aspirin name brand/20241121T135122_Bayers_Aspirin.json.gz,-0.10898339035
   ⚠️  Out-of-dynamic-range measurement removed at index 6
   Baseline mean: 22.051254589963282
   Minimum slope: -0.05851374389021503
-variety/Aspirin name brand/20241121T135144_Bayers_Aspirin.json.gz,-0.05851374389021503,
+variety/Aspirin (Bayer)/20241121T135144_Bayers_Aspirin.json.gz,-0.05851374389021503,
+
+  variety/Aspirin (generic)/20241113T120556_Generic_Aspirin.json.gz
+  💊 Aspirin (generic)
+  Start time: 1731528362.2986782
+  Stop time: 1731532262.3060086
+  Duration: 3900.007330417633 s
+  Measurements: 7672268
+  Measurements per second: 1967.2445075067112
+  Byte count: 45882073
+  Seconds per byte: 8.500067837862585e-05
+  Baseline mean: 18.76744357365883
+  Minimum slope: -0.05159855064793057
+variety/Aspirin (generic)/20241113T120556_Generic_Aspirin.json.gz,-0.05159855064793057,
+
+  variety/Aspirin (generic)/20241114T154625_Generic_Aspirin.json.gz
+  💊 Aspirin (generic)
+  Start time: 1731627987.4539533
+  Stop time: 1731631887.4579198
+  Duration: 3900.0039665699005 s
+  Measurements: 7662261
+  Measurements per second: 1964.6803094764668
+  Byte count: 45882376
+  Seconds per byte: 8.500004373291175e-05
+  Baseline mean: 16.446189153963847
+  ⚠️  Noise peak removed at index 4227578
+  Minimum slope: -0.1201980020459362
+variety/Aspirin (generic)/20241114T154625_Generic_Aspirin.json.gz,-0.1201980020459362,
+
+  variety/Aspirin (generic)/20241116T102324_generic_aspirin.json.gz
+  💊 Aspirin (generic)
+  Start time: 1731781405.1021702
+  Stop time: 1731785305.1052318
+  Duration: 3900.0030615329742 s
+  Measurements: 9146610
+  Measurements per second: 2345.282774317808
+  Byte count: 45738172
+  Seconds per byte: 8.526801336819876e-05
+  Baseline mean: 28.016110924258285
+  Minimum slope: -0.06577267763642788
+variety/Aspirin (generic)/20241116T102324_generic_aspirin.json.gz,-0.06577267763642788,
 
   variety/B-100 complex/20241126T081726_b-100_complex.json.gz
   💊 B-100 complex
@@ -1431,47 +1431,47 @@ variety/Acetaminophen/20241210T113009_tylenol_extra_strength.json.gz
   PEAK COMPARISONS
     ✅ Acetaminophen == Acetaminophen   613
     ✅ Acetaminophen == Acetaminophen   811
-    ❌ Acetaminophen == Aspirin generic   1541
+    ❌ Acetaminophen == Aspirin (generic)   1541
 variety/Acetaminophen/20241210T124134_tylenol_extra_strength.json.gz
   PEAK COMPARISONS
     ✅ Acetaminophen == Acetaminophen   811
     ✅ Acetaminophen == Acetaminophen   1266
-    ❌ Acetaminophen == Aspirin generic   1354
+    ❌ Acetaminophen == Aspirin (generic)   1354
 variety/Acetaminophen/20241210T135025_tylenol_extra_strength.json.gz
   PEAK COMPARISONS
     ✅ Acetaminophen == Acetaminophen   613
     ✅ Acetaminophen == Acetaminophen   1266
-    ❌ Acetaminophen == Aspirin generic   1898
-variety/Aspirin generic/20241113T120556_Generic_Aspirin.json.gz
+    ❌ Acetaminophen == Aspirin (generic)   1898
+variety/Aspirin (Bayer)/20241112T151958_Bayers_aspirin.json.gz
   PEAK COMPARISONS
-    ✅ Aspirin generic == Aspirin generic   522
-    ✅ Aspirin generic == Aspirin generic   721
-    ❌ Aspirin generic == Hydrocodone acetamin.   758
-variety/Aspirin generic/20241114T154625_Generic_Aspirin.json.gz
+    ✅ Aspirin (Bayer) == Aspirin (Bayer)   623
+    ✅ Aspirin (Bayer) == Aspirin (Bayer)   813
+    ❌ Aspirin (Bayer) == Zinc gluconate   2402
+variety/Aspirin (Bayer)/20241121T135122_Bayers_Aspirin.json.gz
   PEAK COMPARISONS
-    ✅ Aspirin generic == Aspirin generic   522
-    ✅ Aspirin generic == Aspirin generic   667
-    ❌ Aspirin generic == Hydrocodone acetamin.   1054
-variety/Aspirin generic/20241116T102324_generic_aspirin.json.gz
+    ✅ Aspirin (Bayer) == Aspirin (Bayer)   623
+    ✅ Aspirin (Bayer) == Aspirin (Bayer)   824
+    ❌ Aspirin (Bayer) == Zinc gluconate   2615
+variety/Aspirin (Bayer)/20241121T135144_Bayers_Aspirin.json.gz
   PEAK COMPARISONS
-    ✅ Aspirin generic == Aspirin generic   667
-    ✅ Aspirin generic == Aspirin generic   721
-    ❌ Aspirin generic == Hydrocodone acetamin.   1117
-variety/Aspirin name brand/20241112T151958_Bayers_aspirin.json.gz
+    ✅ Aspirin (Bayer) == Aspirin (Bayer)   813
+    ✅ Aspirin (Bayer) == Aspirin (Bayer)   824
+    ❌ Aspirin (Bayer) == Zinc gluconate   2087
+variety/Aspirin (generic)/20241113T120556_Generic_Aspirin.json.gz
   PEAK COMPARISONS
-    ✅ Aspirin name brand == Aspirin name brand   623
-    ✅ Aspirin name brand == Aspirin name brand   813
-    ❌ Aspirin name brand == Zinc gluconate   2402
-variety/Aspirin name brand/20241121T135122_Bayers_Aspirin.json.gz
+    ✅ Aspirin (generic) == Aspirin (generic)   522
+    ✅ Aspirin (generic) == Aspirin (generic)   721
+    ❌ Aspirin (generic) == Hydrocodone acetamin.   758
+variety/Aspirin (generic)/20241114T154625_Generic_Aspirin.json.gz
   PEAK COMPARISONS
-    ✅ Aspirin name brand == Aspirin name brand   623
-    ✅ Aspirin name brand == Aspirin name brand   824
-    ❌ Aspirin name brand == Zinc gluconate   2615
-variety/Aspirin name brand/20241121T135144_Bayers_Aspirin.json.gz
+    ✅ Aspirin (generic) == Aspirin (generic)   522
+    ✅ Aspirin (generic) == Aspirin (generic)   667
+    ❌ Aspirin (generic) == Hydrocodone acetamin.   1054
+variety/Aspirin (generic)/20241116T102324_generic_aspirin.json.gz
   PEAK COMPARISONS
-    ✅ Aspirin name brand == Aspirin name brand   813
-    ✅ Aspirin name brand == Aspirin name brand   824
-    ❌ Aspirin name brand == Zinc gluconate   2087
+    ✅ Aspirin (generic) == Aspirin (generic)   667
+    ✅ Aspirin (generic) == Aspirin (generic)   721
+    ❌ Aspirin (generic) == Hydrocodone acetamin.   1117
 variety/B-100 complex/20241126T081726_b-100_complex.json.gz
   PEAK COMPARISONS
     ✅ B-100 complex == B-100 complex   1428
@@ -1621,7 +1621,7 @@ variety/Hydrocodone acetamin./20241119T175656_hydrocodone_acetaminophen.json.gz
 variety/Hydrocodone acetamin./20241119T192545_hydrocodone_acetaminophen.json.gz
   PEAK COMPARISONS
   ^^^^^PEAK FAIL^^^^^
-    ❌ Hydrocodone acetamin. == Aspirin generic   758
+    ❌ Hydrocodone acetamin. == Aspirin (generic)   758
     ❌ Hydrocodone acetamin. == Doxycycline   948
     ✅ Hydrocodone acetamin. == Hydrocodone acetamin.   977
 variety/Ibuprofen methocarbamol/20241121T194719_ibuprofen_methocarbamol.json.gz
@@ -1733,7 +1733,7 @@ variety/Meclizine/20241122T152524_meclizine.json.gz
   PEAK COMPARISONS
     ✅ Meclizine == Meclizine   790
     ✅ Meclizine == Meclizine   1293
-    ❌ Meclizine == Aspirin name brand   4075
+    ❌ Meclizine == Aspirin (Bayer)   4075
 variety/Melatonin/20241122T165417_melatonin.json.gz
   PEAK COMPARISONS
     ✅ Melatonin == Melatonin   94
@@ -1933,4 +1933,4 @@ Peak failure rate: 0.10416666666666667
 Total number of measurements:  795690480
 Number of out-of-dynamic-range measurements removed:  45
 Number of noise peaks removed:  136
-Done!  Elapsed time 567.0 seconds
+Done!  Elapsed time 591.3 seconds

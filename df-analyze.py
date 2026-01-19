@@ -306,7 +306,7 @@ if args.figure == "aspirin":
     summary_axs.set_yticklabels(a)
     summary_axs.set_xlabel("Time (minutes)")
     summary_axs.set_ylabel("Particles per minute")
-    summary_axs.legend(("Aspirin (name brand)", "Aspirin (generic)"), frameon=False)
+    summary_axs.legend(("Aspirin (Bayer)", "Aspirin (generic)"), frameon=False)
     leg = summary_axs.get_legend()
     if len(leg.legend_handles) > 1:  # only do this if there are at least 2 sample types
         leg.legend_handles[0].set_color("tab:orange")
@@ -665,6 +665,9 @@ if args.figure == "beads":
 
 discards.close()
 
+
+
+
 ###### drug variety collage
 if args.figure == "variety":
     sample_plot_numbers = {}
@@ -712,6 +715,10 @@ if args.figure == "variety":
     )
     collage_fig.savefig("variety.pdf")
     collage_fig.clf()
+
+
+
+
 
 
 ######## LONG drug variety collage
