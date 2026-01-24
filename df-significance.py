@@ -64,7 +64,7 @@ if args.figure == "aspirin":
 	annotator.apply_and_annotate()
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
-	plt.savefig("aspirin_quant.pdf")
+	plt.savefig("aspirin_significance.pdf")
 
 
 
@@ -119,8 +119,6 @@ elif args.figure == "bayer_tylenol":
 			else:
 				print("NOTHING YET")
 
-
-
 	df = pd.DataFrame(uber, columns=["type", "score"])
 	df = df.drop_duplicates()
 	# print(df)
@@ -129,25 +127,25 @@ elif args.figure == "bayer_tylenol":
 		"bayers", "hot_bayers", "cold_bayers", "canadian_bayers",
 		"tylenols", "hot_tylenols", "cold_tylenols", "canadian_tylenols", "mismatches"]
 
-	bayer_bottle = list(df[df.type == "bayer_bottle"]["score"])
-	generic_bottle =list(df[df.type == "generic_bottle"]["score"])
-	bottle_mismatches = list(df[df.type == "bottle_mismatches"]["score"])
-	bayers = list(df[df.type == "bayers"]["score"])
-	hot_bayers = list(df[df.type == "hot_bayers"]["score"])
-	cold_bayers = list(df[df.type == "cold_bayers"]["score"])
-	canadian_bayers = list(df[df.type == "canadian_bayers"]["score"])
-	tylenols = list(df[df.type == "tylenols"]["score"])
-	hot_tylenols = list(df[df.type == "hot_tylenols"]["score"])
-	cold_tylenols = list(df[df.type == "cold_tylenols"]["score"])
-	canadian_tylenols = list(df[df.type == "canadian_tylenols"]["score"])
-	mismatches = list(df[df.type == "mismatches"]["score"])
+	# bayer_bottle = list(df[df.type == "bayer_bottle"]["score"])
+	# generic_bottle =list(df[df.type == "generic_bottle"]["score"])
+	# bottle_mismatches = list(df[df.type == "bottle_mismatches"]["score"])
+	# bayers = list(df[df.type == "bayers"]["score"])
+	# hot_bayers = list(df[df.type == "hot_bayers"]["score"])
+	# cold_bayers = list(df[df.type == "cold_bayers"]["score"])
+	# canadian_bayers = list(df[df.type == "canadian_bayers"]["score"])
+	# tylenols = list(df[df.type == "tylenols"]["score"])
+	# hot_tylenols = list(df[df.type == "hot_tylenols"]["score"])
+	# cold_tylenols = list(df[df.type == "cold_tylenols"]["score"])
+	# canadian_tylenols = list(df[df.type == "canadian_tylenols"]["score"])
+	# mismatches = list(df[df.type == "mismatches"]["score"])
 
-	# result = scipy.stats.kstest(cold_bayers, bottle_mismatches)
-	result = scipy.stats.mannwhitneyu(tylenols, canadian_tylenols)
-	print(result)
+	# # result = scipy.stats.kstest(cold_bayers, bottle_mismatches)
+	# result = scipy.stats.mannwhitneyu(tylenols, canadian_tylenols)
+	# print(result)
 
-	print(bayer_bottle)
-	print(generic_bottle)
+	# print(bayer_bottle)
+	# print(generic_bottle)
 
 	fig, axs = plt.subplots(figsize=(8, 4))
 	plt.subplots_adjust(left=0.20, right=0.95, top=0.98, bottom=0.13)
@@ -162,7 +160,7 @@ elif args.figure == "bayer_tylenol":
 	annotator.apply_and_annotate()
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
-	plt.savefig("bayer_tylenol_quant.pdf")
+	plt.savefig("bayer_tylenol_significance.pdf")
 
 
 
@@ -194,7 +192,7 @@ elif args.figure == "variety":
 	# sns.boxplot(y="drugtype", x="score",  data=df, log_scale=False, fill=False, showfliers=False)
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
-	plt.savefig("variety_quant.pdf")
+	plt.savefig("variety_significance.pdf")
 
 	print()
 	print("MISMATCHES:")
