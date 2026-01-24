@@ -322,7 +322,7 @@ if args.figure == "aspirin":
 
 ########### Difference score explanation figure
 if args.figure == "difference_score":
-    summary_fig, summary_axs = plt.subplots(1, 2, figsize=(7.5, 3))
+    summary_fig, summary_axs = plt.subplots(1, 2, figsize=(7.5, 3), sharey=True)
     for sample, peak_times, peak_counts in zip(summary_samples, summary_peak_times, summary_peak_counts):
         if "ayer1" in sample:
             bayer1times = numpy.array(peak_times) / 60.0
@@ -336,16 +336,14 @@ if args.figure == "difference_score":
         else:
             sys.exit(f"ERROR {sample} run can't be categorized")
 
-    summary_axs[0].plot(bayer1times, bayer1counts, color="black", linewidth=1)
-    summary_axs[0].plot(bayer2times, bayer2counts, color="black", linewidth=1)
+    summary_axs[0].plot(bayer1times, bayer1counts, color="black", linewidth=1.5)
+    summary_axs[0].plot(bayer2times, bayer2counts, color="black", linewidth=1.5)
     summary_axs[0].fill_between(bayer1times, bayer1counts, bayer2counts, color="tab:red")
 
-    summary_axs[1].plot(bayer1times, bayer1counts, color="black", linewidth=1)
-    summary_axs[1].plot(generic_times, generic_counts, color="black", linewidth=1)
+    summary_axs[1].plot(bayer1times, bayer1counts, color="black", linewidth=1.5)
+    summary_axs[1].plot(generic_times, generic_counts, color="black", linewidth=1.5)
     summary_axs[1].fill_between(bayer1times, bayer1counts, generic_counts, color="tab:red")    
 
-    
-    
 
     for axx in summary_axs:
         axx.set_yscale("log")
@@ -357,14 +355,22 @@ if args.figure == "difference_score":
         a[0] = "0"
         axx.set_yticklabels(a)
         axx.set_xlabel("Time (minutes)")
-        axx.set_ylabel("Particles per minute")
-        axx.legend(("Aspirin (Bayer)", "Aspirin (generic)"), frameon=False)
-        leg = axx.get_legend()
-        if len(leg.legend_handles) > 1:  # only do this if there are at least 2 sample types
-            leg.legend_handles[0].set_color("tab:orange")
-            leg.legend_handles[1].set_color("tab:blue")
-        axx.yaxis.set_label_coords(-0.1, 0.50)
-    summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
+        # axx.legend(("Aspirin (Bayer)", "Aspirin (generic)"), frameon=False)
+        # leg = axx.get_legend()
+        # if len(leg.legend_handles) > 1:  # only do this if there are at least 2 sample types
+        #     leg.legend_handles[0].set_color("tab:orange")
+        #     leg.legend_handles[1].set_color("tab:blue")
+        # axx.yaxis.set_label_coords(-0.1, 0.50)
+    summary_axs[0].set_ylabel("Particles per minute")
+    summary_axs[0].text(0.5, 0.97, "Comparing DFs from\ntwo Bayer aspirins", ha="center", va="top", fontsize=11, transform=summary_axs[0].transAxes)
+    summary_axs[1].text(0.5, 0.97, "Comparing DFs from\none Bayer aspirin and\none generic aspirin", ha="center", va="top", fontsize=11, transform=summary_axs[1].transAxes)
+
+    summary_axs[0].text(0.75, 0.54, "Difference score:\n861", ha="center", va="center", color="red", fontsize=12, fontweight="bold", transform=summary_axs[0].transAxes)
+    summary_axs[1].text(0.75, 0.54, "Difference score:\n2557", ha="center", va="center", color="red", fontsize=12, fontweight="bold", transform=summary_axs[1].transAxes)
+
+
+
+    summary_fig.subplots_adjust(left=0.09, right=0.98, bottom=0.16, top=0.98, wspace=0.07)
     summary_fig.savefig("difference_score.pdf")
     summary_fig.clf()
 
