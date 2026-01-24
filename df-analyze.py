@@ -24,7 +24,7 @@ start_time = time.time()
 
 parser = argparse.ArgumentParser()
 parser.add_argument("directory", help="directory containing DF data files")
-parser.add_argument("--figure", default="none", help="figure to generate", choices=["aspirin", "beads", "variety", "long", "condensed", "bayer_tylenol", "bayer_tylenol_only", "bayer_tylenol_only_subdirs"],)
+parser.add_argument("--figure", default="none", help="figure to generate", choices=["aspirin", "beads", "variety", "long", "condensed", "bayer_tylenol", "bayer_tylenol_only", "bayer_tylenol_only_subdirs", "difference_score"],)
 args = parser.parse_args()
 
 
@@ -314,6 +314,58 @@ if args.figure == "aspirin":
     summary_axs.yaxis.set_label_coords(-0.1, 0.50)
     summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
     summary_fig.savefig("aspirin.pdf")
+    summary_fig.clf()
+
+
+
+
+
+########### Difference score explanation figure
+if args.figure == "difference_score":
+    summary_fig, summary_axs = plt.subplots(1, 2, figsize=(7.5, 3))
+    for sample, peak_times, peak_counts in zip(summary_samples, summary_peak_times, summary_peak_counts):
+        if "ayer1" in sample:
+            bayer1times = numpy.array(peak_times) / 60.0
+            bayer1counts = 60.0 * numpy.array(peak_counts) / bin_width + 1
+        elif "ayer2" in sample:
+            bayer2times = numpy.array(peak_times) / 60.0
+            bayer2counts = 60.0 * numpy.array(peak_counts) / bin_width + 1
+        elif "eneric" in sample:
+            generic_times = numpy.array(peak_times) / 60.0
+            generic_counts = 60.0 * numpy.array(peak_counts) / bin_width + 1
+        else:
+            sys.exit(f"ERROR {sample} run can't be categorized")
+
+    summary_axs[0].plot(bayer1times, bayer1counts, color="black", linewidth=1)
+    summary_axs[0].plot(bayer2times, bayer2counts, color="black", linewidth=1)
+    summary_axs[0].fill_between(bayer1times, bayer1counts, bayer2counts, color="tab:red")
+
+    summary_axs[1].plot(bayer1times, bayer1counts, color="black", linewidth=1)
+    summary_axs[1].plot(generic_times, generic_counts, color="black", linewidth=1)
+    summary_axs[1].fill_between(bayer1times, bayer1counts, generic_counts, color="tab:red")    
+
+    
+    
+
+    for axx in summary_axs:
+        axx.set_yscale("log")
+        axx.set_ylim(0.7, 1500)
+        axx.set_yticks([1, 10, 100, 1000])
+        axx.minorticks_off()
+        axx.yaxis.set_major_formatter(mticker.ScalarFormatter())
+        a = axx.get_yticks().tolist()
+        a[0] = "0"
+        axx.set_yticklabels(a)
+        axx.set_xlabel("Time (minutes)")
+        axx.set_ylabel("Particles per minute")
+        axx.legend(("Aspirin (Bayer)", "Aspirin (generic)"), frameon=False)
+        leg = axx.get_legend()
+        if len(leg.legend_handles) > 1:  # only do this if there are at least 2 sample types
+            leg.legend_handles[0].set_color("tab:orange")
+            leg.legend_handles[1].set_color("tab:blue")
+        axx.yaxis.set_label_coords(-0.1, 0.50)
+    summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
+    summary_fig.savefig("difference_score.pdf")
     summary_fig.clf()
 
 

@@ -1,0 +1,65 @@
+
+  difference_score/bayer1/20241121T135144_Bayer_Aspirin.json.gz
+  💊 bayer1
+  Start time: 1732225906.2943904
+  Stop time: 1732229806.3088772
+  Duration: 3900.0144867897034 s
+  Measurements: 8155082
+  Measurements per second: 2091.038899374155
+  Byte count: 45882709
+  Seconds per byte: 8.499965611859804e-05
+  ⚠️  Out-of-dynamic-range measurement removed at index 6
+  Baseline mean: 22.051254589963282
+  Minimum slope: -0.05851374389021503
+difference_score/bayer1/20241121T135144_Bayer_Aspirin.json.gz,-0.05851374389021503,
+
+  difference_score/bayer2/20241119T140627_Bayer_Aspirin.json.gz
+  💊 bayer2
+  Start time: 1732053992.5605297
+  Stop time: 1732057892.5694878
+  Duration: 3900.0089581012726 s
+  Measurements: 7633454
+  Measurements per second: 1957.2914016372831
+  Byte count: 45652605
+  Seconds per byte: 8.542796096961548e-05
+  Baseline mean: 13.195511031631224
+  Minimum slope: -0.08304920507490811
+difference_score/bayer2/20241119T140627_Bayer_Aspirin.json.gz,-0.08304920507490811,
+
+  difference_score/generic/20241119T123655_generic_aspirin.json.gz
+  💊 generic
+  Start time: 1732048619.1243012
+  Stop time: 1732052519.1307147
+  Duration: 3900.006413459778 s
+  Measurements: 7623740
+  Measurements per second: 1954.8019135786035
+  Byte count: 45652222
+  Seconds per byte: 8.542862192906575e-05
+  Baseline mean: 13.404425207164621
+  Minimum slope: -0.09682363166036526
+difference_score/generic/20241119T123655_generic_aspirin.json.gz,-0.09682363166036526,
+difference_score/bayer1/20241121T135144_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ bayer1 == bayer2   861
+    ❌ bayer1 == generic   2557
+difference_score/bayer2/20241119T140627_Bayer_Aspirin.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ bayer2 == bayer1   861
+    ❌ bayer2 == generic   1892
+difference_score/generic/20241119T123655_generic_aspirin.json.gz
+  PEAK COMPARISONS
+  ^^^^^PEAK FAIL^^^^^
+    ❌ generic == bayer2   1892
+    ❌ generic == bayer1   2557
+PEAK MATCH FAILURES
+  difference_score/bayer1/20241121T135144_Bayer_Aspirin.json.gz
+  difference_score/bayer2/20241119T140627_Bayer_Aspirin.json.gz
+  difference_score/generic/20241119T123655_generic_aspirin.json.gz
+3 peak failures out of 3 samples
+Peak failure rate: 1.0
+Total number of measurements:  23412276
+Number of out-of-dynamic-range measurements removed:  1
+Number of noise peaks removed:  0
+Done!  Elapsed time 25.4 seconds
