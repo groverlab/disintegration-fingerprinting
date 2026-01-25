@@ -145,8 +145,22 @@ mask = numpy.triu(numpy.ones_like(bigtable, dtype=bool))
 fig, ax = plt.subplots(figsize=(7.5,7.5))
 plt.axis("off")
 # plt.subplots_adjust(left=0.05, right=0.99, top=0.99, bottom=0.01)
-cbar_ax = ax.inset_axes([0.8, 0.5, 0.04, 0.4])
-sns.heatmap(bigtable, mask=mask, cmap="Blues_r", linewidth=0.5, norm=LogNorm(), square=True, cbar_ax=cbar_ax)
+
+
+if args.figure == "aspirin":
+	cbar_ax = ax.inset_axes([0.99, 0.48, 0.04, 0.6])
+	heatmapax = sns.heatmap(bigtable, mask=mask, cmap="Blues_r", linewidth=0.5, square=True, cbar_ax=cbar_ax)   # linear scale
+	cbar = heatmapax.collections[0].colorbar
+	cbar.set_label('← more similar              less similar →', rotation=90, labelpad=-80, size=14)
+	cbar.ax.tick_params(labelsize=13)
+	plt.text(0.85, 0.95, 'Difference score', horizontalalignment="center", verticalalignment="center", transform=fig.transFigure, size=16)
+elif args.figure == "bayer_tylenol_only":
+	cbar_ax = ax.inset_axes([0.9, 0.7, 0.04, 0.4])
+	sns.heatmap(bigtable, mask=mask, cmap="Blues_r", linewidth=0.5, square=True, cbar_ax=cbar_ax)   # linear scale
+elif args.figure == "variety":
+	cbar_ax = ax.inset_axes([0.9, 0.7, 0.04, 0.4])
+	sns.heatmap(bigtable, mask=mask, cmap="Blues_r", linewidth=0.5, norm=LogNorm(), square=True, cbar_ax=cbar_ax)   # log scale
+
 
 pointer = "— "
 for x, l in enumerate(d):
