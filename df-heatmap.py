@@ -5,6 +5,7 @@ import seaborn as sns
 import numpy
 from matplotlib.colors import LogNorm
 import argparse
+import matplotlib.ticker as tkr # Import the ticker module
 
 parser = argparse.ArgumentParser()
 parser.add_argument("filename")
@@ -155,11 +156,21 @@ if args.figure == "aspirin":
 	cbar.ax.tick_params(labelsize=13)
 	plt.text(0.85, 0.95, 'Difference score', horizontalalignment="center", verticalalignment="center", transform=fig.transFigure, size=16)
 elif args.figure == "bayer_tylenol_only":
-	cbar_ax = ax.inset_axes([0.9, 0.7, 0.04, 0.4])
-	sns.heatmap(bigtable, mask=mask, cmap="Blues_r", linewidth=0.5, square=True, cbar_ax=cbar_ax)   # linear scale
+	cbar_ax = ax.inset_axes([1.10, 0.7, 0.04, 0.6])
+	heatmapax = sns.heatmap(bigtable, mask=mask, cmap="Blues_r", linewidth=0.5, square=True, cbar_ax=cbar_ax)   # linear scale
+	cbar = heatmapax.collections[0].colorbar
+	cbar.set_label('← more similar              less similar →', rotation=90, labelpad=-70, size=12)
+	cbar.ax.tick_params(labelsize=11)
+	plt.text(0.85, 0.97, 'Difference score', horizontalalignment="center", verticalalignment="center", transform=fig.transFigure, size=14)
 elif args.figure == "variety":
-	cbar_ax = ax.inset_axes([0.9, 0.7, 0.04, 0.4])
-	sns.heatmap(bigtable, mask=mask, cmap="Blues_r", linewidth=0.5, norm=LogNorm(), square=True, cbar_ax=cbar_ax)   # log scale
+	formatter = tkr.ScalarFormatter()
+	formatter.set_scientific(False)
+	cbar_ax = ax.inset_axes([0.94, 0.44, 0.04, 0.6])
+	heatmapax = sns.heatmap(bigtable, mask=mask, cmap="Blues_r", linewidth=0.5, norm=LogNorm(), square=True, cbar_ax=cbar_ax, cbar_kws={"format": formatter})   # linear scale
+	cbar = heatmapax.collections[0].colorbar
+	cbar.set_label('← more similar                           less similar →', rotation=90, labelpad=-75, size=12)
+	cbar.ax.tick_params(labelsize=11)
+	plt.text(0.85, 0.95, 'Difference score', horizontalalignment="center", verticalalignment="center", transform=fig.transFigure, size=14)
 
 
 pointer = "— "
