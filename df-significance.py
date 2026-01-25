@@ -64,7 +64,7 @@ if args.figure == "aspirin":
 	annotator.apply_and_annotate()
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
-	plt.savefig("aspirin_significance.pdf")
+	plt.savefig("aspirin_significance.png", dpi=600)
 
 
 
@@ -160,7 +160,7 @@ elif args.figure == "bayer_tylenol":
 	annotator.apply_and_annotate()
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
-	plt.savefig("bayer_tylenol_significance.pdf")
+	plt.savefig("bayer_tylenol_significance.png", dpi=600)
 
 
 
@@ -192,7 +192,7 @@ elif args.figure == "variety":
 	# sns.boxplot(y="drugtype", x="score",  data=df, log_scale=False, fill=False, showfliers=False)
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
-	plt.savefig("variety_significance.pdf")
+	plt.savefig("variety_significance.png", dpi=600)
 
 	print()
 	print("MISMATCHES:")

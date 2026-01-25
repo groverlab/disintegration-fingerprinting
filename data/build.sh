@@ -19,4 +19,6 @@ uv run ../df-significance.py aspirin\ comparisons.json --figure aspirin
 uv run ../df-significance.py bayer_tylenol\ comparisons.json --figure bayer_tylenol
 uv run ../df-significance.py variety\ comparisons.json --figure variety
 
+uv run ../df-analyze.py difference_score/ --figure difference_score
+
 echo "Done building all figures!"

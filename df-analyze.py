@@ -272,7 +272,7 @@ for filename in sorted(list_dir(args.directory)):
     sample_fig.subplots_adjust(
         left=0.13, right=0.97, bottom=0.10, top=0.98, hspace=0.45
     )
-    sample_fig.savefig(filename + ".pdf")
+    sample_fig.savefig(filename + ".png", dpi=600)
     sample_fig.clf()
 
 
@@ -313,7 +313,7 @@ if args.figure == "aspirin":
         leg.legend_handles[1].set_color("tab:blue")
     summary_axs.yaxis.set_label_coords(-0.1, 0.50)
     summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
-    summary_fig.savefig("aspirin.pdf")
+    summary_fig.savefig("aspirin.png", dpi=600)
     summary_fig.clf()
 
 
@@ -355,15 +355,9 @@ if args.figure == "difference_score":
         a[0] = "0"
         axx.set_yticklabels(a)
         axx.set_xlabel("Time (minutes)")
-        # axx.legend(("Aspirin (Bayer)", "Aspirin (generic)"), frameon=False)
-        # leg = axx.get_legend()
-        # if len(leg.legend_handles) > 1:  # only do this if there are at least 2 sample types
-        #     leg.legend_handles[0].set_color("tab:orange")
-        #     leg.legend_handles[1].set_color("tab:blue")
-        # axx.yaxis.set_label_coords(-0.1, 0.50)
     summary_axs[0].set_ylabel("Particles per minute")
-    summary_axs[0].text(0.5, 0.97, "Comparing DFs from\ntwo Bayer aspirins", ha="center", va="top", fontsize=11, transform=summary_axs[0].transAxes)
-    summary_axs[1].text(0.5, 0.97, "Comparing DFs from\none Bayer aspirin and\none generic aspirin", ha="center", va="top", fontsize=11, transform=summary_axs[1].transAxes)
+    summary_axs[0].text(0.5, 0.97, "Comparing DFs from\ntwo Bayer aspirins", ha="center", va="top", fontsize=12, fontweight="bold",transform=summary_axs[0].transAxes)
+    summary_axs[1].text(0.5, 0.97, "Comparing DFs from\none Bayer aspirin and\none generic aspirin", ha="center", va="top", fontsize=12, fontweight="bold", transform=summary_axs[1].transAxes)
 
     summary_axs[0].text(0.75, 0.54, "Difference score:\n861", ha="center", va="center", color="red", fontsize=12, fontweight="bold", transform=summary_axs[0].transAxes)
     summary_axs[1].text(0.75, 0.54, "Difference score:\n2557", ha="center", va="center", color="red", fontsize=12, fontweight="bold", transform=summary_axs[1].transAxes)
@@ -371,7 +365,7 @@ if args.figure == "difference_score":
 
 
     summary_fig.subplots_adjust(left=0.09, right=0.98, bottom=0.16, top=0.98, wspace=0.07)
-    summary_fig.savefig("difference_score.pdf")
+    summary_fig.savefig("difference_score.png", dpi=600)
     summary_fig.clf()
 
 
@@ -476,7 +470,7 @@ if args.figure == "bayer_tylenol_only_subdirs":
     summary_axs[0].yaxis.set_label_coords(-0.1, 0.50)
     summary_axs[1].yaxis.set_label_coords(-0.1, 0.50)
     summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
-    summary_fig.savefig("bayer_tylenol_only_subdirs.pdf")
+    summary_fig.savefig("bayer_tylenol_only_subdirs.png", dpi=600)
     summary_fig.clf()
 
 
@@ -669,7 +663,7 @@ if args.figure == "bayer_tylenol_only_subdirs":
     collage_fig.text(
         0.01, 0.5, "Particles per minute", va="center", rotation="vertical"
     )
-    collage_fig.savefig("bayer_tylenol_only_subdirs_bigplot.pdf")
+    collage_fig.savefig("bayer_tylenol_only_subdirs_bigplot.png", dpi=600)
     collage_fig.clf()
 
 
@@ -717,7 +711,7 @@ if args.figure == "beads":
         leg.legend_handles[1].set_color("tab:blue")
     summary_axs.yaxis.set_label_coords(-0.1, 0.50)
     summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
-    summary_fig.savefig("beads.pdf")
+    summary_fig.savefig("beads.png", dpi=600)
     summary_fig.clf()
 
 
@@ -771,7 +765,7 @@ if args.figure == "variety":
     collage_fig.text(
         0.01, 0.5, "Particles per minute", va="center", rotation="vertical"
     )
-    collage_fig.savefig("variety.pdf")
+    collage_fig.savefig("variety.png", dpi=600)
     collage_fig.clf()
 
 
@@ -833,7 +827,7 @@ if args.figure == "long":
     collage_fig.text(
         0.01, 0.5, "Particles per minute", va="center", rotation="vertical"
     )
-    collage_fig.savefig("long.pdf")
+    collage_fig.savefig("long.png", dpi=600)
     collage_fig.clf()
 
 
@@ -994,7 +988,7 @@ if args.figure == "variety":
     )
     average_axs.yaxis.set_label_coords(-0.12, 0.50)
     average_fig.subplots_adjust(left=0.065, right=0.44, bottom=0.15, top=0.99)
-    average_fig.savefig("variety averages.pdf")
+    average_fig.savefig("variety averages.png", dpi=600)
     average_fig.clf()
 
 
