@@ -40,25 +40,27 @@ if args.figure == "aspirin":
 			# print(x, i[0], y, i[2], i[4], end=" ")  # full
 			if i[1] == "generic" and i[3] == "generic":
 				print("GENERIC MATCH")
-				uber.append(["Pairs of\ngeneric aspirins", i[4]])
+				uber.append(["Generic aspirin\nGeneric aspirin", i[4]])
 			elif i[1] == "bayer" and i[3] == "bayer":
 				print("BAYER MATCH")
-				uber.append(["bayer_match", i[4]])
+				uber.append(["Bayer aspirin\nBayer aspirin", i[4]])
 			else:
 				print("MISMATCH")
-				uber.append(["mismatch", i[4]])
+				uber.append(["Bayer aspirin\nGeneric aspirin", i[4]])
 	df = pd.DataFrame(uber, columns=["drugtype", "score"])
 	df = df.drop_duplicates()
 
-	order = ["bayer_match", "Pairs of\ngeneric aspirins", "mismatch"]
+	order = ["Bayer aspirin\nBayer aspirin", "Generic aspirin\nGeneric aspirin", "Bayer aspirin\nGeneric aspirin"]
 
-	fig, axs = plt.subplots(figsize=(7.5, 5))
+	fig, axs = plt.subplots(figsize=(7.5, 4))
 	plt.subplots_adjust(left=0.15, right=0.98, top=0.98, bottom=0.12)
 	
 	ax_swarm = sns.stripplot(y="drugtype", x="score", order=order, data=df, log_scale=False, jitter=0.2, size=4)
 	sns.boxplot(y="drugtype", x="score", order=order, data=df, log_scale=False, fill=False, showfliers=False)
 		
-	pairs = [("bayer_match", "Pairs of\ngeneric aspirins"), ]
+	pairs = [("Bayer aspirin\nBayer aspirin", "Generic aspirin\nGeneric aspirin"), 
+			 ("Bayer aspirin\nBayer aspirin", "Bayer aspirin\nGeneric aspirin"),
+			 ("Generic aspirin\nGeneric aspirin", "Bayer aspirin\nGeneric aspirin"),]
 	annotator = Annotator(ax_swarm, pairs, data=df, order=order, y="drugtype", x="score", orient='h')
 	annotator.configure(test='Mann-Whitney', text_format='star')
 	annotator.apply_and_annotate()
