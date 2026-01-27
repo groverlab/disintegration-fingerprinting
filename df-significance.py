@@ -40,33 +40,45 @@ if args.figure == "aspirin":
 			# print(x, i[0], y, i[2], i[4], end=" ")  # full
 			if i[1] == "generic" and i[3] == "generic":
 				print("GENERIC MATCH")
-				uber.append(["Generic aspirin\nGeneric aspirin", i[4]])
+				uber.append(["Generic aspirin\nvs. Generic aspirin", i[4]])
 			elif i[1] == "bayer" and i[3] == "bayer":
 				print("BAYER MATCH")
-				uber.append(["Bayer aspirin\nBayer aspirin", i[4]])
+				uber.append(["Bayer aspirin\nvs. Bayer aspirin", i[4]])
 			else:
 				print("MISMATCH")
-				uber.append(["Bayer aspirin\nGeneric aspirin", i[4]])
+				uber.append(["Bayer aspirin\nvs. Generic aspirin", i[4]])
 	df = pd.DataFrame(uber, columns=["drugtype", "score"])
 	df = df.drop_duplicates()
 
-	order = ["Bayer aspirin\nBayer aspirin", "Generic aspirin\nGeneric aspirin", "Bayer aspirin\nGeneric aspirin"]
+	order = ["Bayer aspirin\nvs. Bayer aspirin", "Generic aspirin\nvs. Generic aspirin", "Bayer aspirin\nvs. Generic aspirin"]
 
 	fig, axs = plt.subplots(figsize=(7.5, 4))
-	plt.subplots_adjust(left=0.15, right=0.98, top=0.98, bottom=0.12)
+	plt.subplots_adjust(left=0.17, right=0.98, top=0.98, bottom=0.12)
 	
 	ax_swarm = sns.stripplot(y="drugtype", x="score", order=order, data=df, log_scale=False, jitter=0.2, size=4)
 	sns.boxplot(y="drugtype", x="score", order=order, data=df, log_scale=False, fill=False, showfliers=False)
 		
-	pairs = [("Bayer aspirin\nBayer aspirin", "Generic aspirin\nGeneric aspirin"), 
-			 ("Bayer aspirin\nBayer aspirin", "Bayer aspirin\nGeneric aspirin"),
-			 ("Generic aspirin\nGeneric aspirin", "Bayer aspirin\nGeneric aspirin"),]
+	pairs = [("Bayer aspirin\nvs. Bayer aspirin", "Generic aspirin\nvs. Generic aspirin"), 
+			 ("Bayer aspirin\nvs. Bayer aspirin", "Bayer aspirin\nvs. Generic aspirin"),
+			 ("Generic aspirin\nvs. Generic aspirin", "Bayer aspirin\nvs. Generic aspirin"),]
 	annotator = Annotator(ax_swarm, pairs, data=df, order=order, y="drugtype", x="score", orient='h')
 	annotator.configure(test='Mann-Whitney', text_format='star')
 	annotator.apply_and_annotate()
 	axs.set_xlabel("← more similar                              Difference score                              less similar →")
 	axs.set_ylabel("")
 	plt.savefig("aspirin_significance.png", dpi=600)
+
+
+	print("MEAN:")
+	print(df[["drugtype", "score"]].groupby("drugtype").mean())
+	print()
+	print("MEDIAN:")
+	print(df[["drugtype", "score"]].groupby("drugtype").median())
+	print()
+	print("STD DEV:")
+	print(df[["drugtype", "score"]].groupby("drugtype").std())
+	
+
 
 
 
@@ -84,86 +96,85 @@ elif args.figure == "bayer_tylenol":
 			print(x, i[0], y, i[2], i[4], end=" ")  # full
 			if "TRT" in i[0] and "TRT" in i[2]:
 				print("TYLENOL MATCH")
-				uber.append(["tylenols", i[4]])
+				uber.append(["Tylenol vs. Tylenol (different lots)", i[4]])
 			elif "ART" in i[0] and "ART" in i[2]:
 				print("BAYER MATCH")
-				uber.append(["bayers", i[4]])
+				uber.append(["Bayer vs. Bayer (different lots)", i[4]])
 			elif ("TCOLD" in i[0] and "TRT" in i[2]) or ("TRT" in i[0] and "TCOLD" in i[2]):
 				print("COLD TYLENOL MATCH")
-				uber.append(["cold_tylenols", i[4]])
+				uber.append(["Tylenol (-20 °C) vs. Tylenol (room temp.)", i[4]])
 			elif ("THOT" in i[0] and "TRT" in i[2]) or ("TRT" in i[0] and "THOT" in i[2]):
 				print("HOT TYLENOL MATCH")
-				uber.append(["hot_tylenols", i[4]])
+				uber.append(["Tylenol (50 °C) vs. Tylenol (room temp.)", i[4]])
 			elif ("ACOLD" in i[0] and "ART" in i[2]) or ("ART" in i[0] and "ACOLD" in i[2]):
 				print("COLD BAYER MATCH")
-				uber.append(["cold_bayers", i[4]])
+				uber.append(["Bayer (-20 °C) vs. Bayer (room temp.)", i[4]])
 			elif ("AHOT" in i[0] and "ART" in i[2]) or ("ART" in i[0] and "AHOT" in i[2]):
 				print("HOT BAYER MATCH")
-				uber.append(["hot_bayers", i[4]])
+				uber.append(["Bayer (50 °C) vs. Bayer (room temp.)", i[4]])
 			elif (("ART" in i[0] and "TRT" in i[2]) or ("TRT" in i[0] and "ART" in i[2])):
 				print("RT MISMATCH")
-				uber.append(["mismatches", i[4]])
+				uber.append(["Bayer vs. Tylenol (different lots)", i[4]])
 			elif ("TCANADA" in i[0] and "TRT" in i[2]) or ("TRT" in i[0] and "TCANADA" in i[2]):
 				print("CANADA TYLENOL MATCH")
-				uber.append(["canadian_tylenols", i[4]])
+				uber.append(["Tylenol (Canada) vs. Tylenol (US)", i[4]])
 			elif ("ACANADA" in i[0] and "ART" in i[2]) or ("ART" in i[0] and "ACANADA" in i[2]):
 				print("CANADA BAYER MATCH")
-				uber.append(["canadian_bayers", i[4]])
+				uber.append(["Bayer (Canada) vs. Bayer (US)", i[4]])
 			elif "BAYERBOTTLE" in i[0] and "BAYERBOTTLE" in i[2]:
 				print("BAYER BOTTLE MATCH")
-				uber.append(["bayer_bottle", i[4]])
-			elif "GENERICBOTTLE" in i[0] and "GENERICBOTTLE" in i[2]:
-				print("GENERIC BOTTLE MATCH")
-				uber.append(["generic_bottle", i[4]])
-			elif (("BAYERBOTTLE" in i[0] and "GENERICBOTTLE" in i[2]) or ("GENERICBOTTLE" in i[0] and "BAYERBOTTLE" in i[2])):
-				print("BOTTLE MISMATCH")
-				uber.append(["bottle_mismatches", i[4]])
+				uber.append(["Bayer vs. Bayer (same lot)", i[4]])
+			# elif "GENERICBOTTLE" in i[0] and "GENERICBOTTLE" in i[2]:
+			# 	print("GENERIC BOTTLE MATCH")
+			# 	uber.append(["generic_bottle", i[4]])
+			# elif (("BAYERBOTTLE" in i[0] and "GENERICBOTTLE" in i[2]) or ("GENERICBOTTLE" in i[0] and "BAYERBOTTLE" in i[2])):
+			# 	print("BOTTLE MISMATCH")
+			# 	uber.append(["bottle_mismatches", i[4]])
 			else:
 				print("NOTHING YET")
 
-	df = pd.DataFrame(uber, columns=["type", "score"])
+	df = pd.DataFrame(uber, columns=["drugtype", "score"])
 	df = df.drop_duplicates()
 	# print(df)
 
-	order = ["bayer_bottle", "generic_bottle", "bottle_mismatches",
-		"bayers", "hot_bayers", "cold_bayers", "canadian_bayers",
-		"tylenols", "hot_tylenols", "cold_tylenols", "canadian_tylenols", "mismatches"]
-
-	# bayer_bottle = list(df[df.type == "bayer_bottle"]["score"])
-	# generic_bottle =list(df[df.type == "generic_bottle"]["score"])
-	# bottle_mismatches = list(df[df.type == "bottle_mismatches"]["score"])
-	# bayers = list(df[df.type == "bayers"]["score"])
-	# hot_bayers = list(df[df.type == "hot_bayers"]["score"])
-	# cold_bayers = list(df[df.type == "cold_bayers"]["score"])
-	# canadian_bayers = list(df[df.type == "canadian_bayers"]["score"])
-	# tylenols = list(df[df.type == "tylenols"]["score"])
-	# hot_tylenols = list(df[df.type == "hot_tylenols"]["score"])
-	# cold_tylenols = list(df[df.type == "cold_tylenols"]["score"])
-	# canadian_tylenols = list(df[df.type == "canadian_tylenols"]["score"])
-	# mismatches = list(df[df.type == "mismatches"]["score"])
-
-	# # result = scipy.stats.kstest(cold_bayers, bottle_mismatches)
-	# result = scipy.stats.mannwhitneyu(tylenols, canadian_tylenols)
-	# print(result)
-
-	# print(bayer_bottle)
-	# print(generic_bottle)
+	order = ["Bayer vs. Bayer (same lot)",
+		"Bayer vs. Bayer (different lots)",
+		"Bayer (50 °C) vs. Bayer (room temp.)",
+		"Bayer (-20 °C) vs. Bayer (room temp.)",
+		"Bayer (Canada) vs. Bayer (US)",
+		"Tylenol vs. Tylenol (different lots)",
+		"Tylenol (50 °C) vs. Tylenol (room temp.)",
+		"Tylenol (-20 °C) vs. Tylenol (room temp.)",
+		"Tylenol (Canada) vs. Tylenol (US)",
+		"Bayer vs. Tylenol (different lots)"]
 
 	fig, axs = plt.subplots(figsize=(8, 4))
-	plt.subplots_adjust(left=0.20, right=0.95, top=0.98, bottom=0.13)
-	ax_swarm = sns.stripplot(y="type", x="score", data=df, order=order, jitter=0.25, orient='h', size=3)
-	# ax_box = sns.boxplot(y="type", x="score", data=df, order=order, fill=False, orient='h', showfliers=False)
+	plt.subplots_adjust(left=0.33, right=0.95, top=0.98, bottom=0.13)
+	ax_swarm = sns.stripplot(y="drugtype", x="score", data=df, order=order, jitter=0.25, orient='h', size=3)
+	ax_box = sns.boxplot(y="drugtype", x="score", data=df, order=order, fill=False, orient='h', showfliers=False)
 
-	pairs = [("bayer_bottle", "generic_bottle"), ("bayer_bottle", "bayers"),
-			 ("bayers", "hot_bayers"), ("bayers", "cold_bayers"), ("bayers", "canadian_bayers"),
-			 ("tylenols", "hot_tylenols"), ("tylenols", "cold_tylenols"), ("tylenols", "canadian_tylenols"), ]
-	annotator = Annotator(ax_swarm, pairs, data=df, order=order, y="type", x="score", orient='h')
+	pairs = [("Bayer vs. Bayer (same lot)", "Bayer vs. Bayer (different lots)"),
+			 ("Bayer vs. Bayer (different lots)", "Bayer (50 °C) vs. Bayer (room temp.)"),
+			 ("Bayer vs. Bayer (different lots)", "Bayer (-20 °C) vs. Bayer (room temp.)"),
+			 ("Bayer vs. Bayer (different lots)", "Bayer (Canada) vs. Bayer (US)"),
+			 ("Tylenol vs. Tylenol (different lots)", "Tylenol (50 °C) vs. Tylenol (room temp.)"),
+			 ("Tylenol vs. Tylenol (different lots)", "Tylenol (-20 °C) vs. Tylenol (room temp.)"),
+			 ("Tylenol vs. Tylenol (different lots)", "Tylenol (Canada) vs. Tylenol (US)"), ]
+	annotator = Annotator(ax_swarm, pairs, data=df, order=order, y="drugtype", x="score", orient='h')
 	annotator.configure(test='Mann-Whitney', text_format='star')
 	annotator.apply_and_annotate()
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
 	plt.savefig("bayer_tylenol_significance.png", dpi=600)
 
+	print("MEAN:")
+	print(df[["drugtype", "score"]].groupby("drugtype").mean())
+	print()
+	print("MEDIAN:")
+	print(df[["drugtype", "score"]].groupby("drugtype").median())
+	print()
+	print("STD DEV:")
+	print(df[["drugtype", "score"]].groupby("drugtype").std())
 
 
 

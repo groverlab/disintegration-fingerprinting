@@ -362,7 +362,8 @@ if args.figure == "difference_score":
     summary_axs[0].text(0.75, 0.54, "Difference score:\n861", ha="center", va="center", color="red", fontsize=12, fontweight="bold", transform=summary_axs[0].transAxes)
     summary_axs[1].text(0.75, 0.54, "Difference score:\n2557", ha="center", va="center", color="red", fontsize=12, fontweight="bold", transform=summary_axs[1].transAxes)
 
-
+    summary_axs[0].text(0.05, 0.93, "A", ha="center", va="center", fontsize=16, fontweight="bold", transform=summary_axs[0].transAxes)
+    summary_axs[1].text(0.05, 0.93, "B", ha="center", va="center", fontsize=16, fontweight="bold", transform=summary_axs[1].transAxes)
 
     summary_fig.subplots_adjust(left=0.09, right=0.98, bottom=0.16, top=0.98, wspace=0.07)
     summary_fig.savefig("difference_score.png", dpi=600)
@@ -598,12 +599,12 @@ if args.figure == "bayer_tylenol_only_subdirs":
     '116': 'Tylenol GS17419\n2029/03\nCalifornia',
     '117': 'Tylenol EJA107\n2029/07\nColorado',
     '118': 'Tylenol EMA039\n2029/08\nCalifornia',
-    '150': 'Tylenol HOT 1',
-    '151': 'Tylenol HOT 2',
-    '152': 'Tylenol HOT 3',
-    '153': 'Tylenol COLD 1',
-    '154': 'Tylenol COLD 2',
-    '155': 'Tylenol COLD 3',
+    '150': 'Tylenol 50 °C for 35 days',
+    '151': 'Tylenol 50 °C for 35 days',
+    '152': 'Tylenol 50 °C for 35 days',
+    '153': 'Tylenol -20 °C for 35 days',
+    '154': 'Tylenol -20 °C for 35 days',
+    '155': 'Tylenol -20 °C for 35 days',
     '501': 'Bayer NAAE1XL\n2026/10\nColorado',
     '502': 'Bayer NAAD6DN\n2027/01\nColorado',
     '503': 'Bayer NAADX4K\n2027/06\nBritish Columbia',
@@ -622,12 +623,12 @@ if args.figure == "bayer_tylenol_only_subdirs":
     '517': 'Bayer NAAEECX\n2028/04\nTennessee',
     '518': 'Bayer NAAELK5\n2028/05\nVirginia',
     '519': 'Bayer NAAEKHE\n2028/06\nCalifornia',
-    '550': 'Bayer HOT 1',
-    '551': 'Bayer HOT 2',
-    '552': 'Bayer HOT 3',
-    '553': 'Bayer COLD 1',
-    '554': 'Bayer COLD 2',
-    '555': 'Bayer COLD 3',
+    '550': 'Bayer 50 °C for 35 days',
+    '551': 'Bayer 50 °C for 35 days',
+    '552': 'Bayer 50 °C for 35 days',
+    '553': 'Bayer -20 °C for 35 days',
+    '554': 'Bayer -20 °C for 35 days',
+    '555': 'Bayer -20 °C for 35 days',
     }
     collage_fig, collage_axs = plt.subplots(8, 6, sharex=True, sharey=True, figsize=(6.5, 8))
     for filename, sample, peak_times, peak_counts in zip(summary_filenames, summary_samples, summary_peak_times, summary_peak_counts):
