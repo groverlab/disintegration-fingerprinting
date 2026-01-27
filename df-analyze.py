@@ -599,12 +599,12 @@ if args.figure == "bayer_tylenol_only_subdirs":
     '116': 'Tylenol GS17419\n2029/03\nCalifornia',
     '117': 'Tylenol EJA107\n2029/07\nColorado',
     '118': 'Tylenol EMA039\n2029/08\nCalifornia',
-    '150': 'Tylenol 50 °C for 35 days',
-    '151': 'Tylenol 50 °C for 35 days',
-    '152': 'Tylenol 50 °C for 35 days',
-    '153': 'Tylenol -20 °C for 35 days',
-    '154': 'Tylenol -20 °C for 35 days',
-    '155': 'Tylenol -20 °C for 35 days',
+    '150': 'Tylenol\n50 °C for 35 days',
+    '151': 'Tylenol\n50 °C for 35 days',
+    '152': 'Tylenol\n50 °C for 35 days',
+    '153': 'Tylenol\n-20 °C for 35 days',
+    '154': 'Tylenol\n-20 °C for 35 days',
+    '155': 'Tylenol\n-20 °C for 35 days',
     '501': 'Bayer NAAE1XL\n2026/10\nColorado',
     '502': 'Bayer NAAD6DN\n2027/01\nColorado',
     '503': 'Bayer NAADX4K\n2027/06\nBritish Columbia',
@@ -623,21 +623,28 @@ if args.figure == "bayer_tylenol_only_subdirs":
     '517': 'Bayer NAAEECX\n2028/04\nTennessee',
     '518': 'Bayer NAAELK5\n2028/05\nVirginia',
     '519': 'Bayer NAAEKHE\n2028/06\nCalifornia',
-    '550': 'Bayer 50 °C for 35 days',
-    '551': 'Bayer 50 °C for 35 days',
-    '552': 'Bayer 50 °C for 35 days',
-    '553': 'Bayer -20 °C for 35 days',
-    '554': 'Bayer -20 °C for 35 days',
-    '555': 'Bayer -20 °C for 35 days',
+    '550': 'Bayer\n50 °C for 35 days',
+    '551': 'Bayer\n50 °C for 35 days',
+    '552': 'Bayer\n50 °C for 35 days',
+    '553': 'Bayer\n-20 °C for 35 days',
+    '554': 'Bayer\n-20 °C for 35 days',
+    '555': 'Bayer\n-20 °C for 35 days',
     }
     collage_fig, collage_axs = plt.subplots(8, 6, sharex=True, sharey=True, figsize=(6.5, 8))
     for filename, sample, peak_times, peak_counts in zip(summary_filenames, summary_samples, summary_peak_times, summary_peak_counts):
         plot_number = plot_numbers[filename.split(" ")[0][-3:]]
         label = bayer_tylenol_data[filename.split(" ")[0][-3:]]
+        if "-20 °C" in label:
+            text_color = "tab:blue"
+        elif "50 °C" in label:
+            text_color = "tab:red"
+        else:
+            text_color = "black"
         collage_axs.flat[plot_number].text(
             0.95,
             0.95,
             label,
+            color=text_color,
             size=6,
             horizontalalignment="right",
             verticalalignment="top",
