@@ -69,18 +69,10 @@ if args.figure == "aspirin":
 	plt.savefig("aspirin_significance.png", dpi=600)
 
 
-	print("MEAN:")
-	print(df[["drugtype", "score"]].groupby("drugtype").mean())
-	print()
-	print("MEDIAN:")
-	print(df[["drugtype", "score"]].groupby("drugtype").median())
-	print()
-	print("STD DEV:")
-	print(df[["drugtype", "score"]].groupby("drugtype").std())
 	
 
-
-
+	print()
+	print(df[["drugtype", "score"]].groupby("drugtype").describe())
 
 
 
@@ -134,7 +126,7 @@ elif args.figure == "bayer_tylenol":
 				print("NOTHING YET")
 
 	df = pd.DataFrame(uber, columns=["drugtype", "score"])
-	df = df.drop_duplicates()
+	# df = df.drop_duplicates()
 	# print(df)
 
 	order = ["Bayer vs. Bayer (same lot)",
@@ -186,7 +178,7 @@ elif args.figure == "variety":
 		for y, i in enumerate(d[l]):
 
 			print(x, i[1], y, i[3], i[4])  # short
-			# print(x, i[0], y, i[2], i[4], end=" ")  # full
+			print(x, i[0], y, i[2], i[4], end=" ")  # full
 			if i[1] == i[3]:    # match
 				print("MATCH")
 				uber.append([i[1], i[4], True])
@@ -195,7 +187,7 @@ elif args.figure == "variety":
 				uber.append([i[1], i[4], False])
 
 	df = pd.DataFrame(uber, columns=["drugtype", "score", "match"])
-	df = df.drop_duplicates()
+	df = df.drop_duplicates()   # included here to avoid repeat points from self-comparisons
 
 	fig, axs = plt.subplots(figsize=(7.5, 9))
 	plt.subplots_adjust(left=0.25, right=0.98, top=0.98, bottom=0.05)
@@ -207,16 +199,13 @@ elif args.figure == "variety":
 	axs.set_ylabel("")
 	plt.savefig("variety_significance.png", dpi=600)
 
-	print()
 	print("MISMATCHES:")
-	print("mean", df[~df["match"]]["score"].mean())
-	print("median", df[~df["match"]]["score"].median())
-	print("std", df[~df["match"]]["score"].std())
+	print(df[~df["match"]]["score"].describe())
 	print()
 	print("MATCHES")
-	print("mean", df[df["match"]]["score"].mean())
-	print("median", df[df["match"]]["score"].median())
-	print("std", df[df["match"]]["score"].std())
+	print(df[df["match"]]["score"].describe())
+	print()
+	print(df[["drugtype", "score"]].groupby("drugtype").describe())
 
 
 
