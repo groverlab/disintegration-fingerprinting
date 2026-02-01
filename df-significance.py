@@ -126,7 +126,7 @@ elif args.figure == "bayer_tylenol":
 				print("NOTHING YET")
 
 	df = pd.DataFrame(uber, columns=["drugtype", "score"])
-	# df = df.drop_duplicates()
+	df = df.drop_duplicates()
 	# print(df)
 
 	order = ["Bayer vs. Bayer (same lot)",
@@ -159,14 +159,10 @@ elif args.figure == "bayer_tylenol":
 	axs.set_ylabel("")
 	plt.savefig("bayer_tylenol_significance.png", dpi=600)
 
-	print("MEAN:")
-	print(df[["drugtype", "score"]].groupby("drugtype").mean())
 	print()
-	print("MEDIAN:")
-	print(df[["drugtype", "score"]].groupby("drugtype").median())
-	print()
-	print("STD DEV:")
-	print(df[["drugtype", "score"]].groupby("drugtype").std())
+	print(df[["drugtype", "score"]].groupby("drugtype").describe())
+
+
 
 
 
