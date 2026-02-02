@@ -88,34 +88,34 @@ elif args.figure == "bayer_tylenol":
 			print(x, i[0], y, i[2], i[4], end=" ")  # full
 			if "TRT" in i[0] and "TRT" in i[2]:
 				print("TYLENOL MATCH")
-				uber.append(["Tylenol vs. Tylenol (different lots)", i[4]])
+				uber.append(["6. Tylenol vs. Tylenol (different lots)", i[4]])
 			elif "ART" in i[0] and "ART" in i[2]:
 				print("BAYER MATCH")
-				uber.append(["Bayer vs. Bayer (different lots)", i[4]])
+				uber.append(["2. Bayer vs. Bayer (different lots)", i[4]])
 			elif ("TCOLD" in i[0] and "TRT" in i[2]) or ("TRT" in i[0] and "TCOLD" in i[2]):
 				print("COLD TYLENOL MATCH")
-				uber.append(["Tylenol (-20 °C) vs. Tylenol (room temp.)", i[4]])
+				uber.append(["8. Tylenol (-20 °C) vs. Tylenol (room temp.)", i[4]])
 			elif ("THOT" in i[0] and "TRT" in i[2]) or ("TRT" in i[0] and "THOT" in i[2]):
 				print("HOT TYLENOL MATCH")
-				uber.append(["Tylenol (50 °C) vs. Tylenol (room temp.)", i[4]])
+				uber.append(["7. Tylenol (50 °C) vs. Tylenol (room temp.)", i[4]])
 			elif ("ACOLD" in i[0] and "ART" in i[2]) or ("ART" in i[0] and "ACOLD" in i[2]):
 				print("COLD BAYER MATCH")
-				uber.append(["Bayer (-20 °C) vs. Bayer (room temp.)", i[4]])
+				uber.append(["4. Bayer (-20 °C) vs. Bayer (room temp.)", i[4]])
 			elif ("AHOT" in i[0] and "ART" in i[2]) or ("ART" in i[0] and "AHOT" in i[2]):
 				print("HOT BAYER MATCH")
-				uber.append(["Bayer (50 °C) vs. Bayer (room temp.)", i[4]])
+				uber.append(["3. Bayer (50 °C) vs. Bayer (room temp.)", i[4]])
 			elif (("ART" in i[0] and "TRT" in i[2]) or ("TRT" in i[0] and "ART" in i[2])):
 				print("RT MISMATCH")
-				uber.append(["Bayer vs. Tylenol (different lots)", i[4]])
+				uber.append(["10. Bayer vs. Tylenol (different lots)", i[4]])
 			elif ("TCANADA" in i[0] and "TRT" in i[2]) or ("TRT" in i[0] and "TCANADA" in i[2]):
 				print("CANADA TYLENOL MATCH")
-				uber.append(["Tylenol (Canada) vs. Tylenol (US)", i[4]])
+				uber.append(["9. Tylenol (Canada) vs. Tylenol (US)", i[4]])
 			elif ("ACANADA" in i[0] and "ART" in i[2]) or ("ART" in i[0] and "ACANADA" in i[2]):
 				print("CANADA BAYER MATCH")
-				uber.append(["Bayer (Canada) vs. Bayer (US)", i[4]])
+				uber.append(["5. Bayer (Canada) vs. Bayer (US)", i[4]])
 			elif "BAYERBOTTLE" in i[0] and "BAYERBOTTLE" in i[2]:
 				print("BAYER BOTTLE MATCH")
-				uber.append(["Bayer vs. Bayer (same lot)", i[4]])
+				uber.append(["1. Bayer vs. Bayer (same lot)", i[4]])
 			# elif "GENERICBOTTLE" in i[0] and "GENERICBOTTLE" in i[2]:
 			# 	print("GENERIC BOTTLE MATCH")
 			# 	uber.append(["generic_bottle", i[4]])
@@ -129,29 +129,29 @@ elif args.figure == "bayer_tylenol":
 	df = df.drop_duplicates()
 	# print(df)
 
-	order = ["Bayer vs. Bayer (same lot)",
-		"Bayer vs. Bayer (different lots)",
-		"Bayer (50 °C) vs. Bayer (room temp.)",
-		"Bayer (-20 °C) vs. Bayer (room temp.)",
-		"Bayer (Canada) vs. Bayer (US)",
-		"Tylenol vs. Tylenol (different lots)",
-		"Tylenol (50 °C) vs. Tylenol (room temp.)",
-		"Tylenol (-20 °C) vs. Tylenol (room temp.)",
-		"Tylenol (Canada) vs. Tylenol (US)",
-		"Bayer vs. Tylenol (different lots)"]
+	order = ["1. Bayer vs. Bayer (same lot)",
+		"2. Bayer vs. Bayer (different lots)",
+		"3. Bayer (50 °C) vs. Bayer (room temp.)",
+		"4. Bayer (-20 °C) vs. Bayer (room temp.)",
+		"5. Bayer (Canada) vs. Bayer (US)",
+		"6. Tylenol vs. Tylenol (different lots)",
+		"7. Tylenol (50 °C) vs. Tylenol (room temp.)",
+		"8. Tylenol (-20 °C) vs. Tylenol (room temp.)",
+		"9. Tylenol (Canada) vs. Tylenol (US)",
+		"10. Bayer vs. Tylenol (different lots)"]
 
 	fig, axs = plt.subplots(figsize=(8, 4))
-	plt.subplots_adjust(left=0.33, right=0.95, top=0.98, bottom=0.13)
+	plt.subplots_adjust(left=0.35, right=0.95, top=0.98, bottom=0.13)
 	ax_swarm = sns.stripplot(y="drugtype", x="score", data=df, order=order, jitter=0.25, orient='h', size=3)
 	ax_box = sns.boxplot(y="drugtype", x="score", data=df, order=order, fill=False, orient='h', showfliers=False)
 
-	pairs = [("Bayer vs. Bayer (same lot)", "Bayer vs. Bayer (different lots)"),
-			 ("Bayer vs. Bayer (different lots)", "Bayer (50 °C) vs. Bayer (room temp.)"),
-			 ("Bayer vs. Bayer (different lots)", "Bayer (-20 °C) vs. Bayer (room temp.)"),
-			 ("Bayer vs. Bayer (different lots)", "Bayer (Canada) vs. Bayer (US)"),
-			 ("Tylenol vs. Tylenol (different lots)", "Tylenol (50 °C) vs. Tylenol (room temp.)"),
-			 ("Tylenol vs. Tylenol (different lots)", "Tylenol (-20 °C) vs. Tylenol (room temp.)"),
-			 ("Tylenol vs. Tylenol (different lots)", "Tylenol (Canada) vs. Tylenol (US)"), ]
+	pairs = [("1. Bayer vs. Bayer (same lot)", "2. Bayer vs. Bayer (different lots)"),
+			 ("2. Bayer vs. Bayer (different lots)", "3. Bayer (50 °C) vs. Bayer (room temp.)"),
+			 ("2. Bayer vs. Bayer (different lots)", "4. Bayer (-20 °C) vs. Bayer (room temp.)"),
+			 ("2. Bayer vs. Bayer (different lots)", "5. Bayer (Canada) vs. Bayer (US)"),
+			 ("6. Tylenol vs. Tylenol (different lots)", "7. Tylenol (50 °C) vs. Tylenol (room temp.)"),
+			 ("6. Tylenol vs. Tylenol (different lots)", "8. Tylenol (-20 °C) vs. Tylenol (room temp.)"),
+			 ("6. Tylenol vs. Tylenol (different lots)", "9. Tylenol (Canada) vs. Tylenol (US)"), ]
 	annotator = Annotator(ax_swarm, pairs, data=df, order=order, y="drugtype", x="score", orient='h')
 	annotator.configure(test='Mann-Whitney', text_format='star')
 	annotator.apply_and_annotate()
