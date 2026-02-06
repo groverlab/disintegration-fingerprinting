@@ -1544,4 +1544,4 @@ Peak failure rate: 0.0
 Total number of measurements:  606245710
 Number of out-of-dynamic-range measurements removed:  12
 Number of noise peaks removed:  144
-Done!  Elapsed time 495.1 seconds
+Done!  Elapsed time 511.1 seconds
