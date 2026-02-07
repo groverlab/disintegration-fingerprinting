@@ -67,6 +67,7 @@ if args.figure == "aspirin":
 	axs.set_xlabel("← more similar                              Difference score                              less similar →")
 	axs.set_ylabel("")
 	plt.savefig("aspirin_significance.png", dpi=600)
+	plt.savefig("aspirin_significance.pdf")
 
 
 	
@@ -158,6 +159,7 @@ elif args.figure == "bayer_tylenol":
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
 	plt.savefig("bayer_tylenol_significance.png", dpi=600)
+	plt.savefig("bayer_tylenol_significance.pdf")
 
 	print()
 	print(df[["drugtype", "score"]].groupby("drugtype").describe())
@@ -194,6 +196,7 @@ elif args.figure == "variety":
 	axs.set_xlabel("← more similar                           Difference score                           less similar →")
 	axs.set_ylabel("")
 	plt.savefig("variety_significance.png", dpi=600)
+	plt.savefig("variety_significance.pdf")
 
 	print("MISMATCHES:")
 	print(df[~df["match"]]["score"].describe())

@@ -170,27 +170,6 @@ for filename in sorted(list_dir(args.directory)):
 
 
 
-##### DISCARD TESTING:
-
-# Original aspirins:
-# aspirin/bayer/20241121T124250_Bayer_Aspirin.json.gz     -0.4234769589340449
-# aspirin/generic/20241114T201703_generic_aspirin.json.gz -0.5492949490815137
-# aspirin/generic/20241115T080902_generic_aspirin.json.gz -1.180565397378209
-# aspirin/generic/20241119T123836_Generic_Aspirin.json.gz -0.3501627837618819
-# aspirin/generic/20241121T150322_generic_aspirin.json.gz -0.22782928989961843
-
-# New Tylenol and Bayer:
-# bayer_tylenol/tylenol-cold/20251210T135456_T06COLDONE.json.gz   -0.2052484326550232
-# bayer_tylenol/tylenol-cold/20251210T160747_T06COLDTHREE.json.gz -0.20948676231470195
-# bayer_tylenol/tylenol-rt/20251113T154922_T01one.json.gz         -0.21095045032875986
-# bayer_tylenol/tylenol-rt/20251117T112834_T04one.json.gz         -0.24732790108080935
-# bayer_tylenol/tylenol-rt/20251119T164358_T13one.json.gz         -0.6429757147389821
-# bayer_tylenol/tylenol-rt/20251124T135557_T17.json.gz            -0.22988615287523775
-
-# min_slope discard threshold was originally < -0.2
-# Changing this to -0.25 would admit all new tylenols except one.
-# It will also admit one old generic aspirin.
-
 
 
     ########################################################
@@ -367,6 +346,7 @@ if args.figure == "difference_score":
 
     summary_fig.subplots_adjust(left=0.09, right=0.98, bottom=0.16, top=0.98, wspace=0.07)
     summary_fig.savefig("difference_score.png", dpi=600)
+    summary_fig.savefig("difference_score.pdf")
     summary_fig.clf()
 
 
@@ -472,6 +452,7 @@ if args.figure == "bayer_tylenol_only_subdirs":
     summary_axs[1].yaxis.set_label_coords(-0.1, 0.50)
     summary_fig.subplots_adjust(left=0.13, right=0.99, bottom=0.18, top=0.99)
     summary_fig.savefig("bayer_tylenol_only_subdirs.png", dpi=600)
+    summary_fig.savefig("bayer_tylenol_only_subdirs.pdf")
     summary_fig.clf()
 
 
@@ -672,6 +653,7 @@ if args.figure == "bayer_tylenol_only_subdirs":
         0.01, 0.5, "Particles per minute", va="center", rotation="vertical"
     )
     collage_fig.savefig("bayer_tylenol_only_subdirs_bigplot.png", dpi=600)
+    collage_fig.savefig("bayer_tylenol_only_subdirs_bigplot.pdf")
     collage_fig.clf()
 
 
@@ -774,6 +756,7 @@ if args.figure == "variety":
         0.01, 0.5, "Particles per minute", va="center", rotation="vertical"
     )
     collage_fig.savefig("variety.png", dpi=600)
+    collage_fig.savefig("variety.pdf")
     collage_fig.clf()
 
 
@@ -836,6 +819,7 @@ if args.figure == "long":
         0.01, 0.5, "Particles per minute", va="center", rotation="vertical"
     )
     collage_fig.savefig("long.png", dpi=600)
+    collage_fig.savefig("long.pdf")
     collage_fig.clf()
 
 
@@ -997,6 +981,7 @@ if args.figure == "variety":
     average_axs.yaxis.set_label_coords(-0.12, 0.50)
     average_fig.subplots_adjust(left=0.065, right=0.44, bottom=0.15, top=0.99)
     average_fig.savefig("variety averages.png", dpi=600)
+    average_fig.savefig("variety averages.pdf")
     average_fig.clf()
 
 
