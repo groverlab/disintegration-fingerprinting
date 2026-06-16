@@ -1,7 +1,10 @@
-# Disintegration Fingerprinting
+# Disintegration Fingerprinting: A Low-Cost and User-Friendly Tool for Identifying Substandard and Falsified Solid-Dosage Medicines
 
-*A low-cost and easy-to-use tool for identifying substandard and falsified medicines*
+Ishmam Fatima, Oscar Fajardo, Canhui Liu, Harshith Sadhu, and William H. Grover
+*Analytical Chemistry* 98 (12), 8871-8892 (2026)
+https://doi.org/10.1021/acs.analchem.5c05418
 
+## Usage
 
 If it's not already installed, install *uv* 
 
